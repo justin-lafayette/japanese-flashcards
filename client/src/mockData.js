@@ -60,3 +60,5 @@ let mockData = [
         score: "000"
     }
 ]
+
+module.exports = mockData;

@@ -33,13 +33,10 @@ function Tab(props) {
                 <li className="nav-item" role="presentation">
                     <button className="nav-link" id="dictionary-tab" data-bs-toggle="tab" data-bs-target="#dictionary" type="button" role="tab" aria-controls="dictionary" aria-selected="false">Dictionary</button>
                 </li>
+                <li className="nav-item" role="presentation">
+                    <button className="nav-link" id="links-tab" data-bs-toggle="tab" data-bs-target="#links" type="button" role="tab" aria-controls="links" aria-selected="false">Links</button>
+                </li>
             </ul>
-            <div className="tab-content" id="tabsContent">
-                <div className="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">1</div>
-                <div className="tab-pane fade" id="review" role="tabpanel" aria-labelledby="review-tab">2</div>
-                <div className="tab-pane fade" id="quiz" role="tabpanel" aria-labelledby="quiz-tab">3</div>
-                <div className="tab-pane fade" id="dictionary" role="tabpanel" aria-labelledby="dictionary-tab">4</div>
-            </div>
 
         </>
     );
