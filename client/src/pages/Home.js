@@ -21,7 +21,7 @@ class App extends Component {
                         <Table
                             data={mockData}
                         />
-                        
+
                     </Container>
 
                 </Container>
