@@ -4,7 +4,7 @@ import Table from '../components/Table';
 import mockData from '../mockData.js';
 
 
-class App extends Component {
+class Home extends Component {
 
     state={
 
@@ -12,7 +12,7 @@ class App extends Component {
 
     render() {
         return (
-            <div className="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div className="tab-pane fade " id="home" role="tabpanel" aria-labelledby="home-tab">
                 <Container
                     className={"fluid"}
                 >
@@ -31,4 +31,4 @@ class App extends Component {
     };
 };
 
-export default App;
+export default Home;

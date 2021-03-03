@@ -1,2378 +1,2642 @@
 [
     {
-      "characterName": "HIRAGANA LETTER A",
-      "character": "あ",
-      "unicode": "&‌#12354;",
-      "hexEncoding": "&‌#x3042",
-      "englishTranslation": "a",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER I",
-      "character": "い",
-      "unicode": "&‌#12356;",
-      "hexEncoding": "&‌#x3044",
-      "englishTranslation": "i",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER U",
-      "character": "う",
-      "unicode": "&‌#12358;",
-      "hexEncoding": "&‌#x3046",
-      "englishTranslation": "u",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER E",
-      "character": "え",
-      "unicode": "&‌#12360;",
-      "hexEncoding": "&‌#x3048",
-      "englishTranslation": "e",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER O",
-      "character": "お",
-      "unicode": "&‌#12362;",
-      "hexEncoding": "&‌#x304A",
-      "englishTranslation": "o",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER KA",
-      "character": "か",
-      "unicode": "&‌#12363;",
-      "hexEncoding": "&‌#x304B",
-      "englishTranslation": "ka",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER KI",
-      "character": "き",
-      "unicode": "&‌#12365;",
-      "hexEncoding": "&‌#x304D",
-      "englishTranslation": "ki",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER KU",
-      "character": "く",
-      "unicode": "&‌#12367;",
-      "hexEncoding": "&‌#x304F",
-      "englishTranslation": "ku",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER KE",
-      "character": "け",
-      "unicode": "&‌#12369;",
-      "hexEncoding": "&‌#x3051",
-      "englishTranslation": "ke",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER KO",
-      "character": "こ",
-      "unicode": "&‌#12371;",
-      "hexEncoding": "&‌#x3053",
-      "englishTranslation": "ko",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER SA",
-      "character": "さ",
-      "unicode": "&‌#12373;",
-      "hexEncoding": "&‌#x3055",
-      "englishTranslation": "sa",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER SI",
-      "character": "し",
-      "unicode": "&‌#12375;",
-      "hexEncoding": "&‌#x3057",
-      "englishTranslation": "shi",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER SU",
-      "character": "す",
-      "unicode": "&‌#12377;",
-      "hexEncoding": "&‌#x3059",
-      "englishTranslation": "su",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER SE",
-      "character": "せ",
-      "unicode": "&‌#12379;",
-      "hexEncoding": "&‌#x305B",
-      "englishTranslation": "se",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER SO",
-      "character": "そ",
-      "unicode": "&‌#12381;",
-      "hexEncoding": "&‌#x305D",
-      "englishTranslation": "so",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER TA",
-      "character": "た",
-      "unicode": "&‌#12383;",
-      "hexEncoding": "&‌#x305F",
-      "englishTranslation": "ta",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER TI",
-      "character": "ち",
-      "unicode": "&‌#12385;",
-      "hexEncoding": "&‌#x3061",
-      "englishTranslation": "chi",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER TU",
-      "character": "つ",
-      "unicode": "&‌#12388;",
-      "hexEncoding": "&‌#x3064",
-      "englishTranslation": "tsu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER TE",
-      "character": "て",
-      "unicode": "&‌#12390;",
-      "hexEncoding": "&‌#x3066",
-      "englishTranslation": "te",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER TO",
-      "character": "と",
-      "unicode": "&‌#12392;",
-      "hexEncoding": "&‌#x3068",
-      "englishTranslation": "to",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER NA",
-      "character": "な",
-      "unicode": "&‌#12394;",
-      "hexEncoding": "&‌#x306A",
-      "englishTranslation": "na",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER NI",
-      "character": "に",
-      "unicode": "&‌#12395;",
-      "hexEncoding": "&‌#x306B",
-      "englishTranslation": "ni",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER NU",
-      "character": "ぬ",
-      "unicode": "&‌#12396;",
-      "hexEncoding": "&‌#x306C",
-      "englishTranslation": "nu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER NE",
-      "character": "ね",
-      "unicode": "&‌#12397;",
-      "hexEncoding": "&‌#x306D",
-      "englishTranslation": "ne",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER NO",
-      "character": "の",
-      "unicode": "&‌#12398;",
-      "hexEncoding": "&‌#x306E",
-      "englishTranslation": "no",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER HA",
-      "character": "は",
-      "unicode": "&‌#12399;",
-      "hexEncoding": "&‌#x306F",
-      "englishTranslation": "ha",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER HI",
-      "character": "ひ",
-      "unicode": "&‌#12402;",
-      "hexEncoding": "&‌#x3072",
-      "englishTranslation": "hi",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER HU",
-      "character": "ふ",
-      "unicode": "&‌#12405;",
-      "hexEncoding": "&‌#x3075",
-      "englishTranslation": "hu",
-      "alternateEnglishTranslation": "fu",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER HE",
-      "character": "へ",
-      "unicode": "&‌#12408;",
-      "hexEncoding": "&‌#x3078",
-      "englishTranslation": "he",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER HO",
-      "character": "ほ",
-      "unicode": "&‌#12411;",
-      "hexEncoding": "&‌#x307B",
-      "englishTranslation": "ho",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER MA",
-      "character": "ま",
-      "unicode": "&‌#12414;",
-      "hexEncoding": "&‌#x307E",
-      "englishTranslation": "ma",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER MI",
-      "character": "み",
-      "unicode": "&‌#12415;",
-      "hexEncoding": "&‌#x307F",
-      "englishTranslation": "mi",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER MU",
-      "character": "む",
-      "unicode": "&‌#12416;",
-      "hexEncoding": "&‌#x3080",
-      "englishTranslation": "mu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER ME",
-      "character": "め",
-      "unicode": "&‌#12417;",
-      "hexEncoding": "&‌#x3081",
-      "englishTranslation": "me",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER MO",
-      "character": "も",
-      "unicode": "&‌#12418;",
-      "hexEncoding": "&‌#x3082",
-      "englishTranslation": "mo",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER YA",
-      "character": "や",
-      "unicode": "&‌#12420;",
-      "hexEncoding": "&‌#x3084",
-      "englishTranslation": "ya",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER YU",
-      "character": "ゆ",
-      "unicode": "&‌#12422;",
-      "hexEncoding": "&‌#x3086",
-      "englishTranslation": "yu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER YO",
-      "character": "よ",
-      "unicode": "&‌#12424;",
-      "hexEncoding": "&‌#x3088",
-      "englishTranslation": "yo",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER RA",
-      "character": "ら",
-      "unicode": "&‌#12425;",
-      "hexEncoding": "&‌#x3089",
-      "englishTranslation": "ra",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER RI",
-      "character": "り",
-      "unicode": "&‌#12426;",
-      "hexEncoding": "&‌#x308A",
-      "englishTranslation": "ri",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER RU",
-      "character": "る",
-      "unicode": "&‌#12427;",
-      "hexEncoding": "&‌#x308B",
-      "englishTranslation": "ru",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER RE",
-      "character": "れ",
-      "unicode": "&‌#12428;",
-      "hexEncoding": "&‌#x308C",
-      "englishTranslation": "re",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER RO",
-      "character": "ろ",
-      "unicode": "&‌#12429;",
-      "hexEncoding": "&‌#x308D",
-      "englishTranslation": "ro",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER WA",
-      "character": "わ",
-      "unicode": "&‌#12431;",
-      "hexEncoding": "&‌#x308F",
-      "englishTranslation": "wa",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER WI",
-      "character": "ゐ",
-      "unicode": "&‌#12432;",
-      "hexEncoding": "&‌#x3090",
-      "englishTranslation": "wi",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER WE",
-      "character": "ゑ",
-      "unicode": "&‌#12433;",
-      "hexEncoding": "&‌#x3091",
-      "englishTranslation": "we",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER WO",
-      "character": "を",
-      "unicode": "&‌#12434;",
-      "hexEncoding": "&‌#x3092",
-      "englishTranslation": "wo",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER N",
-      "character": "ん",
-      "unicode": "&‌#12435;",
-      "hexEncoding": "&‌#x3093",
-      "englishTranslation": "n",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER VU",
-      "character": "ゔ",
-      "unicode": "&‌#12436;",
-      "hexEncoding": "&‌#x3094",
-      "englishTranslation": "vu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER GA",
-      "character": "が",
-      "unicode": "&‌#12364;",
-      "hexEncoding": "&‌#x304C",
-      "englishTranslation": "ga",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER GI",
-      "character": "ぎ",
-      "unicode": "&‌#12366;",
-      "hexEncoding": "&‌#x304E",
-      "englishTranslation": "gi",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER GU",
-      "character": "ぐ",
-      "unicode": "&‌#12368;",
-      "hexEncoding": "&‌#x3050",
-      "englishTranslation": "gu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER GE",
-      "character": "げ",
-      "unicode": "&‌#12370;",
-      "hexEncoding": "&‌#x3052",
-      "englishTranslation": "ge",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER GO",
-      "character": "ご",
-      "unicode": "&‌#12372;",
-      "hexEncoding": "&‌#x3054",
-      "englishTranslation": "go",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER ZA",
-      "character": "ざ",
-      "unicode": "&‌#12374;",
-      "hexEncoding": "&‌#x3056",
-      "englishTranslation": "za",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER ZI",
-      "character": "じ",
-      "unicode": "&‌#12376;",
-      "hexEncoding": "&‌#x3058",
-      "englishTranslation": "ji",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER ZU",
-      "character": "ず",
-      "unicode": "&‌#12378;",
-      "hexEncoding": "&‌#x305A",
-      "englishTranslation": "zu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER ZE",
-      "character": "ぜ",
-      "unicode": "&‌#12380;",
-      "hexEncoding": "&‌#x305C",
-      "englishTranslation": "ze",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER ZO",
-      "character": "ぞ",
-      "unicode": "&‌#12382;",
-      "hexEncoding": "&‌#x305E",
-      "englishTranslation": "zo",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER DA",
-      "character": "だ",
-      "unicode": "&‌#12384;",
-      "hexEncoding": "&‌#x3060",
-      "englishTranslation": "da",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER DI",
-      "character": "ぢ",
-      "unicode": "&‌#12386;",
-      "hexEncoding": "&‌#x3062",
-      "englishTranslation": "di",
-      "alternateEnglishTranslation": "zi",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER DU",
-      "character": "づ",
-      "unicode": "&‌#12389;",
-      "hexEncoding": "&‌#x3065",
-      "englishTranslation": "du",
-      "alternateEnglishTranslation": "zu",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER DE",
-      "character": "で",
-      "unicode": "&‌#12391;",
-      "hexEncoding": "&‌#x3067",
-      "englishTranslation": "de",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER DO",
-      "character": "ど",
-      "unicode": "&‌#12393;",
-      "hexEncoding": "&‌#x3069",
-      "englishTranslation": "do",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER BA",
-      "character": "ば",
-      "unicode": "&‌#12400;",
-      "hexEncoding": "&‌#x3070",
-      "englishTranslation": "ba",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER BI",
-      "character": "び",
-      "unicode": "&‌#12403;",
-      "hexEncoding": "&‌#x3073",
-      "englishTranslation": "bi",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER BU",
-      "character": "ぶ",
-      "unicode": "&‌#12406;",
-      "hexEncoding": "&‌#x3076",
-      "englishTranslation": "bu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER BE",
-      "character": "べ",
-      "unicode": "&‌#12409;",
-      "hexEncoding": "&‌#x3079",
-      "englishTranslation": "be",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER BO",
-      "character": "ぼ",
-      "unicode": "&‌#12412;",
-      "hexEncoding": "&‌#x307C",
-      "englishTranslation": "bo",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER PA",
-      "character": "ぱ",
-      "unicode": "&‌#12401;",
-      "hexEncoding": "&‌#x3071",
-      "englishTranslation": "pa",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER PI",
-      "character": "ぴ",
-      "unicode": "&‌#12404;",
-      "hexEncoding": "&‌#x3074",
-      "englishTranslation": "pi",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER PU",
-      "character": "ぷ",
-      "unicode": "&‌#12407;",
-      "hexEncoding": "&‌#x3077",
-      "englishTranslation": "pu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER PE",
-      "character": "ぺ",
-      "unicode": "&‌#12410;",
-      "hexEncoding": "&‌#x307A",
-      "englishTranslation": "pe",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER PO",
-      "character": "ぽ",
-      "unicode": "&‌#12413;",
-      "hexEncoding": "&‌#x307D",
-      "englishTranslation": "po",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER KYA",
-      "character": "きゃ",
-      "unicode": "&‌#12365;&‌#12419;",
-      "hexEncoding": "&‌#x304D;&‌#x3083;",
-      "englishTranslation": "kya",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER KYU",
-      "character": "きゅ",
-      "unicode": "&‌#12365;&‌#12421;",
-      "hexEncoding": "&‌#x304D;&‌#x3085;",
-      "englishTranslation": "kyu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER KYO",
-      "character": "きょ",
-      "unicode": "&‌#12365;&‌#12423;",
-      "hexEncoding": "&‌#x304D;&‌#x3087;",
-      "englishTranslation": "kyo",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER SHA",
-      "character": "しゃ",
-      "unicode": "&‌#12375;&‌#12419;",
-      "hexEncoding": "&‌#x3057;&‌#x3083",
-      "englishTranslation": "sha",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER SHU",
-      "character": "しゅ",
-      "unicode": "&‌#12375;&‌#12421;",
-      "hexEncoding": "&‌#x3057;&‌#x3085;",
-      "englishTranslation": "shu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER SHO",
-      "character": "しょ",
-      "unicode": "&‌#12375;&‌#12423;",
-      "hexEncoding": "&‌#x3057;&‌#x3087;",
-      "englishTranslation": "sho",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER CHA",
-      "character": "ちゃ",
-      "unicode": "&‌#12385;&‌#12419;",
-      "hexEncoding": "&‌#x3061;&‌#x3083",
-      "englishTranslation": "cha",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER CHU",
-      "character": "ちゅ",
-      "unicode": "&‌#12385;&‌#12421;",
-      "hexEncoding": "&‌#x3061;&‌#x3085;",
-      "englishTranslation": "chu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER CHO",
-      "character": "ちょ",
-      "unicode": "&‌#12385;&‌#12423;",
-      "hexEncoding": "&‌#x3061;&‌#x3087;",
-      "englishTranslation": "cho",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER NYA",
-      "character": "にゃ",
-      "unicode": "&‌#12395;&‌#12419;",
-      "hexEncoding": "&‌#x306B;&‌#x3083",
-      "englishTranslation": "nya",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER NYU",
-      "character": "にゅ",
-      "unicode": "&‌#12395;&‌#12421;",
-      "hexEncoding": "&‌#x306B;&‌#x3085;",
-      "englishTranslation": "nyu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER NYO",
-      "character": "にょ",
-      "unicode": "&‌#12395;&‌#12423;",
-      "hexEncoding": "&‌#x306B;&‌#x3087;",
-      "englishTranslation": "nyo",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER HYA",
-      "character": "ひゃ",
-      "unicode": "&‌#12402;&‌#12419;",
-      "hexEncoding": "&‌#x3072;&‌#x3083",
-      "englishTranslation": "hya",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER HYU",
-      "character": "ひゅ",
-      "unicode": "&‌#12402;&‌#12421;",
-      "hexEncoding": "&‌#x3072;&‌#x3085;",
-      "englishTranslation": "hyu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER HYO",
-      "character": "ひょ",
-      "unicode": "&‌#12402;&‌#12423;",
-      "hexEncoding": "&‌#x3072;&‌#x3087;",
-      "englishTranslation": "hyo",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER MYA",
-      "character": "みゃ",
-      "unicode": "&‌#12415;&‌#12419;",
-      "hexEncoding": "&‌#x307F;&‌#x3083",
-      "englishTranslation": "mya",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER MYU",
-      "character": "みゅ",
-      "unicode": "&‌#12415;&‌#12421;",
-      "hexEncoding": "&‌#x307F;&‌#x3085;",
-      "englishTranslation": "myu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER MYO",
-      "character": "みょ",
-      "unicode": "&‌#12415;&‌#12423;",
-      "hexEncoding": "&‌#x307F;&‌#x3087;",
-      "englishTranslation": "myo",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER RYA",
-      "character": "りゃ",
-      "unicode": "&‌#12426;&‌#12419;",
-      "hexEncoding": "&‌#x308A;&‌#x3083",
-      "englishTranslation": "rya",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER RYU",
-      "character": "りゅ",
-      "unicode": "&‌#12426;&‌#12421;",
-      "hexEncoding": "&‌#x308A;&‌#x3085;",
-      "englishTranslation": "ryu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER RYO",
-      "character": "りょ",
-      "unicode": "&‌#12426;&‌#12423;",
-      "hexEncoding": "&‌#x308A;&‌#x3087;",
-      "englishTranslation": "ryo",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER GYA",
-      "character": "ぎゃ",
-      "unicode": "&‌#12366;&‌#12419;",
-      "hexEncoding": "&‌#x304E;&‌#x3083",
-      "englishTranslation": "gya",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER GYU",
-      "character": "ぎゅ",
-      "unicode": "&‌#12366;&‌#12421;",
-      "hexEncoding": "&‌#x304E;&‌#x3085;",
-      "englishTranslation": "gyu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER GYO",
-      "character": "ぎょ",
-      "unicode": "&‌#12366;&‌#12423;",
-      "hexEncoding": "&‌#x304E;&‌#x3087;",
-      "englishTranslation": "gyo",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER JYA",
-      "character": "じゃ",
-      "unicode": "&‌#12376;&‌#12419;",
-      "hexEncoding": "&‌#x3058;&‌#x3083",
-      "englishTranslation": "jya",
-      "alternateEnglishTranslation": "ja",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER JYU",
-      "character": "じゅ",
-      "unicode": "&‌#12376;&‌#12421;",
-      "hexEncoding": "&‌#x3058;&‌#x3085;",
-      "englishTranslation": "jyu",
-      "alternateEnglishTranslation": "ju",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER JYO",
-      "character": "じょ",
-      "unicode": "&‌#12376;&‌#12423;",
-      "hexEncoding": "&‌#x3058;&‌#x3087;",
-      "englishTranslation": "jyo",
-      "alternateEnglishTranslation": "jo",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER DYA",
-      "character": "ぢゃ",
-      "unicode": "&‌#12386;&‌#12419;",
-      "hexEncoding": "&‌#x3062;&‌#x3083",
-      "englishTranslation": "dya",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER DYU",
-      "character": "ぢゅ",
-      "unicode": "&‌#12386;&‌#12421;",
-      "hexEncoding": "&‌#x3062;&‌#x3085;",
-      "englishTranslation": "dyu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER DYO",
-      "character": "ぢょ",
-      "unicode": "&‌#12386;&‌#12423;",
-      "hexEncoding": "&‌#x3062;&‌#x3087;",
-      "englishTranslation": "dyo",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER BYA",
-      "character": "びゃ",
-      "unicode": "&‌#12403;&‌#12419;",
-      "hexEncoding": "&‌#x3073;&‌#x3083",
-      "englishTranslation": "bya",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER BYU",
-      "character": "びゅ",
-      "unicode": "&‌#12403;&‌#12421;",
-      "hexEncoding": "&‌#x3073;&‌#x3085;",
-      "englishTranslation": "byu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER BYO",
-      "character": "びょ",
-      "unicode": "&‌#12403;&‌#12423;",
-      "hexEncoding": "&‌#x3073;&‌#x3087;",
-      "englishTranslation": "byo",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER PYA",
-      "character": "ぴゃ",
-      "unicode": "&‌#12404;&‌#12419;",
-      "hexEncoding": "&‌#x3074;&‌#x3083",
-      "englishTranslation": "pya",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER PYU",
-      "character": "ぴゅ",
-      "unicode": "&‌#12404;&‌#12421;",
-      "hexEncoding": "&‌#x3074;&‌#x3085;",
-      "englishTranslation": "pyu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER PYO",
-      "character": "ぴょ",
-      "unicode": "&‌#12404;&‌#12423;",
-      "hexEncoding": "&‌#x3074;&‌#x3087;",
-      "englishTranslation": "pyo",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER A",
-      "character": "ア",
-      "unicode": "&‌#12450;",
-      "hexEncoding": "&‌#x30A2;",
-      "englishTranslation": "a",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER I",
-      "character": "イ",
-      "unicode": "&‌#12452;",
-      "hexEncoding": "&‌#x30A4;",
-      "englishTranslation": "i",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER U",
-      "character": "ウ",
-      "unicode": "&‌#12454;",
-      "hexEncoding": "&‌#x30A6;",
-      "englishTranslation": "u",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER E",
-      "character": "エ",
-      "unicode": "&‌#12456;",
-      "hexEncoding": "&‌#x30A8;",
-      "englishTranslation": "e",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER O",
-      "character": "オ",
-      "unicode": "&‌#12458;",
-      "hexEncoding": "&‌#x30AA;",
-      "englishTranslation": "o",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER KA",
-      "character": "カ",
-      "unicode": "&‌#12459;",
-      "hexEncoding": "&‌#x30AB;",
-      "englishTranslation": "ka",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER KI",
-      "character": "キ",
-      "unicode": "&‌#12461;",
-      "hexEncoding": "&‌#x30AD;",
-      "englishTranslation": "ki",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER KU",
-      "character": "ク",
-      "unicode": "&‌#12463;",
-      "hexEncoding": "&‌#x30AF;",
-      "englishTranslation": "ku",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER KE",
-      "character": "ケ",
-      "unicode": "&‌#12465;",
-      "hexEncoding": "&‌#x30B1;",
-      "englishTranslation": "ke",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER KO",
-      "character": "コ",
-      "unicode": "&‌#12467;",
-      "hexEncoding": "&‌#x30B3;",
-      "englishTranslation": "ko",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER SA",
-      "character": "サ",
-      "unicode": "&‌#12469;",
-      "hexEncoding": "&‌#x30B5;",
-      "englishTranslation": "sa",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER SI",
-      "character": "シ",
-      "unicode": "&‌#12471;",
-      "hexEncoding": "&‌#x30B7;",
-      "englishTranslation": "shi",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER SU",
-      "character": "ス",
-      "unicode": "&‌#12473;",
-      "hexEncoding": "&‌#x30B9;",
-      "englishTranslation": "su",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER SE",
-      "character": "セ",
-      "unicode": "&‌#12475;",
-      "hexEncoding": "&‌#x30BB;",
-      "englishTranslation": "se",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER SO",
-      "character": "ソ",
-      "unicode": "&‌#12477;",
-      "hexEncoding": "&‌#x30BD;",
-      "englishTranslation": "so",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER TA",
-      "character": "タ",
-      "unicode": "&‌#12479;",
-      "hexEncoding": "&‌#x30BF;",
-      "englishTranslation": "ta",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER TI",
-      "character": "チ",
-      "unicode": "&‌#12481;",
-      "hexEncoding": "&‌#x30C1;",
-      "englishTranslation": "chi",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER TU",
-      "character": "ツ",
-      "unicode": "&‌#12484;",
-      "hexEncoding": "&‌#x30C4;",
-      "englishTranslation": "tsu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER TE",
-      "character": "テ",
-      "unicode": "&‌#12486;",
-      "hexEncoding": "&‌#x30C6;",
-      "englishTranslation": "te",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER TO",
-      "character": "ト",
-      "unicode": "&‌#12488;",
-      "hexEncoding": "&‌#x30C8;",
-      "englishTranslation": "to",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER NA",
-      "character": "ナ",
-      "unicode": "&‌#12490;",
-      "hexEncoding": "&‌#x30CA;",
-      "englishTranslation": "na",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER NI",
-      "character": "ニ",
-      "unicode": "&‌#12491;",
-      "hexEncoding": "&‌#x30CB;",
-      "englishTranslation": "ni",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER NU",
-      "character": "ヌ",
-      "unicode": "&‌#12492;",
-      "hexEncoding": "&‌#x30CC;",
-      "englishTranslation": "nu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER NE",
-      "character": "ネ",
-      "unicode": "&‌#12493;",
-      "hexEncoding": "&‌#x30CD;",
-      "englishTranslation": "ne",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER NO",
-      "character": "ノ",
-      "unicode": "&‌#12494;",
-      "hexEncoding": "&‌#x30CE;",
-      "englishTranslation": "no",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER HA",
-      "character": "ハ",
-      "unicode": "&‌#12495;",
-      "hexEncoding": "&‌#x30CF;",
-      "englishTranslation": "ha",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER HI",
-      "character": "ヒ",
-      "unicode": "&‌#12498;",
-      "hexEncoding": "&‌#x30D2;",
-      "englishTranslation": "hi",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER HU",
-      "character": "フ",
-      "unicode": "&‌#12501;",
-      "hexEncoding": "&‌#x30D5;",
-      "englishTranslation": "hu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER HE",
-      "character": "ヘ",
-      "unicode": "&‌#12504;",
-      "hexEncoding": "&‌#x30D8;",
-      "englishTranslation": "he",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER HO",
-      "character": "ホ",
-      "unicode": "&‌#12507;",
-      "hexEncoding": "&‌#x30DB;",
-      "englishTranslation": "ho",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER MA",
-      "character": "マ",
-      "unicode": "&‌#12510;",
-      "hexEncoding": "&‌#x30DE;",
-      "englishTranslation": "ma",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER MI",
-      "character": "ミ",
-      "unicode": "&‌#12511;",
-      "hexEncoding": "&‌#x30DF;",
-      "englishTranslation": "mi",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER MU",
-      "character": "ム",
-      "unicode": "&‌#12512;",
-      "hexEncoding": "&‌#x30E0;",
-      "englishTranslation": "mu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER ME",
-      "character": "メ",
-      "unicode": "&‌#12513;",
-      "hexEncoding": "&‌#x30E1;",
-      "englishTranslation": "me",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER MO",
-      "character": "モ",
-      "unicode": "&‌#12514;",
-      "hexEncoding": "&‌#x30E2;",
-      "englishTranslation": "mo",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER YA",
-      "character": "ヤ",
-      "unicode": "&‌#12516;",
-      "hexEncoding": "&‌#x30E4;",
-      "englishTranslation": "ya",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER YU",
-      "character": "ユ",
-      "unicode": "&‌#12518;",
-      "hexEncoding": "&‌#x30E6;",
-      "englishTranslation": "yu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER YO",
-      "character": "ヨ",
-      "unicode": "&‌#12520;",
-      "hexEncoding": "&‌#x30E8;",
-      "englishTranslation": "yo",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER RA",
-      "character": "ラ",
-      "unicode": "&‌#12521;",
-      "hexEncoding": "&‌#x30E9;",
-      "englishTranslation": "ra",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER RI",
-      "character": "リ",
-      "unicode": "&‌#12522;",
-      "hexEncoding": "&‌#x30EA;",
-      "englishTranslation": "ri",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER RU",
-      "character": "ル",
-      "unicode": "&‌#12523;",
-      "hexEncoding": "&‌#x30EB;",
-      "englishTranslation": "ru",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER RE",
-      "character": "レ",
-      "unicode": "&‌#12524;",
-      "hexEncoding": "&‌#x30EC;",
-      "englishTranslation": "re",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER RO",
-      "character": "ロ",
-      "unicode": "&‌#12525;",
-      "hexEncoding": "&‌#x30ED;",
-      "englishTranslation": "ro",
-      "alternateEnglishTranslation": "fu",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER WA",
-      "character": "ワ",
-      "unicode": "&‌#12527;",
-      "hexEncoding": "&‌#x30EF;",
-      "englishTranslation": "wa",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER WI",
-      "character": "ヰ",
-      "unicode": "&‌#12528;",
-      "hexEncoding": "&‌#x30F0;",
-      "englishTranslation": "wi",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER WE",
-      "character": "ヱ",
-      "unicode": "&‌#12529;",
-      "hexEncoding": "&‌#x30F1;",
-      "englishTranslation": "we",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER WO",
-      "character": "ヲ",
-      "unicode": "&‌#12530;",
-      "hexEncoding": "&‌#x30F2;",
-      "englishTranslation": "wo",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER N",
-      "character": "ン",
-      "unicode": "&‌#12531;",
-      "hexEncoding": "&‌#x30F3;",
-      "englishTranslation": "n",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER GA",
-      "character": "ガ",
-      "unicode": "&‌#12460;",
-      "hexEncoding": "&‌#x30AC;",
-      "englishTranslation": "ga",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER GI",
-      "character": "ギ",
-      "unicode": "&‌#12462;",
-      "hexEncoding": "&‌#x30AE;",
-      "englishTranslation": "gi",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER GU",
-      "character": "グ",
-      "unicode": "&‌#12464;",
-      "hexEncoding": "&‌#x30B0;",
-      "englishTranslation": "gu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER GE",
-      "character": "ゲ",
-      "unicode": "&‌#12466;",
-      "hexEncoding": "&‌#x30B2;",
-      "englishTranslation": "ge",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER GO",
-      "character": "ゴ",
-      "unicode": "&‌#12468;",
-      "hexEncoding": "&‌#x30B4;",
-      "englishTranslation": "go",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER ZA",
-      "character": "ザ",
-      "unicode": "&‌#12470;",
-      "hexEncoding": "&‌#x30B6;",
-      "englishTranslation": "za",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER ZI",
-      "character": "ジ",
-      "unicode": "&‌#12472;",
-      "hexEncoding": "&‌#x30B8;",
-      "englishTranslation": "ji",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER ZU",
-      "character": "ズ",
-      "unicode": "&‌#12474;",
-      "hexEncoding": "&‌#x30BA;",
-      "englishTranslation": "zu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER ZE",
-      "character": "ゼ",
-      "unicode": "&‌#12476;",
-      "hexEncoding": "&‌#x30BC;",
-      "englishTranslation": "ze",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER ZO",
-      "character": "ゾ",
-      "unicode": "&‌#12478;",
-      "hexEncoding": "&‌#x30BE;",
-      "englishTranslation": "zo",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER DA",
-      "character": "ダ",
-      "unicode": "&‌#12480;",
-      "hexEncoding": "&‌#x30C0;",
-      "englishTranslation": "da",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER DI",
-      "character": "ヂ",
-      "unicode": "&‌#12482;",
-      "hexEncoding": "&‌#x30C2;",
-      "englishTranslation": "di",
-      "alternateEnglishTranslation": "zi",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER DU",
-      "character": "ヅ",
-      "unicode": "&‌#12485;",
-      "hexEncoding": "&‌#x30C5;",
-      "englishTranslation": "du",
-      "alternateEnglishTranslation": "zu",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER DE",
-      "character": "デ",
-      "unicode": "&‌#12487;",
-      "hexEncoding": "&‌#x30C7;",
-      "englishTranslation": "de",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER DO",
-      "character": "ド",
-      "unicode": "&‌#12489;",
-      "hexEncoding": "&‌#x30C9;",
-      "englishTranslation": "do",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER BA",
-      "character": "バ",
-      "unicode": "&‌#12496;",
-      "hexEncoding": "&‌#x30D0;",
-      "englishTranslation": "ba",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER BI",
-      "character": "ビ",
-      "unicode": "&‌#12499;",
-      "hexEncoding": "&‌#x30D3;",
-      "englishTranslation": "bi",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER BU",
-      "character": "ブ",
-      "unicode": "&‌#12502;",
-      "hexEncoding": "&‌#x30D6;",
-      "englishTranslation": "bu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER BE",
-      "character": "ベ",
-      "unicode": "&‌#12505;",
-      "hexEncoding": "&‌#x30D9;",
-      "englishTranslation": "be",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER BO",
-      "character": "ボ",
-      "unicode": "&‌#12508;",
-      "hexEncoding": "&‌#x30DC;",
-      "englishTranslation": "bo",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER PA",
-      "character": "パ",
-      "unicode": "&‌#12497;",
-      "hexEncoding": "&‌#x30D1;",
-      "englishTranslation": "pa",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER PI",
-      "character": "ピ",
-      "unicode": "&‌#12500;",
-      "hexEncoding": "&‌#x30D4;",
-      "englishTranslation": "pi",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER PU",
-      "character": "プ",
-      "unicode": "&‌#12503;",
-      "hexEncoding": "&‌#x30D7;",
-      "englishTranslation": "pu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER PE",
-      "character": "ペ",
-      "unicode": "&‌#12506;",
-      "hexEncoding": "&‌#x30DA;",
-      "englishTranslation": "pe",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER PO",
-      "character": "ポ",
-      "unicode": "&‌#12509;",
-      "hexEncoding": "&‌#x30DD;",
-      "englishTranslation": "po",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER KYA",
-      "character": "キァ",
-      "unicode": "&‌#12461;&‌#12449;",
-      "hexEncoding": "&‌#x30AD;&‌#x30A1;",
-      "englishTranslation": "kya",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER KYU",
-      "character": "キゥ",
-      "unicode": "&‌#12461;&‌#12453;",
-      "hexEncoding": "&‌#x30AD;&‌#x30A5;",
-      "englishTranslation": "kyu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER KYO",
-      "character": "キォ",
-      "unicode": "&‌#12461;&‌#12457;",
-      "hexEncoding": "&‌#x30AD;&‌#x30A9;",
-      "englishTranslation": "kyo",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER SHA",
-      "character": "シァ",
-      "unicode": "&‌#12471;&‌#12449;",
-      "hexEncoding": "&‌#x30B7;&‌#x30A1;",
-      "englishTranslation": "sha",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER SHU",
-      "character": "シゥ",
-      "unicode": "&‌#12471;&‌#12453;",
-      "hexEncoding": "&‌#x30B7;&‌#x30A5;",
-      "englishTranslation": "shu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER SHO",
-      "character": "シォ",
-      "unicode": "&‌#12471;&‌#12457;",
-      "hexEncoding": "&‌#x30B7;&‌#x30A9;",
-      "englishTranslation": "sho",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER CHA",
-      "character": "チァ",
-      "unicode": "&‌#12481;&‌#12449;",
-      "hexEncoding": "&‌#x30C1;&‌#x30A1;",
-      "englishTranslation": "cha",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER CHU",
-      "character": "チゥ",
-      "unicode": "&‌#12481;&‌#12453;",
-      "hexEncoding": "&‌#x30C1;&‌#x30A5;",
-      "englishTranslation": "chu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER CHO",
-      "character": "チォ",
-      "unicode": "&‌#12481;&‌#12457;",
-      "hexEncoding": "&‌#x30C1;&‌#x30A9;",
-      "englishTranslation": "cho",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER NYA",
-      "character": "ニァ",
-      "unicode": "&‌#12491;&‌#12449;",
-      "hexEncoding": "&‌#x30CB;&‌#x30A1;",
-      "englishTranslation": "nya",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER NYU",
-      "character": "ニゥ",
-      "unicode": "&‌#12491;&‌#12453;",
-      "hexEncoding": "&‌#x30CB;&‌#x30A5;",
-      "englishTranslation": "nyu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER NYO",
-      "character": "ニォ",
-      "unicode": "&‌#12491;&‌#12457;",
-      "hexEncoding": "&‌#x30CB;&‌#x30A9;",
-      "englishTranslation": "nyo",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER HYA",
-      "character": "ヒァ",
-      "unicode": "&‌#12498;&‌#12449;",
-      "hexEncoding": "&‌#x30D2;&‌#x30A1;",
-      "englishTranslation": "hya",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER HYU",
-      "character": "ヒゥ",
-      "unicode": "&‌#12498;&‌#12453;",
-      "hexEncoding": "&‌#x30D2;&‌#x30A5;",
-      "englishTranslation": "hyu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER HYO",
-      "character": "ヒォ",
-      "unicode": "&‌#12498;&‌#12457;",
-      "hexEncoding": "&‌#x30D2;&‌#x30A9;",
-      "englishTranslation": "hyo",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER MYA",
-      "character": "ミァ",
-      "unicode": "&‌#12511;&‌#12449;",
-      "hexEncoding": "&‌#x30DF;&‌#x30A1;",
-      "englishTranslation": "mya",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER MYU",
-      "character": "ミゥ",
-      "unicode": "&‌#12511;&‌#12453;",
-      "hexEncoding": "&‌#x30DF;&‌#x30A5;",
-      "englishTranslation": "myu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER MYO",
-      "character": "ミォ",
-      "unicode": "&‌#12511;&‌#12457;",
-      "hexEncoding": "&‌#x30DF;&‌#x30A9;",
-      "englishTranslation": "myo",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER RYA",
-      "character": "リァ",
-      "unicode": "&‌#12522;&‌#12449;",
-      "hexEncoding": "&‌#x30EA;&‌#x30A1;",
-      "englishTranslation": "rya",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER RYU",
-      "character": "リゥ",
-      "unicode": "&‌#12522;&‌#12453;",
-      "hexEncoding": "&‌#x30EA;&‌#x30A5;",
-      "englishTranslation": "ryu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER RYO",
-      "character": "リォ",
-      "unicode": "&‌#12522;&‌#12457;",
-      "hexEncoding": "&‌#x30EA;&‌#x30A9;",
-      "englishTranslation": "ryo",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER GYA",
-      "character": "ギァ",
-      "unicode": "&‌#12462;&‌#12449;",
-      "hexEncoding": "&‌#x30AE;&‌#x30A1;",
-      "englishTranslation": "gya",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER GYU",
-      "character": "ギゥ",
-      "unicode": "&‌#12462;&‌#12453;",
-      "hexEncoding": "&‌#x30AE;&‌#x30A5;",
-      "englishTranslation": "gyu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER GYO",
-      "character": "ギォ",
-      "unicode": "&‌#12462;&‌#12457;",
-      "hexEncoding": "&‌#x30AE;&‌#x30A9;",
-      "englishTranslation": "gyo",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER JYA",
-      "character": "ジァ",
-      "unicode": "&‌#12472;&‌#12449;",
-      "hexEncoding": "&‌#x30B8;&‌#x30A1;",
-      "englishTranslation": "jya",
-      "alternateEnglishTranslation": "ja",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER JYU",
-      "character": "ジゥ",
-      "unicode": "&‌#12472;&‌#12453;",
-      "hexEncoding": "&‌#x30B8;&‌#x30A5;",
-      "englishTranslation": "jyu",
-      "alternateEnglishTranslation": "ju",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER JYO",
-      "character": "ジォ",
-      "unicode": "&‌#12472;&‌#12457;",
-      "hexEncoding": "&‌#x30B8;&‌#x30A9;",
-      "englishTranslation": "jyo",
-      "alternateEnglishTranslation": "jo",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER DYA",
-      "character": "ヂァ",
-      "unicode": "&‌#12482;&‌#12449;",
-      "hexEncoding": "&‌#x30C2;&‌#x30A1;",
-      "englishTranslation": "dya",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER DYU",
-      "character": "ヂゥ",
-      "unicode": "&‌#12482;&‌#12453;",
-      "hexEncoding": "&‌#x30C2;&‌#x30A5;",
-      "englishTranslation": "dyu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER DYO",
-      "character": "ヂォ",
-      "unicode": "&‌#12482;&‌#12457;",
-      "hexEncoding": "&‌#x30C2;&‌#x30A9;",
-      "englishTranslation": "dyo",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER BYA",
-      "character": "ビァ",
-      "unicode": "&‌#12499;&‌#12449;",
-      "hexEncoding": "&‌#x30D3;&‌#x30A1;",
-      "englishTranslation": "bya",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER BYU",
-      "character": "ビゥ",
-      "unicode": "&‌#12499;&‌#12453;",
-      "hexEncoding": "&‌#x30D3;&‌#x30A5;",
-      "englishTranslation": "byu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER BYO",
-      "character": "ビォ",
-      "unicode": "&‌#12499;&‌#12457;",
-      "hexEncoding": "&‌#x30D3;&‌#x30A9;",
-      "englishTranslation": "byo",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER PYA",
-      "character": "ピァ",
-      "unicode": "&‌#12500;&‌#12449;",
-      "hexEncoding": "&‌#x30D4;&‌#x30A1;",
-      "englishTranslation": "pya",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER PYU",
-      "character": "ピゥ",
-      "unicode": "&‌#12500;&‌#12453;",
-      "hexEncoding": "&‌#x30D4;&‌#x30A5;",
-      "englishTranslation": "pyu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER PYO",
-      "character": "ピォ",
-      "unicode": "&‌#12500;&‌#12457;",
-      "hexEncoding": "&‌#x30D4;&‌#x30A9;",
-      "englishTranslation": "pyo",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER VA",
-      "character": "ヴァ",
-      "unicode": "&‌#12535;&‌#12449;",
-      "hexEncoding": "&‌#x30F7;&‌#x30A1;",
-      "englishTranslation": "va",
-      "alternateEnglishTranslation": "bwa",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER VI",
-      "character": "ヴィ",
-      "unicode": "&‌#12536;&‌#12451;",
-      "hexEncoding": "&‌#x30F8;&‌#x30A3;",
-      "englishTranslation": "vi",
-      "alternateEnglishTranslation": "bwi",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER VU",
-      "character": "ヴ",
-      "unicode": "&‌#12532;&‌#12453;",
-      "hexEncoding": "&‌#x30F4;&‌#x30A5;",
-      "englishTranslation": "vu",
-      "alternateEnglishTranslation": "bu",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER VE",
-      "character": "ヴェ",
-      "unicode": "&‌#12537;&‌#12455;",
-      "hexEncoding": "&‌#x30F9;&‌#x30A7;",
-      "englishTranslation": "ve",
-      "alternateEnglishTranslation": "bwe",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER VO",
-      "character": "ヴォ",
-      "unicode": "&‌#12538;&‌#12457;",
-      "hexEncoding": "&‌#x30FA;&‌#x30A9;",
-      "englishTranslation": "vo",
-      "alternateEnglishTranslation": "bwo",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER WI",
-      "character": "ウィ",
-      "unicode": "&‌#12454;&‌#12451;",
-      "hexEncoding": "&‌#x30A6;&‌#x30A3;",
-      "englishTranslation": "wi",
-      "alternateEnglishTranslation": "ui",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER WE",
-      "character": "ウェ",
-      "unicode": "&‌#12454;&‌#12455;",
-      "hexEncoding": "&‌#x30A6;&‌#x30A7;",
-      "englishTranslation": "we",
-      "alternateEnglishTranslation": "ue",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER WO",
-      "character": "ウォ",
-      "unicode": "&‌#12454;&‌#12457;",
-      "hexEncoding": "&‌#x30A6;&‌#x30A9;",
-      "englishTranslation": "wo",
-      "alternateEnglishTranslation": "uo",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER FA",
-      "character": "ファ",
-      "unicode": "&‌#12501;&‌#12449;",
-      "hexEncoding": "&‌#x30D5;&‌#x30A1;",
-      "englishTranslation": "fa",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER FI",
-      "character": "フィ",
-      "unicode": "&‌#12501;&‌#12451;",
-      "hexEncoding": "&‌#x30D5;&‌#x30A3;",
-      "englishTranslation": "fi",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER FE",
-      "character": "フェ",
-      "unicode": "&‌#12501;&‌#12455;",
-      "hexEncoding": "&‌#x30D5;&‌#x30A7;",
-      "englishTranslation": "fu",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA LETTER FO",
-      "character": "フォ",
-      "unicode": "&‌#12501;&‌#12457;",
-      "hexEncoding": "&‌#x30D5;&‌#x30A9;",
-      "englishTranslation": "fo",
-      "alternateEnglishTranslation": "",
-      "isLetter": "TRUE"
-    },
-    {
-      "characterName": "KATAKANA MIDDLE DOT",
-      "character": "・",
-      "unicode": "&‌#12539;",
-      "hexEncoding": "&‌#x30FB;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "HIRAGANA VOICED ITERATION MARK",
-      "character": "ゞ",
-      "unicode": "&‌#12446;",
-      "hexEncoding": "&‌#x309E;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "KATAKANA-HIRAGANA VOICED SOUND MARK",
-      "character": "゛",
-      "unicode": "&‌#12443;",
-      "hexEncoding": "&‌#x309B;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK",
-      "character": "゜",
-      "unicode": "&‌#12444;",
-      "hexEncoding": "&‌#x309C;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "KATAKANA-HIRAGANA PROLONGED SOUND MARK",
-      "character": "ー",
-      "unicode": "&‌#12540;",
-      "hexEncoding": "&‌#x30FC;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "HALFWIDTH KATAKANA-HIRAGANA PROLONGED SOUND MARK",
-      "character": "ｰ",
-      "unicode": "&‌#65392;",
-      "hexEncoding": "&‌#xFF70;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "KATAKANA-HIRAGANA VOICED SOUND MARK",
-      "character": "゛",
-      "unicode": "&‌#12443;",
-      "hexEncoding": "&‌#x309B;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK",
-      "character": "゜",
-      "unicode": "&‌#12444;",
-      "hexEncoding": "&‌#x309C;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "KATAKANA-HIRAGANA PROLONGED SOUND MARK",
-      "character": "ー",
-      "unicode": "&‌#12540;",
-      "hexEncoding": "&‌#x30FC;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "KATAKANA ITERATION MARK",
-      "character": "ヽ",
-      "unicode": "&‌#12541;",
-      "hexEncoding": "&‌#x30FD;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "KATAKANA VOICED ITERATION MARK",
-      "character": "ヾ",
-      "unicode": "&‌#12542;",
-      "hexEncoding": "&‌#x30FE;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER SMALL TU",
-      "character": "っ",
-      "unicode": "&‌#12387;",
-      "hexEncoding": "&‌#x3063;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "KATAKANA LETTER SMALL TU",
-      "character": "ッ",
-      "unicode": "&‌#12483;",
-      "hexEncoding": "&‌#x30C3;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER SMALL A",
-      "character": "ぁ",
-      "unicode": "&‌#12353;",
-      "hexEncoding": "&‌#x3041;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER SMALL I",
-      "character": "ぃ",
-      "unicode": "&‌#12355;",
-      "hexEncoding": "&‌#x3043;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER SMALL U",
-      "character": "ぅ",
-      "unicode": "&‌#12357;",
-      "hexEncoding": "&‌#x3045;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER SMALL E",
-      "character": "ぇ",
-      "unicode": "&‌#12359;",
-      "hexEncoding": "&‌#x3047;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER SMALL O",
-      "character": "ぉ",
-      "unicode": "&‌#12361;",
-      "hexEncoding": "&‌#x3049;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER SMALL YA",
-      "character": "ゃ",
-      "unicode": "&‌#12419;",
-      "hexEncoding": "&‌#x3083;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER SMALL YU",
-      "character": "ゅ",
-      "unicode": "&‌#12421;",
-      "hexEncoding": "&‌#x3085;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER SMALL YO",
-      "character": "ょ",
-      "unicode": "&‌#12423;",
-      "hexEncoding": "&‌#x3087;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "HIRAGANA LETTER SMALL WA",
-      "character": "ゎ",
-      "unicode": "&‌#12430;",
-      "hexEncoding": "&‌#x308E;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "KATAKANA LETTER SMALL A",
-      "character": "ァ",
-      "unicode": "&‌#12449;",
-      "hexEncoding": "&‌#x30A1;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "KATAKANA LETTER SMALL I",
-      "character": "ィ",
-      "unicode": "&‌#12451;",
-      "hexEncoding": "&‌#x30A3;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "KATAKANA LETTER SMALL U",
-      "character": "ゥ",
-      "unicode": "&‌#12453;",
-      "hexEncoding": "&‌#x30A5;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "KATAKANA LETTER SMALL E",
-      "character": "ェ",
-      "unicode": "&‌#12455;",
-      "hexEncoding": "&‌#x30A7;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "KATAKANA LETTER SMALL O",
-      "character": "ォ",
-      "unicode": "&‌#12457;",
-      "hexEncoding": "&‌#x30A9;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "KATAKANA LETTER SMALL YA",
-      "character": "ャ",
-      "unicode": "&‌#12515;",
-      "hexEncoding": "&‌#x30E3;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "KATAKANA LETTER SMALL YU",
-      "character": "ュ",
-      "unicode": "&‌#12517;",
-      "hexEncoding": "&‌#x30E5;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "KATAKANA LETTER SMALL YO",
-      "character": "ョ",
-      "unicode": "&‌#12519;",
-      "hexEncoding": "&‌#x30E7;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "KATAKANA LETTER SMALL WA",
-      "character": "ヮ",
-      "unicode": "&‌#12526;",
-      "hexEncoding": "&‌#x30EE;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "KATAKANA LETTER SMALL KA",
-      "character": "ヵ",
-      "unicode": "&‌#12533;",
-      "hexEncoding": "&‌#x30F5;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
-    },
-    {
-      "characterName": "KATAKANA LETTER SMALL KE",
-      "character": "ヶ",
-      "unicode": "&‌#12534;",
-      "hexEncoding": "&‌#x30F6;",
-      "englishTranslation": "",
-      "alternateEnglishTranslation": "",
-      "isLetter": "FALSE"
+        "characterName":  "HIRAGANA LETTER A",
+        "character":  "あ",
+        "unicode":  "\u0026‌#12354;",
+        "hexEncoding":  "\u0026‌#x3042",
+        "englishTranslation":  "a",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER I",
+        "character":  "い",
+        "unicode":  "\u0026‌#12356;",
+        "hexEncoding":  "\u0026‌#x3044",
+        "englishTranslation":  "i",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER U",
+        "character":  "う",
+        "unicode":  "\u0026‌#12358;",
+        "hexEncoding":  "\u0026‌#x3046",
+        "englishTranslation":  "u",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER E",
+        "character":  "え",
+        "unicode":  "\u0026‌#12360;",
+        "hexEncoding":  "\u0026‌#x3048",
+        "englishTranslation":  "e",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER O",
+        "character":  "お",
+        "unicode":  "\u0026‌#12362;",
+        "hexEncoding":  "\u0026‌#x304A",
+        "englishTranslation":  "o",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER KA",
+        "character":  "か",
+        "unicode":  "\u0026‌#12363;",
+        "hexEncoding":  "\u0026‌#x304B",
+        "englishTranslation":  "ka",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER KI",
+        "character":  "き",
+        "unicode":  "\u0026‌#12365;",
+        "hexEncoding":  "\u0026‌#x304D",
+        "englishTranslation":  "ki",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER KU",
+        "character":  "く",
+        "unicode":  "\u0026‌#12367;",
+        "hexEncoding":  "\u0026‌#x304F",
+        "englishTranslation":  "ku",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER KE",
+        "character":  "け",
+        "unicode":  "\u0026‌#12369;",
+        "hexEncoding":  "\u0026‌#x3051",
+        "englishTranslation":  "ke",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER KO",
+        "character":  "こ",
+        "unicode":  "\u0026‌#12371;",
+        "hexEncoding":  "\u0026‌#x3053",
+        "englishTranslation":  "ko",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER SA",
+        "character":  "さ",
+        "unicode":  "\u0026‌#12373;",
+        "hexEncoding":  "\u0026‌#x3055",
+        "englishTranslation":  "sa",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER SI",
+        "character":  "し",
+        "unicode":  "\u0026‌#12375;",
+        "hexEncoding":  "\u0026‌#x3057",
+        "englishTranslation":  "shi",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER SU",
+        "character":  "す",
+        "unicode":  "\u0026‌#12377;",
+        "hexEncoding":  "\u0026‌#x3059",
+        "englishTranslation":  "su",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER SE",
+        "character":  "せ",
+        "unicode":  "\u0026‌#12379;",
+        "hexEncoding":  "\u0026‌#x305B",
+        "englishTranslation":  "se",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER SO",
+        "character":  "そ",
+        "unicode":  "\u0026‌#12381;",
+        "hexEncoding":  "\u0026‌#x305D",
+        "englishTranslation":  "so",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER TA",
+        "character":  "た",
+        "unicode":  "\u0026‌#12383;",
+        "hexEncoding":  "\u0026‌#x305F",
+        "englishTranslation":  "ta",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER TI",
+        "character":  "ち",
+        "unicode":  "\u0026‌#12385;",
+        "hexEncoding":  "\u0026‌#x3061",
+        "englishTranslation":  "chi",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER TU",
+        "character":  "つ",
+        "unicode":  "\u0026‌#12388;",
+        "hexEncoding":  "\u0026‌#x3064",
+        "englishTranslation":  "tsu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER TE",
+        "character":  "て",
+        "unicode":  "\u0026‌#12390;",
+        "hexEncoding":  "\u0026‌#x3066",
+        "englishTranslation":  "te",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER TO",
+        "character":  "と",
+        "unicode":  "\u0026‌#12392;",
+        "hexEncoding":  "\u0026‌#x3068",
+        "englishTranslation":  "to",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER NA",
+        "character":  "な",
+        "unicode":  "\u0026‌#12394;",
+        "hexEncoding":  "\u0026‌#x306A",
+        "englishTranslation":  "na",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER NI",
+        "character":  "に",
+        "unicode":  "\u0026‌#12395;",
+        "hexEncoding":  "\u0026‌#x306B",
+        "englishTranslation":  "ni",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER NU",
+        "character":  "ぬ",
+        "unicode":  "\u0026‌#12396;",
+        "hexEncoding":  "\u0026‌#x306C",
+        "englishTranslation":  "nu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER NE",
+        "character":  "ね",
+        "unicode":  "\u0026‌#12397;",
+        "hexEncoding":  "\u0026‌#x306D",
+        "englishTranslation":  "ne",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER NO",
+        "character":  "の",
+        "unicode":  "\u0026‌#12398;",
+        "hexEncoding":  "\u0026‌#x306E",
+        "englishTranslation":  "no",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER HA",
+        "character":  "は",
+        "unicode":  "\u0026‌#12399;",
+        "hexEncoding":  "\u0026‌#x306F",
+        "englishTranslation":  "ha",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER HI",
+        "character":  "ひ",
+        "unicode":  "\u0026‌#12402;",
+        "hexEncoding":  "\u0026‌#x3072",
+        "englishTranslation":  "hi",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER HU",
+        "character":  "ふ",
+        "unicode":  "\u0026‌#12405;",
+        "hexEncoding":  "\u0026‌#x3075",
+        "englishTranslation":  "hu",
+        "alternateEnglishTranslation":  "fu",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER HE",
+        "character":  "へ",
+        "unicode":  "\u0026‌#12408;",
+        "hexEncoding":  "\u0026‌#x3078",
+        "englishTranslation":  "he",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER HO",
+        "character":  "ほ",
+        "unicode":  "\u0026‌#12411;",
+        "hexEncoding":  "\u0026‌#x307B",
+        "englishTranslation":  "ho",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER MA",
+        "character":  "ま",
+        "unicode":  "\u0026‌#12414;",
+        "hexEncoding":  "\u0026‌#x307E",
+        "englishTranslation":  "ma",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER MI",
+        "character":  "み",
+        "unicode":  "\u0026‌#12415;",
+        "hexEncoding":  "\u0026‌#x307F",
+        "englishTranslation":  "mi",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER MU",
+        "character":  "む",
+        "unicode":  "\u0026‌#12416;",
+        "hexEncoding":  "\u0026‌#x3080",
+        "englishTranslation":  "mu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER ME",
+        "character":  "め",
+        "unicode":  "\u0026‌#12417;",
+        "hexEncoding":  "\u0026‌#x3081",
+        "englishTranslation":  "me",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER MO",
+        "character":  "も",
+        "unicode":  "\u0026‌#12418;",
+        "hexEncoding":  "\u0026‌#x3082",
+        "englishTranslation":  "mo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER YA",
+        "character":  "や",
+        "unicode":  "\u0026‌#12420;",
+        "hexEncoding":  "\u0026‌#x3084",
+        "englishTranslation":  "ya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER YU",
+        "character":  "ゆ",
+        "unicode":  "\u0026‌#12422;",
+        "hexEncoding":  "\u0026‌#x3086",
+        "englishTranslation":  "yu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER YO",
+        "character":  "よ",
+        "unicode":  "\u0026‌#12424;",
+        "hexEncoding":  "\u0026‌#x3088",
+        "englishTranslation":  "yo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER RA",
+        "character":  "ら",
+        "unicode":  "\u0026‌#12425;",
+        "hexEncoding":  "\u0026‌#x3089",
+        "englishTranslation":  "ra",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER RI",
+        "character":  "り",
+        "unicode":  "\u0026‌#12426;",
+        "hexEncoding":  "\u0026‌#x308A",
+        "englishTranslation":  "ri",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER RU",
+        "character":  "る",
+        "unicode":  "\u0026‌#12427;",
+        "hexEncoding":  "\u0026‌#x308B",
+        "englishTranslation":  "ru",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER RE",
+        "character":  "れ",
+        "unicode":  "\u0026‌#12428;",
+        "hexEncoding":  "\u0026‌#x308C",
+        "englishTranslation":  "re",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER RO",
+        "character":  "ろ",
+        "unicode":  "\u0026‌#12429;",
+        "hexEncoding":  "\u0026‌#x308D",
+        "englishTranslation":  "ro",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER WA",
+        "character":  "わ",
+        "unicode":  "\u0026‌#12431;",
+        "hexEncoding":  "\u0026‌#x308F",
+        "englishTranslation":  "wa",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER WI",
+        "character":  "ゐ",
+        "unicode":  "\u0026‌#12432;",
+        "hexEncoding":  "\u0026‌#x3090",
+        "englishTranslation":  "wi",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER WE",
+        "character":  "ゑ",
+        "unicode":  "\u0026‌#12433;",
+        "hexEncoding":  "\u0026‌#x3091",
+        "englishTranslation":  "we",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER WO",
+        "character":  "を",
+        "unicode":  "\u0026‌#12434;",
+        "hexEncoding":  "\u0026‌#x3092",
+        "englishTranslation":  "wo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER N",
+        "character":  "ん",
+        "unicode":  "\u0026‌#12435;",
+        "hexEncoding":  "\u0026‌#x3093",
+        "englishTranslation":  "n",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER VU",
+        "character":  "ゔ",
+        "unicode":  "\u0026‌#12436;",
+        "hexEncoding":  "\u0026‌#x3094",
+        "englishTranslation":  "vu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER GA",
+        "character":  "が",
+        "unicode":  "\u0026‌#12364;",
+        "hexEncoding":  "\u0026‌#x304C",
+        "englishTranslation":  "ga",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER GI",
+        "character":  "ぎ",
+        "unicode":  "\u0026‌#12366;",
+        "hexEncoding":  "\u0026‌#x304E",
+        "englishTranslation":  "gi",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER GU",
+        "character":  "ぐ",
+        "unicode":  "\u0026‌#12368;",
+        "hexEncoding":  "\u0026‌#x3050",
+        "englishTranslation":  "gu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER GE",
+        "character":  "げ",
+        "unicode":  "\u0026‌#12370;",
+        "hexEncoding":  "\u0026‌#x3052",
+        "englishTranslation":  "ge",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER GO",
+        "character":  "ご",
+        "unicode":  "\u0026‌#12372;",
+        "hexEncoding":  "\u0026‌#x3054",
+        "englishTranslation":  "go",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER ZA",
+        "character":  "ざ",
+        "unicode":  "\u0026‌#12374;",
+        "hexEncoding":  "\u0026‌#x3056",
+        "englishTranslation":  "za",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER ZI",
+        "character":  "じ",
+        "unicode":  "\u0026‌#12376;",
+        "hexEncoding":  "\u0026‌#x3058",
+        "englishTranslation":  "ji",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER ZU",
+        "character":  "ず",
+        "unicode":  "\u0026‌#12378;",
+        "hexEncoding":  "\u0026‌#x305A",
+        "englishTranslation":  "zu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER ZE",
+        "character":  "ぜ",
+        "unicode":  "\u0026‌#12380;",
+        "hexEncoding":  "\u0026‌#x305C",
+        "englishTranslation":  "ze",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER ZO",
+        "character":  "ぞ",
+        "unicode":  "\u0026‌#12382;",
+        "hexEncoding":  "\u0026‌#x305E",
+        "englishTranslation":  "zo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER DA",
+        "character":  "だ",
+        "unicode":  "\u0026‌#12384;",
+        "hexEncoding":  "\u0026‌#x3060",
+        "englishTranslation":  "da",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER DI",
+        "character":  "ぢ",
+        "unicode":  "\u0026‌#12386;",
+        "hexEncoding":  "\u0026‌#x3062",
+        "englishTranslation":  "di",
+        "alternateEnglishTranslation":  "zi",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER DU",
+        "character":  "づ",
+        "unicode":  "\u0026‌#12389;",
+        "hexEncoding":  "\u0026‌#x3065",
+        "englishTranslation":  "du",
+        "alternateEnglishTranslation":  "zu",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER DE",
+        "character":  "で",
+        "unicode":  "\u0026‌#12391;",
+        "hexEncoding":  "\u0026‌#x3067",
+        "englishTranslation":  "de",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER DO",
+        "character":  "ど",
+        "unicode":  "\u0026‌#12393;",
+        "hexEncoding":  "\u0026‌#x3069",
+        "englishTranslation":  "do",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER BA",
+        "character":  "ば",
+        "unicode":  "\u0026‌#12400;",
+        "hexEncoding":  "\u0026‌#x3070",
+        "englishTranslation":  "ba",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER BI",
+        "character":  "び",
+        "unicode":  "\u0026‌#12403;",
+        "hexEncoding":  "\u0026‌#x3073",
+        "englishTranslation":  "bi",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER BU",
+        "character":  "ぶ",
+        "unicode":  "\u0026‌#12406;",
+        "hexEncoding":  "\u0026‌#x3076",
+        "englishTranslation":  "bu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER BE",
+        "character":  "べ",
+        "unicode":  "\u0026‌#12409;",
+        "hexEncoding":  "\u0026‌#x3079",
+        "englishTranslation":  "be",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER BO",
+        "character":  "ぼ",
+        "unicode":  "\u0026‌#12412;",
+        "hexEncoding":  "\u0026‌#x307C",
+        "englishTranslation":  "bo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER PA",
+        "character":  "ぱ",
+        "unicode":  "\u0026‌#12401;",
+        "hexEncoding":  "\u0026‌#x3071",
+        "englishTranslation":  "pa",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER PI",
+        "character":  "ぴ",
+        "unicode":  "\u0026‌#12404;",
+        "hexEncoding":  "\u0026‌#x3074",
+        "englishTranslation":  "pi",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER PU",
+        "character":  "ぷ",
+        "unicode":  "\u0026‌#12407;",
+        "hexEncoding":  "\u0026‌#x3077",
+        "englishTranslation":  "pu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER PE",
+        "character":  "ぺ",
+        "unicode":  "\u0026‌#12410;",
+        "hexEncoding":  "\u0026‌#x307A",
+        "englishTranslation":  "pe",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER PO",
+        "character":  "ぽ",
+        "unicode":  "\u0026‌#12413;",
+        "hexEncoding":  "\u0026‌#x307D",
+        "englishTranslation":  "po",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER KYA",
+        "character":  "きゃ",
+        "unicode":  "\u0026‌#12365;\u0026‌#12419;",
+        "hexEncoding":  "\u0026‌#x304D;\u0026‌#x3083;",
+        "englishTranslation":  "kya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER KYU",
+        "character":  "きゅ",
+        "unicode":  "\u0026‌#12365;\u0026‌#12421;",
+        "hexEncoding":  "\u0026‌#x304D;\u0026‌#x3085;",
+        "englishTranslation":  "kyu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER KYO",
+        "character":  "きょ",
+        "unicode":  "\u0026‌#12365;\u0026‌#12423;",
+        "hexEncoding":  "\u0026‌#x304D;\u0026‌#x3087;",
+        "englishTranslation":  "kyo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER SHA",
+        "character":  "しゃ",
+        "unicode":  "\u0026‌#12375;\u0026‌#12419;",
+        "hexEncoding":  "\u0026‌#x3057;\u0026‌#x3083",
+        "englishTranslation":  "sha",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER SHU",
+        "character":  "しゅ",
+        "unicode":  "\u0026‌#12375;\u0026‌#12421;",
+        "hexEncoding":  "\u0026‌#x3057;\u0026‌#x3085;",
+        "englishTranslation":  "shu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER SHO",
+        "character":  "しょ",
+        "unicode":  "\u0026‌#12375;\u0026‌#12423;",
+        "hexEncoding":  "\u0026‌#x3057;\u0026‌#x3087;",
+        "englishTranslation":  "sho",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER CHA",
+        "character":  "ちゃ",
+        "unicode":  "\u0026‌#12385;\u0026‌#12419;",
+        "hexEncoding":  "\u0026‌#x3061;\u0026‌#x3083",
+        "englishTranslation":  "cha",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER CHU",
+        "character":  "ちゅ",
+        "unicode":  "\u0026‌#12385;\u0026‌#12421;",
+        "hexEncoding":  "\u0026‌#x3061;\u0026‌#x3085;",
+        "englishTranslation":  "chu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER CHO",
+        "character":  "ちょ",
+        "unicode":  "\u0026‌#12385;\u0026‌#12423;",
+        "hexEncoding":  "\u0026‌#x3061;\u0026‌#x3087;",
+        "englishTranslation":  "cho",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER NYA",
+        "character":  "にゃ",
+        "unicode":  "\u0026‌#12395;\u0026‌#12419;",
+        "hexEncoding":  "\u0026‌#x306B;\u0026‌#x3083",
+        "englishTranslation":  "nya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER NYU",
+        "character":  "にゅ",
+        "unicode":  "\u0026‌#12395;\u0026‌#12421;",
+        "hexEncoding":  "\u0026‌#x306B;\u0026‌#x3085;",
+        "englishTranslation":  "nyu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER NYO",
+        "character":  "にょ",
+        "unicode":  "\u0026‌#12395;\u0026‌#12423;",
+        "hexEncoding":  "\u0026‌#x306B;\u0026‌#x3087;",
+        "englishTranslation":  "nyo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER HYA",
+        "character":  "ひゃ",
+        "unicode":  "\u0026‌#12402;\u0026‌#12419;",
+        "hexEncoding":  "\u0026‌#x3072;\u0026‌#x3083",
+        "englishTranslation":  "hya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER HYU",
+        "character":  "ひゅ",
+        "unicode":  "\u0026‌#12402;\u0026‌#12421;",
+        "hexEncoding":  "\u0026‌#x3072;\u0026‌#x3085;",
+        "englishTranslation":  "hyu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER HYO",
+        "character":  "ひょ",
+        "unicode":  "\u0026‌#12402;\u0026‌#12423;",
+        "hexEncoding":  "\u0026‌#x3072;\u0026‌#x3087;",
+        "englishTranslation":  "hyo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER MYA",
+        "character":  "みゃ",
+        "unicode":  "\u0026‌#12415;\u0026‌#12419;",
+        "hexEncoding":  "\u0026‌#x307F;\u0026‌#x3083",
+        "englishTranslation":  "mya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER MYU",
+        "character":  "みゅ",
+        "unicode":  "\u0026‌#12415;\u0026‌#12421;",
+        "hexEncoding":  "\u0026‌#x307F;\u0026‌#x3085;",
+        "englishTranslation":  "myu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER MYO",
+        "character":  "みょ",
+        "unicode":  "\u0026‌#12415;\u0026‌#12423;",
+        "hexEncoding":  "\u0026‌#x307F;\u0026‌#x3087;",
+        "englishTranslation":  "myo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER RYA",
+        "character":  "りゃ",
+        "unicode":  "\u0026‌#12426;\u0026‌#12419;",
+        "hexEncoding":  "\u0026‌#x308A;\u0026‌#x3083",
+        "englishTranslation":  "rya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER RYU",
+        "character":  "りゅ",
+        "unicode":  "\u0026‌#12426;\u0026‌#12421;",
+        "hexEncoding":  "\u0026‌#x308A;\u0026‌#x3085;",
+        "englishTranslation":  "ryu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER RYO",
+        "character":  "りょ",
+        "unicode":  "\u0026‌#12426;\u0026‌#12423;",
+        "hexEncoding":  "\u0026‌#x308A;\u0026‌#x3087;",
+        "englishTranslation":  "ryo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER GYA",
+        "character":  "ぎゃ",
+        "unicode":  "\u0026‌#12366;\u0026‌#12419;",
+        "hexEncoding":  "\u0026‌#x304E;\u0026‌#x3083",
+        "englishTranslation":  "gya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER GYU",
+        "character":  "ぎゅ",
+        "unicode":  "\u0026‌#12366;\u0026‌#12421;",
+        "hexEncoding":  "\u0026‌#x304E;\u0026‌#x3085;",
+        "englishTranslation":  "gyu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER GYO",
+        "character":  "ぎょ",
+        "unicode":  "\u0026‌#12366;\u0026‌#12423;",
+        "hexEncoding":  "\u0026‌#x304E;\u0026‌#x3087;",
+        "englishTranslation":  "gyo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER JYA",
+        "character":  "じゃ",
+        "unicode":  "\u0026‌#12376;\u0026‌#12419;",
+        "hexEncoding":  "\u0026‌#x3058;\u0026‌#x3083",
+        "englishTranslation":  "jya",
+        "alternateEnglishTranslation":  "ja",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER JYU",
+        "character":  "じゅ",
+        "unicode":  "\u0026‌#12376;\u0026‌#12421;",
+        "hexEncoding":  "\u0026‌#x3058;\u0026‌#x3085;",
+        "englishTranslation":  "jyu",
+        "alternateEnglishTranslation":  "ju",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER JYO",
+        "character":  "じょ",
+        "unicode":  "\u0026‌#12376;\u0026‌#12423;",
+        "hexEncoding":  "\u0026‌#x3058;\u0026‌#x3087;",
+        "englishTranslation":  "jyo",
+        "alternateEnglishTranslation":  "jo",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER DYA",
+        "character":  "ぢゃ",
+        "unicode":  "\u0026‌#12386;\u0026‌#12419;",
+        "hexEncoding":  "\u0026‌#x3062;\u0026‌#x3083",
+        "englishTranslation":  "dya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER DYU",
+        "character":  "ぢゅ",
+        "unicode":  "\u0026‌#12386;\u0026‌#12421;",
+        "hexEncoding":  "\u0026‌#x3062;\u0026‌#x3085;",
+        "englishTranslation":  "dyu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER DYO",
+        "character":  "ぢょ",
+        "unicode":  "\u0026‌#12386;\u0026‌#12423;",
+        "hexEncoding":  "\u0026‌#x3062;\u0026‌#x3087;",
+        "englishTranslation":  "dyo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER BYA",
+        "character":  "びゃ",
+        "unicode":  "\u0026‌#12403;\u0026‌#12419;",
+        "hexEncoding":  "\u0026‌#x3073;\u0026‌#x3083",
+        "englishTranslation":  "bya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER BYU",
+        "character":  "びゅ",
+        "unicode":  "\u0026‌#12403;\u0026‌#12421;",
+        "hexEncoding":  "\u0026‌#x3073;\u0026‌#x3085;",
+        "englishTranslation":  "byu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER BYO",
+        "character":  "びょ",
+        "unicode":  "\u0026‌#12403;\u0026‌#12423;",
+        "hexEncoding":  "\u0026‌#x3073;\u0026‌#x3087;",
+        "englishTranslation":  "byo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER PYA",
+        "character":  "ぴゃ",
+        "unicode":  "\u0026‌#12404;\u0026‌#12419;",
+        "hexEncoding":  "\u0026‌#x3074;\u0026‌#x3083",
+        "englishTranslation":  "pya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER PYU",
+        "character":  "ぴゅ",
+        "unicode":  "\u0026‌#12404;\u0026‌#12421;",
+        "hexEncoding":  "\u0026‌#x3074;\u0026‌#x3085;",
+        "englishTranslation":  "pyu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER PYO",
+        "character":  "ぴょ",
+        "unicode":  "\u0026‌#12404;\u0026‌#12423;",
+        "hexEncoding":  "\u0026‌#x3074;\u0026‌#x3087;",
+        "englishTranslation":  "pyo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "KATAKANA LETTER A",
+        "character":  "ア",
+        "unicode":  "\u0026‌#12450;",
+        "hexEncoding":  "\u0026‌#x30A2;",
+        "englishTranslation":  "a",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER I",
+        "character":  "イ",
+        "unicode":  "\u0026‌#12452;",
+        "hexEncoding":  "\u0026‌#x30A4;",
+        "englishTranslation":  "i",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER U",
+        "character":  "ウ",
+        "unicode":  "\u0026‌#12454;",
+        "hexEncoding":  "\u0026‌#x30A6;",
+        "englishTranslation":  "u",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER E",
+        "character":  "エ",
+        "unicode":  "\u0026‌#12456;",
+        "hexEncoding":  "\u0026‌#x30A8;",
+        "englishTranslation":  "e",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER O",
+        "character":  "オ",
+        "unicode":  "\u0026‌#12458;",
+        "hexEncoding":  "\u0026‌#x30AA;",
+        "englishTranslation":  "o",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER KA",
+        "character":  "カ",
+        "unicode":  "\u0026‌#12459;",
+        "hexEncoding":  "\u0026‌#x30AB;",
+        "englishTranslation":  "ka",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER KI",
+        "character":  "キ",
+        "unicode":  "\u0026‌#12461;",
+        "hexEncoding":  "\u0026‌#x30AD;",
+        "englishTranslation":  "ki",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER KU",
+        "character":  "ク",
+        "unicode":  "\u0026‌#12463;",
+        "hexEncoding":  "\u0026‌#x30AF;",
+        "englishTranslation":  "ku",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER KE",
+        "character":  "ケ",
+        "unicode":  "\u0026‌#12465;",
+        "hexEncoding":  "\u0026‌#x30B1;",
+        "englishTranslation":  "ke",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER KO",
+        "character":  "コ",
+        "unicode":  "\u0026‌#12467;",
+        "hexEncoding":  "\u0026‌#x30B3;",
+        "englishTranslation":  "ko",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER SA",
+        "character":  "サ",
+        "unicode":  "\u0026‌#12469;",
+        "hexEncoding":  "\u0026‌#x30B5;",
+        "englishTranslation":  "sa",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER SI",
+        "character":  "シ",
+        "unicode":  "\u0026‌#12471;",
+        "hexEncoding":  "\u0026‌#x30B7;",
+        "englishTranslation":  "shi",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER SU",
+        "character":  "ス",
+        "unicode":  "\u0026‌#12473;",
+        "hexEncoding":  "\u0026‌#x30B9;",
+        "englishTranslation":  "su",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER SE",
+        "character":  "セ",
+        "unicode":  "\u0026‌#12475;",
+        "hexEncoding":  "\u0026‌#x30BB;",
+        "englishTranslation":  "se",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER SO",
+        "character":  "ソ",
+        "unicode":  "\u0026‌#12477;",
+        "hexEncoding":  "\u0026‌#x30BD;",
+        "englishTranslation":  "so",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER TA",
+        "character":  "タ",
+        "unicode":  "\u0026‌#12479;",
+        "hexEncoding":  "\u0026‌#x30BF;",
+        "englishTranslation":  "ta",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER TI",
+        "character":  "チ",
+        "unicode":  "\u0026‌#12481;",
+        "hexEncoding":  "\u0026‌#x30C1;",
+        "englishTranslation":  "chi",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER TU",
+        "character":  "ツ",
+        "unicode":  "\u0026‌#12484;",
+        "hexEncoding":  "\u0026‌#x30C4;",
+        "englishTranslation":  "tsu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER TE",
+        "character":  "テ",
+        "unicode":  "\u0026‌#12486;",
+        "hexEncoding":  "\u0026‌#x30C6;",
+        "englishTranslation":  "te",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER TO",
+        "character":  "ト",
+        "unicode":  "\u0026‌#12488;",
+        "hexEncoding":  "\u0026‌#x30C8;",
+        "englishTranslation":  "to",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER NA",
+        "character":  "ナ",
+        "unicode":  "\u0026‌#12490;",
+        "hexEncoding":  "\u0026‌#x30CA;",
+        "englishTranslation":  "na",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER NI",
+        "character":  "ニ",
+        "unicode":  "\u0026‌#12491;",
+        "hexEncoding":  "\u0026‌#x30CB;",
+        "englishTranslation":  "ni",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER NU",
+        "character":  "ヌ",
+        "unicode":  "\u0026‌#12492;",
+        "hexEncoding":  "\u0026‌#x30CC;",
+        "englishTranslation":  "nu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER NE",
+        "character":  "ネ",
+        "unicode":  "\u0026‌#12493;",
+        "hexEncoding":  "\u0026‌#x30CD;",
+        "englishTranslation":  "ne",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER NO",
+        "character":  "ノ",
+        "unicode":  "\u0026‌#12494;",
+        "hexEncoding":  "\u0026‌#x30CE;",
+        "englishTranslation":  "no",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER HA",
+        "character":  "ハ",
+        "unicode":  "\u0026‌#12495;",
+        "hexEncoding":  "\u0026‌#x30CF;",
+        "englishTranslation":  "ha",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER HI",
+        "character":  "ヒ",
+        "unicode":  "\u0026‌#12498;",
+        "hexEncoding":  "\u0026‌#x30D2;",
+        "englishTranslation":  "hi",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER HU",
+        "character":  "フ",
+        "unicode":  "\u0026‌#12501;",
+        "hexEncoding":  "\u0026‌#x30D5;",
+        "englishTranslation":  "hu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER HE",
+        "character":  "ヘ",
+        "unicode":  "\u0026‌#12504;",
+        "hexEncoding":  "\u0026‌#x30D8;",
+        "englishTranslation":  "he",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER HO",
+        "character":  "ホ",
+        "unicode":  "\u0026‌#12507;",
+        "hexEncoding":  "\u0026‌#x30DB;",
+        "englishTranslation":  "ho",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER MA",
+        "character":  "マ",
+        "unicode":  "\u0026‌#12510;",
+        "hexEncoding":  "\u0026‌#x30DE;",
+        "englishTranslation":  "ma",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER MI",
+        "character":  "ミ",
+        "unicode":  "\u0026‌#12511;",
+        "hexEncoding":  "\u0026‌#x30DF;",
+        "englishTranslation":  "mi",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER MU",
+        "character":  "ム",
+        "unicode":  "\u0026‌#12512;",
+        "hexEncoding":  "\u0026‌#x30E0;",
+        "englishTranslation":  "mu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER ME",
+        "character":  "メ",
+        "unicode":  "\u0026‌#12513;",
+        "hexEncoding":  "\u0026‌#x30E1;",
+        "englishTranslation":  "me",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER MO",
+        "character":  "モ",
+        "unicode":  "\u0026‌#12514;",
+        "hexEncoding":  "\u0026‌#x30E2;",
+        "englishTranslation":  "mo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER YA",
+        "character":  "ヤ",
+        "unicode":  "\u0026‌#12516;",
+        "hexEncoding":  "\u0026‌#x30E4;",
+        "englishTranslation":  "ya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER YU",
+        "character":  "ユ",
+        "unicode":  "\u0026‌#12518;",
+        "hexEncoding":  "\u0026‌#x30E6;",
+        "englishTranslation":  "yu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER YO",
+        "character":  "ヨ",
+        "unicode":  "\u0026‌#12520;",
+        "hexEncoding":  "\u0026‌#x30E8;",
+        "englishTranslation":  "yo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER RA",
+        "character":  "ラ",
+        "unicode":  "\u0026‌#12521;",
+        "hexEncoding":  "\u0026‌#x30E9;",
+        "englishTranslation":  "ra",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER RI",
+        "character":  "リ",
+        "unicode":  "\u0026‌#12522;",
+        "hexEncoding":  "\u0026‌#x30EA;",
+        "englishTranslation":  "ri",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER RU",
+        "character":  "ル",
+        "unicode":  "\u0026‌#12523;",
+        "hexEncoding":  "\u0026‌#x30EB;",
+        "englishTranslation":  "ru",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER RE",
+        "character":  "レ",
+        "unicode":  "\u0026‌#12524;",
+        "hexEncoding":  "\u0026‌#x30EC;",
+        "englishTranslation":  "re",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER RO",
+        "character":  "ロ",
+        "unicode":  "\u0026‌#12525;",
+        "hexEncoding":  "\u0026‌#x30ED;",
+        "englishTranslation":  "ro",
+        "alternateEnglishTranslation":  "fu",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER WA",
+        "character":  "ワ",
+        "unicode":  "\u0026‌#12527;",
+        "hexEncoding":  "\u0026‌#x30EF;",
+        "englishTranslation":  "wa",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER WI",
+        "character":  "ヰ",
+        "unicode":  "\u0026‌#12528;",
+        "hexEncoding":  "\u0026‌#x30F0;",
+        "englishTranslation":  "wi",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER WE",
+        "character":  "ヱ",
+        "unicode":  "\u0026‌#12529;",
+        "hexEncoding":  "\u0026‌#x30F1;",
+        "englishTranslation":  "we",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER WO",
+        "character":  "ヲ",
+        "unicode":  "\u0026‌#12530;",
+        "hexEncoding":  "\u0026‌#x30F2;",
+        "englishTranslation":  "wo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER N",
+        "character":  "ン",
+        "unicode":  "\u0026‌#12531;",
+        "hexEncoding":  "\u0026‌#x30F3;",
+        "englishTranslation":  "n",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER GA",
+        "character":  "ガ",
+        "unicode":  "\u0026‌#12460;",
+        "hexEncoding":  "\u0026‌#x30AC;",
+        "englishTranslation":  "ga",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER GI",
+        "character":  "ギ",
+        "unicode":  "\u0026‌#12462;",
+        "hexEncoding":  "\u0026‌#x30AE;",
+        "englishTranslation":  "gi",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER GU",
+        "character":  "グ",
+        "unicode":  "\u0026‌#12464;",
+        "hexEncoding":  "\u0026‌#x30B0;",
+        "englishTranslation":  "gu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER GE",
+        "character":  "ゲ",
+        "unicode":  "\u0026‌#12466;",
+        "hexEncoding":  "\u0026‌#x30B2;",
+        "englishTranslation":  "ge",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER GO",
+        "character":  "ゴ",
+        "unicode":  "\u0026‌#12468;",
+        "hexEncoding":  "\u0026‌#x30B4;",
+        "englishTranslation":  "go",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER ZA",
+        "character":  "ザ",
+        "unicode":  "\u0026‌#12470;",
+        "hexEncoding":  "\u0026‌#x30B6;",
+        "englishTranslation":  "za",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER ZI",
+        "character":  "ジ",
+        "unicode":  "\u0026‌#12472;",
+        "hexEncoding":  "\u0026‌#x30B8;",
+        "englishTranslation":  "ji",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER ZU",
+        "character":  "ズ",
+        "unicode":  "\u0026‌#12474;",
+        "hexEncoding":  "\u0026‌#x30BA;",
+        "englishTranslation":  "zu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER ZE",
+        "character":  "ゼ",
+        "unicode":  "\u0026‌#12476;",
+        "hexEncoding":  "\u0026‌#x30BC;",
+        "englishTranslation":  "ze",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER ZO",
+        "character":  "ゾ",
+        "unicode":  "\u0026‌#12478;",
+        "hexEncoding":  "\u0026‌#x30BE;",
+        "englishTranslation":  "zo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER DA",
+        "character":  "ダ",
+        "unicode":  "\u0026‌#12480;",
+        "hexEncoding":  "\u0026‌#x30C0;",
+        "englishTranslation":  "da",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER DI",
+        "character":  "ヂ",
+        "unicode":  "\u0026‌#12482;",
+        "hexEncoding":  "\u0026‌#x30C2;",
+        "englishTranslation":  "di",
+        "alternateEnglishTranslation":  "zi",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER DU",
+        "character":  "ヅ",
+        "unicode":  "\u0026‌#12485;",
+        "hexEncoding":  "\u0026‌#x30C5;",
+        "englishTranslation":  "du",
+        "alternateEnglishTranslation":  "zu",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER DE",
+        "character":  "デ",
+        "unicode":  "\u0026‌#12487;",
+        "hexEncoding":  "\u0026‌#x30C7;",
+        "englishTranslation":  "de",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER DO",
+        "character":  "ド",
+        "unicode":  "\u0026‌#12489;",
+        "hexEncoding":  "\u0026‌#x30C9;",
+        "englishTranslation":  "do",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER BA",
+        "character":  "バ",
+        "unicode":  "\u0026‌#12496;",
+        "hexEncoding":  "\u0026‌#x30D0;",
+        "englishTranslation":  "ba",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER BI",
+        "character":  "ビ",
+        "unicode":  "\u0026‌#12499;",
+        "hexEncoding":  "\u0026‌#x30D3;",
+        "englishTranslation":  "bi",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER BU",
+        "character":  "ブ",
+        "unicode":  "\u0026‌#12502;",
+        "hexEncoding":  "\u0026‌#x30D6;",
+        "englishTranslation":  "bu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER BE",
+        "character":  "ベ",
+        "unicode":  "\u0026‌#12505;",
+        "hexEncoding":  "\u0026‌#x30D9;",
+        "englishTranslation":  "be",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER BO",
+        "character":  "ボ",
+        "unicode":  "\u0026‌#12508;",
+        "hexEncoding":  "\u0026‌#x30DC;",
+        "englishTranslation":  "bo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER PA",
+        "character":  "パ",
+        "unicode":  "\u0026‌#12497;",
+        "hexEncoding":  "\u0026‌#x30D1;",
+        "englishTranslation":  "pa",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER PI",
+        "character":  "ピ",
+        "unicode":  "\u0026‌#12500;",
+        "hexEncoding":  "\u0026‌#x30D4;",
+        "englishTranslation":  "pi",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER PU",
+        "character":  "プ",
+        "unicode":  "\u0026‌#12503;",
+        "hexEncoding":  "\u0026‌#x30D7;",
+        "englishTranslation":  "pu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER PE",
+        "character":  "ペ",
+        "unicode":  "\u0026‌#12506;",
+        "hexEncoding":  "\u0026‌#x30DA;",
+        "englishTranslation":  "pe",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER PO",
+        "character":  "ポ",
+        "unicode":  "\u0026‌#12509;",
+        "hexEncoding":  "\u0026‌#x30DD;",
+        "englishTranslation":  "po",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER KYA",
+        "character":  "キァ",
+        "unicode":  "\u0026‌#12461;\u0026‌#12449;",
+        "hexEncoding":  "\u0026‌#x30AD;\u0026‌#x30A1;",
+        "englishTranslation":  "kya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER KYU",
+        "character":  "キゥ",
+        "unicode":  "\u0026‌#12461;\u0026‌#12453;",
+        "hexEncoding":  "\u0026‌#x30AD;\u0026‌#x30A5;",
+        "englishTranslation":  "kyu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER KYO",
+        "character":  "キォ",
+        "unicode":  "\u0026‌#12461;\u0026‌#12457;",
+        "hexEncoding":  "\u0026‌#x30AD;\u0026‌#x30A9;",
+        "englishTranslation":  "kyo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER SHA",
+        "character":  "シァ",
+        "unicode":  "\u0026‌#12471;\u0026‌#12449;",
+        "hexEncoding":  "\u0026‌#x30B7;\u0026‌#x30A1;",
+        "englishTranslation":  "sha",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER SHU",
+        "character":  "シゥ",
+        "unicode":  "\u0026‌#12471;\u0026‌#12453;",
+        "hexEncoding":  "\u0026‌#x30B7;\u0026‌#x30A5;",
+        "englishTranslation":  "shu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER SHO",
+        "character":  "シォ",
+        "unicode":  "\u0026‌#12471;\u0026‌#12457;",
+        "hexEncoding":  "\u0026‌#x30B7;\u0026‌#x30A9;",
+        "englishTranslation":  "sho",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER CHA",
+        "character":  "チァ",
+        "unicode":  "\u0026‌#12481;\u0026‌#12449;",
+        "hexEncoding":  "\u0026‌#x30C1;\u0026‌#x30A1;",
+        "englishTranslation":  "cha",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER CHU",
+        "character":  "チゥ",
+        "unicode":  "\u0026‌#12481;\u0026‌#12453;",
+        "hexEncoding":  "\u0026‌#x30C1;\u0026‌#x30A5;",
+        "englishTranslation":  "chu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER CHO",
+        "character":  "チォ",
+        "unicode":  "\u0026‌#12481;\u0026‌#12457;",
+        "hexEncoding":  "\u0026‌#x30C1;\u0026‌#x30A9;",
+        "englishTranslation":  "cho",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER NYA",
+        "character":  "ニァ",
+        "unicode":  "\u0026‌#12491;\u0026‌#12449;",
+        "hexEncoding":  "\u0026‌#x30CB;\u0026‌#x30A1;",
+        "englishTranslation":  "nya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER NYU",
+        "character":  "ニゥ",
+        "unicode":  "\u0026‌#12491;\u0026‌#12453;",
+        "hexEncoding":  "\u0026‌#x30CB;\u0026‌#x30A5;",
+        "englishTranslation":  "nyu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER NYO",
+        "character":  "ニォ",
+        "unicode":  "\u0026‌#12491;\u0026‌#12457;",
+        "hexEncoding":  "\u0026‌#x30CB;\u0026‌#x30A9;",
+        "englishTranslation":  "nyo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER HYA",
+        "character":  "ヒァ",
+        "unicode":  "\u0026‌#12498;\u0026‌#12449;",
+        "hexEncoding":  "\u0026‌#x30D2;\u0026‌#x30A1;",
+        "englishTranslation":  "hya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER HYU",
+        "character":  "ヒゥ",
+        "unicode":  "\u0026‌#12498;\u0026‌#12453;",
+        "hexEncoding":  "\u0026‌#x30D2;\u0026‌#x30A5;",
+        "englishTranslation":  "hyu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER HYO",
+        "character":  "ヒォ",
+        "unicode":  "\u0026‌#12498;\u0026‌#12457;",
+        "hexEncoding":  "\u0026‌#x30D2;\u0026‌#x30A9;",
+        "englishTranslation":  "hyo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER MYA",
+        "character":  "ミァ",
+        "unicode":  "\u0026‌#12511;\u0026‌#12449;",
+        "hexEncoding":  "\u0026‌#x30DF;\u0026‌#x30A1;",
+        "englishTranslation":  "mya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER MYU",
+        "character":  "ミゥ",
+        "unicode":  "\u0026‌#12511;\u0026‌#12453;",
+        "hexEncoding":  "\u0026‌#x30DF;\u0026‌#x30A5;",
+        "englishTranslation":  "myu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER MYO",
+        "character":  "ミォ",
+        "unicode":  "\u0026‌#12511;\u0026‌#12457;",
+        "hexEncoding":  "\u0026‌#x30DF;\u0026‌#x30A9;",
+        "englishTranslation":  "myo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER RYA",
+        "character":  "リァ",
+        "unicode":  "\u0026‌#12522;\u0026‌#12449;",
+        "hexEncoding":  "\u0026‌#x30EA;\u0026‌#x30A1;",
+        "englishTranslation":  "rya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER RYU",
+        "character":  "リゥ",
+        "unicode":  "\u0026‌#12522;\u0026‌#12453;",
+        "hexEncoding":  "\u0026‌#x30EA;\u0026‌#x30A5;",
+        "englishTranslation":  "ryu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER RYO",
+        "character":  "リォ",
+        "unicode":  "\u0026‌#12522;\u0026‌#12457;",
+        "hexEncoding":  "\u0026‌#x30EA;\u0026‌#x30A9;",
+        "englishTranslation":  "ryo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER GYA",
+        "character":  "ギァ",
+        "unicode":  "\u0026‌#12462;\u0026‌#12449;",
+        "hexEncoding":  "\u0026‌#x30AE;\u0026‌#x30A1;",
+        "englishTranslation":  "gya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER GYU",
+        "character":  "ギゥ",
+        "unicode":  "\u0026‌#12462;\u0026‌#12453;",
+        "hexEncoding":  "\u0026‌#x30AE;\u0026‌#x30A5;",
+        "englishTranslation":  "gyu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER GYO",
+        "character":  "ギォ",
+        "unicode":  "\u0026‌#12462;\u0026‌#12457;",
+        "hexEncoding":  "\u0026‌#x30AE;\u0026‌#x30A9;",
+        "englishTranslation":  "gyo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER JYA",
+        "character":  "ジァ",
+        "unicode":  "\u0026‌#12472;\u0026‌#12449;",
+        "hexEncoding":  "\u0026‌#x30B8;\u0026‌#x30A1;",
+        "englishTranslation":  "jya",
+        "alternateEnglishTranslation":  "ja",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER JYU",
+        "character":  "ジゥ",
+        "unicode":  "\u0026‌#12472;\u0026‌#12453;",
+        "hexEncoding":  "\u0026‌#x30B8;\u0026‌#x30A5;",
+        "englishTranslation":  "jyu",
+        "alternateEnglishTranslation":  "ju",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER JYO",
+        "character":  "ジォ",
+        "unicode":  "\u0026‌#12472;\u0026‌#12457;",
+        "hexEncoding":  "\u0026‌#x30B8;\u0026‌#x30A9;",
+        "englishTranslation":  "jyo",
+        "alternateEnglishTranslation":  "jo",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER DYA",
+        "character":  "ヂァ",
+        "unicode":  "\u0026‌#12482;\u0026‌#12449;",
+        "hexEncoding":  "\u0026‌#x30C2;\u0026‌#x30A1;",
+        "englishTranslation":  "dya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER DYU",
+        "character":  "ヂゥ",
+        "unicode":  "\u0026‌#12482;\u0026‌#12453;",
+        "hexEncoding":  "\u0026‌#x30C2;\u0026‌#x30A5;",
+        "englishTranslation":  "dyu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER DYO",
+        "character":  "ヂォ",
+        "unicode":  "\u0026‌#12482;\u0026‌#12457;",
+        "hexEncoding":  "\u0026‌#x30C2;\u0026‌#x30A9;",
+        "englishTranslation":  "dyo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER BYA",
+        "character":  "ビァ",
+        "unicode":  "\u0026‌#12499;\u0026‌#12449;",
+        "hexEncoding":  "\u0026‌#x30D3;\u0026‌#x30A1;",
+        "englishTranslation":  "bya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER BYU",
+        "character":  "ビゥ",
+        "unicode":  "\u0026‌#12499;\u0026‌#12453;",
+        "hexEncoding":  "\u0026‌#x30D3;\u0026‌#x30A5;",
+        "englishTranslation":  "byu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER BYO",
+        "character":  "ビォ",
+        "unicode":  "\u0026‌#12499;\u0026‌#12457;",
+        "hexEncoding":  "\u0026‌#x30D3;\u0026‌#x30A9;",
+        "englishTranslation":  "byo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER PYA",
+        "character":  "ピァ",
+        "unicode":  "\u0026‌#12500;\u0026‌#12449;",
+        "hexEncoding":  "\u0026‌#x30D4;\u0026‌#x30A1;",
+        "englishTranslation":  "pya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER PYU",
+        "character":  "ピゥ",
+        "unicode":  "\u0026‌#12500;\u0026‌#12453;",
+        "hexEncoding":  "\u0026‌#x30D4;\u0026‌#x30A5;",
+        "englishTranslation":  "pyu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER PYO",
+        "character":  "ピォ",
+        "unicode":  "\u0026‌#12500;\u0026‌#12457;",
+        "hexEncoding":  "\u0026‌#x30D4;\u0026‌#x30A9;",
+        "englishTranslation":  "pyo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER VA",
+        "character":  "ヴァ",
+        "unicode":  "\u0026‌#12535;\u0026‌#12449;",
+        "hexEncoding":  "\u0026‌#x30F7;\u0026‌#x30A1;",
+        "englishTranslation":  "va",
+        "alternateEnglishTranslation":  "bwa",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER VI",
+        "character":  "ヴィ",
+        "unicode":  "\u0026‌#12536;\u0026‌#12451;",
+        "hexEncoding":  "\u0026‌#x30F8;\u0026‌#x30A3;",
+        "englishTranslation":  "vi",
+        "alternateEnglishTranslation":  "bwi",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER VU",
+        "character":  "ヴ",
+        "unicode":  "\u0026‌#12532;\u0026‌#12453;",
+        "hexEncoding":  "\u0026‌#x30F4;\u0026‌#x30A5;",
+        "englishTranslation":  "vu",
+        "alternateEnglishTranslation":  "bu",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER VE",
+        "character":  "ヴェ",
+        "unicode":  "\u0026‌#12537;\u0026‌#12455;",
+        "hexEncoding":  "\u0026‌#x30F9;\u0026‌#x30A7;",
+        "englishTranslation":  "ve",
+        "alternateEnglishTranslation":  "bwe",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER VO",
+        "character":  "ヴォ",
+        "unicode":  "\u0026‌#12538;\u0026‌#12457;",
+        "hexEncoding":  "\u0026‌#x30FA;\u0026‌#x30A9;",
+        "englishTranslation":  "vo",
+        "alternateEnglishTranslation":  "bwo",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER WI",
+        "character":  "ウィ",
+        "unicode":  "\u0026‌#12454;\u0026‌#12451;",
+        "hexEncoding":  "\u0026‌#x30A6;\u0026‌#x30A3;",
+        "englishTranslation":  "wi",
+        "alternateEnglishTranslation":  "ui",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER WE",
+        "character":  "ウェ",
+        "unicode":  "\u0026‌#12454;\u0026‌#12455;",
+        "hexEncoding":  "\u0026‌#x30A6;\u0026‌#x30A7;",
+        "englishTranslation":  "we",
+        "alternateEnglishTranslation":  "ue",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER WO",
+        "character":  "ウォ",
+        "unicode":  "\u0026‌#12454;\u0026‌#12457;",
+        "hexEncoding":  "\u0026‌#x30A6;\u0026‌#x30A9;",
+        "englishTranslation":  "wo",
+        "alternateEnglishTranslation":  "uo",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER FA",
+        "character":  "ファ",
+        "unicode":  "\u0026‌#12501;\u0026‌#12449;",
+        "hexEncoding":  "\u0026‌#x30D5;\u0026‌#x30A1;",
+        "englishTranslation":  "fa",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER FI",
+        "character":  "フィ",
+        "unicode":  "\u0026‌#12501;\u0026‌#12451;",
+        "hexEncoding":  "\u0026‌#x30D5;\u0026‌#x30A3;",
+        "englishTranslation":  "fi",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER FE",
+        "character":  "フェ",
+        "unicode":  "\u0026‌#12501;\u0026‌#12455;",
+        "hexEncoding":  "\u0026‌#x30D5;\u0026‌#x30A7;",
+        "englishTranslation":  "fu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER FO",
+        "character":  "フォ",
+        "unicode":  "\u0026‌#12501;\u0026‌#12457;",
+        "hexEncoding":  "\u0026‌#x30D5;\u0026‌#x30A9;",
+        "englishTranslation":  "fo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "TRUE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA MIDDLE DOT",
+        "character":  "・",
+        "unicode":  "\u0026‌#12539;",
+        "hexEncoding":  "\u0026‌#x30FB;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "HIRAGANA VOICED ITERATION MARK",
+        "character":  "ゞ",
+        "unicode":  "\u0026‌#12446;",
+        "hexEncoding":  "\u0026‌#x309E;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "KATAKANA-HIRAGANA VOICED SOUND MARK",
+        "character":  "゛",
+        "unicode":  "\u0026‌#12443;",
+        "hexEncoding":  "\u0026‌#x309B;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "kh"
+    },
+    {
+        "characterName":  "KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK",
+        "character":  "゜",
+        "unicode":  "\u0026‌#12444;",
+        "hexEncoding":  "\u0026‌#x309C;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "kh"
+    },
+    {
+        "characterName":  "KATAKANA-HIRAGANA PROLONGED SOUND MARK",
+        "character":  "ー",
+        "unicode":  "\u0026‌#12540;",
+        "hexEncoding":  "\u0026‌#x30FC;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "kh"
+    },
+    {
+        "characterName":  "HALFWIDTH KATAKANA-HIRAGANA PROLONGED SOUND MARK",
+        "character":  "ｰ",
+        "unicode":  "\u0026‌#65392;",
+        "hexEncoding":  "\u0026‌#xFF70;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "kh"
+    },
+    {
+        "characterName":  "KATAKANA-HIRAGANA VOICED SOUND MARK",
+        "character":  "゛",
+        "unicode":  "\u0026‌#12443;",
+        "hexEncoding":  "\u0026‌#x309B;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "kh"
+    },
+    {
+        "characterName":  "KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK",
+        "character":  "゜",
+        "unicode":  "\u0026‌#12444;",
+        "hexEncoding":  "\u0026‌#x309C;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "kh"
+    },
+    {
+        "characterName":  "KATAKANA-HIRAGANA PROLONGED SOUND MARK",
+        "character":  "ー",
+        "unicode":  "\u0026‌#12540;",
+        "hexEncoding":  "\u0026‌#x30FC;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "kh"
+    },
+    {
+        "characterName":  "KATAKANA ITERATION MARK",
+        "character":  "ヽ",
+        "unicode":  "\u0026‌#12541;",
+        "hexEncoding":  "\u0026‌#x30FD;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA VOICED ITERATION MARK",
+        "character":  "ヾ",
+        "unicode":  "\u0026‌#12542;",
+        "hexEncoding":  "\u0026‌#x30FE;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER SMALL TU",
+        "character":  "っ",
+        "unicode":  "\u0026‌#12387;",
+        "hexEncoding":  "\u0026‌#x3063;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "KATAKANA LETTER SMALL TU",
+        "character":  "ッ",
+        "unicode":  "\u0026‌#12483;",
+        "hexEncoding":  "\u0026‌#x30C3;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER SMALL A",
+        "character":  "ぁ",
+        "unicode":  "\u0026‌#12353;",
+        "hexEncoding":  "\u0026‌#x3041;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER SMALL I",
+        "character":  "ぃ",
+        "unicode":  "\u0026‌#12355;",
+        "hexEncoding":  "\u0026‌#x3043;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER SMALL U",
+        "character":  "ぅ",
+        "unicode":  "\u0026‌#12357;",
+        "hexEncoding":  "\u0026‌#x3045;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER SMALL E",
+        "character":  "ぇ",
+        "unicode":  "\u0026‌#12359;",
+        "hexEncoding":  "\u0026‌#x3047;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER SMALL O",
+        "character":  "ぉ",
+        "unicode":  "\u0026‌#12361;",
+        "hexEncoding":  "\u0026‌#x3049;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER SMALL YA",
+        "character":  "ゃ",
+        "unicode":  "\u0026‌#12419;",
+        "hexEncoding":  "\u0026‌#x3083;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER SMALL YU",
+        "character":  "ゅ",
+        "unicode":  "\u0026‌#12421;",
+        "hexEncoding":  "\u0026‌#x3085;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER SMALL YO",
+        "character":  "ょ",
+        "unicode":  "\u0026‌#12423;",
+        "hexEncoding":  "\u0026‌#x3087;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HIRAGANA LETTER SMALL WA",
+        "character":  "ゎ",
+        "unicode":  "\u0026‌#12430;",
+        "hexEncoding":  "\u0026‌#x308E;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "KATAKANA LETTER SMALL A",
+        "character":  "ァ",
+        "unicode":  "\u0026‌#12449;",
+        "hexEncoding":  "\u0026‌#x30A1;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER SMALL I",
+        "character":  "ィ",
+        "unicode":  "\u0026‌#12451;",
+        "hexEncoding":  "\u0026‌#x30A3;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER SMALL U",
+        "character":  "ゥ",
+        "unicode":  "\u0026‌#12453;",
+        "hexEncoding":  "\u0026‌#x30A5;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER SMALL E",
+        "character":  "ェ",
+        "unicode":  "\u0026‌#12455;",
+        "hexEncoding":  "\u0026‌#x30A7;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER SMALL O",
+        "character":  "ォ",
+        "unicode":  "\u0026‌#12457;",
+        "hexEncoding":  "\u0026‌#x30A9;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER SMALL YA",
+        "character":  "ャ",
+        "unicode":  "\u0026‌#12515;",
+        "hexEncoding":  "\u0026‌#x30E3;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER SMALL YU",
+        "character":  "ュ",
+        "unicode":  "\u0026‌#12517;",
+        "hexEncoding":  "\u0026‌#x30E5;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER SMALL YO",
+        "character":  "ョ",
+        "unicode":  "\u0026‌#12519;",
+        "hexEncoding":  "\u0026‌#x30E7;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER SMALL WA",
+        "character":  "ヮ",
+        "unicode":  "\u0026‌#12526;",
+        "hexEncoding":  "\u0026‌#x30EE;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER SMALL KA",
+        "character":  "ヵ",
+        "unicode":  "\u0026‌#12533;",
+        "hexEncoding":  "\u0026‌#x30F5;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "KATAKANA LETTER SMALL KE",
+        "character":  "ヶ",
+        "unicode":  "\u0026‌#12534;",
+        "hexEncoding":  "\u0026‌#x30F6;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "FALSE",
+        "alphabet":  "kat"
     }
-  ]
+]

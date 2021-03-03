@@ -7,6 +7,9 @@ import Quiz from './pages/Quiz.js';
 import Dictionary from './pages/Dictionary.js';
 import Links from './pages/Links.js';
 
+// TODO
+// add background of moving Japanese characters. thought to slide across the background
+// Change class "active" back in tab.index. Change class "show active" back in pages as needed.
 
 class App extends Component {
 
@@ -23,9 +26,7 @@ class App extends Component {
                     
                     <Home />
 
-                    <div className="tab-pane fade" id="review" role="tabpanel" aria-labelledby="review-tab">
-
-                    </div>
+                    <Review />
 
                     <div className="tab-pane fade" id="quiz" role="tabpanel" aria-labelledby="quiz-tab">
 
