@@ -1,0 +1,492 @@
+[
+    {
+        "characterName":  "A",
+        "character":  "あ",
+        "unicode":  "\u0026‌#12354;",
+        "hexEncoding":  "\u0026‌#x3042",
+        "englishTranslation":  "a",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "I",
+        "character":  "い",
+        "unicode":  "\u0026‌#12356;",
+        "hexEncoding":  "\u0026‌#x3044",
+        "englishTranslation":  "i",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "U",
+        "character":  "う",
+        "unicode":  "\u0026‌#12358;",
+        "hexEncoding":  "\u0026‌#x3046",
+        "englishTranslation":  "u",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "E",
+        "character":  "え",
+        "unicode":  "\u0026‌#12360;",
+        "hexEncoding":  "\u0026‌#x3048",
+        "englishTranslation":  "e",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "O",
+        "character":  "お",
+        "unicode":  "\u0026‌#12362;",
+        "hexEncoding":  "\u0026‌#x304A",
+        "englishTranslation":  "o",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "KA",
+        "character":  "か",
+        "unicode":  "\u0026‌#12363;",
+        "hexEncoding":  "\u0026‌#x304B",
+        "englishTranslation":  "ka",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "KI",
+        "character":  "き",
+        "unicode":  "\u0026‌#12365;",
+        "hexEncoding":  "\u0026‌#x304D",
+        "englishTranslation":  "ki",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "KU",
+        "character":  "く",
+        "unicode":  "\u0026‌#12367;",
+        "hexEncoding":  "\u0026‌#x304F",
+        "englishTranslation":  "ku",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "KE",
+        "character":  "け",
+        "unicode":  "\u0026‌#12369;",
+        "hexEncoding":  "\u0026‌#x3051",
+        "englishTranslation":  "ke",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "KO",
+        "character":  "こ",
+        "unicode":  "\u0026‌#12371;",
+        "hexEncoding":  "\u0026‌#x3053",
+        "englishTranslation":  "ko",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "SA",
+        "character":  "さ",
+        "unicode":  "\u0026‌#12373;",
+        "hexEncoding":  "\u0026‌#x3055",
+        "englishTranslation":  "sa",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "SI",
+        "character":  "し",
+        "unicode":  "\u0026‌#12375;",
+        "hexEncoding":  "\u0026‌#x3057",
+        "englishTranslation":  "shi",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "SU",
+        "character":  "す",
+        "unicode":  "\u0026‌#12377;",
+        "hexEncoding":  "\u0026‌#x3059",
+        "englishTranslation":  "su",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "SE",
+        "character":  "せ",
+        "unicode":  "\u0026‌#12379;",
+        "hexEncoding":  "\u0026‌#x305B",
+        "englishTranslation":  "se",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "SO",
+        "character":  "そ",
+        "unicode":  "\u0026‌#12381;",
+        "hexEncoding":  "\u0026‌#x305D",
+        "englishTranslation":  "so",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "TA",
+        "character":  "た",
+        "unicode":  "\u0026‌#12383;",
+        "hexEncoding":  "\u0026‌#x305F",
+        "englishTranslation":  "ta",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "TI",
+        "character":  "ち",
+        "unicode":  "\u0026‌#12385;",
+        "hexEncoding":  "\u0026‌#x3061",
+        "englishTranslation":  "chi",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "TU",
+        "character":  "つ",
+        "unicode":  "\u0026‌#12388;",
+        "hexEncoding":  "\u0026‌#x3064",
+        "englishTranslation":  "tsu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "TE",
+        "character":  "て",
+        "unicode":  "\u0026‌#12390;",
+        "hexEncoding":  "\u0026‌#x3066",
+        "englishTranslation":  "te",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "TO",
+        "character":  "と",
+        "unicode":  "\u0026‌#12392;",
+        "hexEncoding":  "\u0026‌#x3068",
+        "englishTranslation":  "to",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "NA",
+        "character":  "な",
+        "unicode":  "\u0026‌#12394;",
+        "hexEncoding":  "\u0026‌#x306A",
+        "englishTranslation":  "na",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "NI",
+        "character":  "に",
+        "unicode":  "\u0026‌#12395;",
+        "hexEncoding":  "\u0026‌#x306B",
+        "englishTranslation":  "ni",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "NU",
+        "character":  "ぬ",
+        "unicode":  "\u0026‌#12396;",
+        "hexEncoding":  "\u0026‌#x306C",
+        "englishTranslation":  "nu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "NE",
+        "character":  "ね",
+        "unicode":  "\u0026‌#12397;",
+        "hexEncoding":  "\u0026‌#x306D",
+        "englishTranslation":  "ne",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "NO",
+        "character":  "の",
+        "unicode":  "\u0026‌#12398;",
+        "hexEncoding":  "\u0026‌#x306E",
+        "englishTranslation":  "no",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HA",
+        "character":  "は",
+        "unicode":  "\u0026‌#12399;",
+        "hexEncoding":  "\u0026‌#x306F",
+        "englishTranslation":  "ha",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HI",
+        "character":  "ひ",
+        "unicode":  "\u0026‌#12402;",
+        "hexEncoding":  "\u0026‌#x3072",
+        "englishTranslation":  "hi",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HU",
+        "character":  "ふ",
+        "unicode":  "\u0026‌#12405;",
+        "hexEncoding":  "\u0026‌#x3075",
+        "englishTranslation":  "hu",
+        "alternateEnglishTranslation":  "fu",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HE",
+        "character":  "へ",
+        "unicode":  "\u0026‌#12408;",
+        "hexEncoding":  "\u0026‌#x3078",
+        "englishTranslation":  "he",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HO",
+        "character":  "ほ",
+        "unicode":  "\u0026‌#12411;",
+        "hexEncoding":  "\u0026‌#x307B",
+        "englishTranslation":  "ho",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "MA",
+        "character":  "ま",
+        "unicode":  "\u0026‌#12414;",
+        "hexEncoding":  "\u0026‌#x307E",
+        "englishTranslation":  "ma",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "MI",
+        "character":  "み",
+        "unicode":  "\u0026‌#12415;",
+        "hexEncoding":  "\u0026‌#x307F",
+        "englishTranslation":  "mi",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "MU",
+        "character":  "む",
+        "unicode":  "\u0026‌#12416;",
+        "hexEncoding":  "\u0026‌#x3080",
+        "englishTranslation":  "mu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "ME",
+        "character":  "め",
+        "unicode":  "\u0026‌#12417;",
+        "hexEncoding":  "\u0026‌#x3081",
+        "englishTranslation":  "me",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "MO",
+        "character":  "も",
+        "unicode":  "\u0026‌#12418;",
+        "hexEncoding":  "\u0026‌#x3082",
+        "englishTranslation":  "mo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "YA",
+        "character":  "や",
+        "unicode":  "\u0026‌#12420;",
+        "hexEncoding":  "\u0026‌#x3084",
+        "englishTranslation":  "ya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "YU",
+        "character":  "ゆ",
+        "unicode":  "\u0026‌#12422;",
+        "hexEncoding":  "\u0026‌#x3086",
+        "englishTranslation":  "yu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "YO",
+        "character":  "よ",
+        "unicode":  "\u0026‌#12424;",
+        "hexEncoding":  "\u0026‌#x3088",
+        "englishTranslation":  "yo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "RA",
+        "character":  "ら",
+        "unicode":  "\u0026‌#12425;",
+        "hexEncoding":  "\u0026‌#x3089",
+        "englishTranslation":  "ra",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "RI",
+        "character":  "り",
+        "unicode":  "\u0026‌#12426;",
+        "hexEncoding":  "\u0026‌#x308A",
+        "englishTranslation":  "ri",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "RU",
+        "character":  "る",
+        "unicode":  "\u0026‌#12427;",
+        "hexEncoding":  "\u0026‌#x308B",
+        "englishTranslation":  "ru",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "RE",
+        "character":  "れ",
+        "unicode":  "\u0026‌#12428;",
+        "hexEncoding":  "\u0026‌#x308C",
+        "englishTranslation":  "re",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "RO",
+        "character":  "ろ",
+        "unicode":  "\u0026‌#12429;",
+        "hexEncoding":  "\u0026‌#x308D",
+        "englishTranslation":  "ro",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "WA",
+        "character":  "わ",
+        "unicode":  "\u0026‌#12431;",
+        "hexEncoding":  "\u0026‌#x308F",
+        "englishTranslation":  "wa",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "WI",
+        "character":  "ゐ",
+        "unicode":  "\u0026‌#12432;",
+        "hexEncoding":  "\u0026‌#x3090",
+        "englishTranslation":  "wi",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "WE",
+        "character":  "ゑ",
+        "unicode":  "\u0026‌#12433;",
+        "hexEncoding":  "\u0026‌#x3091",
+        "englishTranslation":  "we",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "WO",
+        "character":  "を",
+        "unicode":  "\u0026‌#12434;",
+        "hexEncoding":  "\u0026‌#x3092",
+        "englishTranslation":  "wo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "N",
+        "character":  "ん",
+        "unicode":  "\u0026‌#12435;",
+        "hexEncoding":  "\u0026‌#x3093",
+        "englishTranslation":  "n",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "VU",
+        "character":  "ゔ",
+        "unicode":  "\u0026‌#12436;",
+        "hexEncoding":  "\u0026‌#x3094",
+        "englishTranslation":  "vu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    }
+]

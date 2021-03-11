@@ -1,0 +1,222 @@
+[
+    {
+        "characterName":  "SMALL TU",
+        "character":  "っ",
+        "unicode":  "\u0026‌#12387;",
+        "hexEncoding":  "\u0026‌#x3063;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "SMALL TU",
+        "character":  "ッ",
+        "unicode":  "\u0026‌#12483;",
+        "hexEncoding":  "\u0026‌#x30C3;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "SMALL A",
+        "character":  "ぁ",
+        "unicode":  "\u0026‌#12353;",
+        "hexEncoding":  "\u0026‌#x3041;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "SMALL I",
+        "character":  "ぃ",
+        "unicode":  "\u0026‌#12355;",
+        "hexEncoding":  "\u0026‌#x3043;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "SMALL U",
+        "character":  "ぅ",
+        "unicode":  "\u0026‌#12357;",
+        "hexEncoding":  "\u0026‌#x3045;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "SMALL E",
+        "character":  "ぇ",
+        "unicode":  "\u0026‌#12359;",
+        "hexEncoding":  "\u0026‌#x3047;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "SMALL O",
+        "character":  "ぉ",
+        "unicode":  "\u0026‌#12361;",
+        "hexEncoding":  "\u0026‌#x3049;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "SMALL YA",
+        "character":  "ゃ",
+        "unicode":  "\u0026‌#12419;",
+        "hexEncoding":  "\u0026‌#x3083;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "SMALL YU",
+        "character":  "ゅ",
+        "unicode":  "\u0026‌#12421;",
+        "hexEncoding":  "\u0026‌#x3085;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "SMALL YO",
+        "character":  "ょ",
+        "unicode":  "\u0026‌#12423;",
+        "hexEncoding":  "\u0026‌#x3087;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "SMALL WA",
+        "character":  "ゎ",
+        "unicode":  "\u0026‌#12430;",
+        "hexEncoding":  "\u0026‌#x308E;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "SMALL A",
+        "character":  "ァ",
+        "unicode":  "\u0026‌#12449;",
+        "hexEncoding":  "\u0026‌#x30A1;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "SMALL I",
+        "character":  "ィ",
+        "unicode":  "\u0026‌#12451;",
+        "hexEncoding":  "\u0026‌#x30A3;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "SMALL U",
+        "character":  "ゥ",
+        "unicode":  "\u0026‌#12453;",
+        "hexEncoding":  "\u0026‌#x30A5;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "SMALL E",
+        "character":  "ェ",
+        "unicode":  "\u0026‌#12455;",
+        "hexEncoding":  "\u0026‌#x30A7;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "SMALL O",
+        "character":  "ォ",
+        "unicode":  "\u0026‌#12457;",
+        "hexEncoding":  "\u0026‌#x30A9;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "SMALL YA",
+        "character":  "ャ",
+        "unicode":  "\u0026‌#12515;",
+        "hexEncoding":  "\u0026‌#x30E3;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "SMALL YU",
+        "character":  "ュ",
+        "unicode":  "\u0026‌#12517;",
+        "hexEncoding":  "\u0026‌#x30E5;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "SMALL YO",
+        "character":  "ョ",
+        "unicode":  "\u0026‌#12519;",
+        "hexEncoding":  "\u0026‌#x30E7;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "SMALL WA",
+        "character":  "ヮ",
+        "unicode":  "\u0026‌#12526;",
+        "hexEncoding":  "\u0026‌#x30EE;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "SMALL KA",
+        "character":  "ヵ",
+        "unicode":  "\u0026‌#12533;",
+        "hexEncoding":  "\u0026‌#x30F5;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "SMALL KE",
+        "character":  "ヶ",
+        "unicode":  "\u0026‌#12534;",
+        "hexEncoding":  "\u0026‌#x30F6;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "kat"
+    }
+]

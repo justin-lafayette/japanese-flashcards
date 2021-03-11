@@ -1,0 +1,252 @@
+[
+    {
+        "characterName":  "GA",
+        "character":  "が",
+        "unicode":  "\u0026‌#12364;",
+        "hexEncoding":  "\u0026‌#x304C",
+        "englishTranslation":  "ga",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "GI",
+        "character":  "ぎ",
+        "unicode":  "\u0026‌#12366;",
+        "hexEncoding":  "\u0026‌#x304E",
+        "englishTranslation":  "gi",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "GU",
+        "character":  "ぐ",
+        "unicode":  "\u0026‌#12368;",
+        "hexEncoding":  "\u0026‌#x3050",
+        "englishTranslation":  "gu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "GE",
+        "character":  "げ",
+        "unicode":  "\u0026‌#12370;",
+        "hexEncoding":  "\u0026‌#x3052",
+        "englishTranslation":  "ge",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "GO",
+        "character":  "ご",
+        "unicode":  "\u0026‌#12372;",
+        "hexEncoding":  "\u0026‌#x3054",
+        "englishTranslation":  "go",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "ZA",
+        "character":  "ざ",
+        "unicode":  "\u0026‌#12374;",
+        "hexEncoding":  "\u0026‌#x3056",
+        "englishTranslation":  "za",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "ZI",
+        "character":  "じ",
+        "unicode":  "\u0026‌#12376;",
+        "hexEncoding":  "\u0026‌#x3058",
+        "englishTranslation":  "ji",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "ZU",
+        "character":  "ず",
+        "unicode":  "\u0026‌#12378;",
+        "hexEncoding":  "\u0026‌#x305A",
+        "englishTranslation":  "zu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "ZE",
+        "character":  "ぜ",
+        "unicode":  "\u0026‌#12380;",
+        "hexEncoding":  "\u0026‌#x305C",
+        "englishTranslation":  "ze",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "ZO",
+        "character":  "ぞ",
+        "unicode":  "\u0026‌#12382;",
+        "hexEncoding":  "\u0026‌#x305E",
+        "englishTranslation":  "zo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "DA",
+        "character":  "だ",
+        "unicode":  "\u0026‌#12384;",
+        "hexEncoding":  "\u0026‌#x3060",
+        "englishTranslation":  "da",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "DI",
+        "character":  "ぢ",
+        "unicode":  "\u0026‌#12386;",
+        "hexEncoding":  "\u0026‌#x3062",
+        "englishTranslation":  "di",
+        "alternateEnglishTranslation":  "zi",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "DU",
+        "character":  "づ",
+        "unicode":  "\u0026‌#12389;",
+        "hexEncoding":  "\u0026‌#x3065",
+        "englishTranslation":  "du",
+        "alternateEnglishTranslation":  "zu",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "DE",
+        "character":  "で",
+        "unicode":  "\u0026‌#12391;",
+        "hexEncoding":  "\u0026‌#x3067",
+        "englishTranslation":  "de",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "DO",
+        "character":  "ど",
+        "unicode":  "\u0026‌#12393;",
+        "hexEncoding":  "\u0026‌#x3069",
+        "englishTranslation":  "do",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "BA",
+        "character":  "ば",
+        "unicode":  "\u0026‌#12400;",
+        "hexEncoding":  "\u0026‌#x3070",
+        "englishTranslation":  "ba",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "BI",
+        "character":  "び",
+        "unicode":  "\u0026‌#12403;",
+        "hexEncoding":  "\u0026‌#x3073",
+        "englishTranslation":  "bi",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "BU",
+        "character":  "ぶ",
+        "unicode":  "\u0026‌#12406;",
+        "hexEncoding":  "\u0026‌#x3076",
+        "englishTranslation":  "bu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "BE",
+        "character":  "べ",
+        "unicode":  "\u0026‌#12409;",
+        "hexEncoding":  "\u0026‌#x3079",
+        "englishTranslation":  "be",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "BO",
+        "character":  "ぼ",
+        "unicode":  "\u0026‌#12412;",
+        "hexEncoding":  "\u0026‌#x307C",
+        "englishTranslation":  "bo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "PA",
+        "character":  "ぱ",
+        "unicode":  "\u0026‌#12401;",
+        "hexEncoding":  "\u0026‌#x3071",
+        "englishTranslation":  "pa",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "PI",
+        "character":  "ぴ",
+        "unicode":  "\u0026‌#12404;",
+        "hexEncoding":  "\u0026‌#x3074",
+        "englishTranslation":  "pi",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "PU",
+        "character":  "ぷ",
+        "unicode":  "\u0026‌#12407;",
+        "hexEncoding":  "\u0026‌#x3077",
+        "englishTranslation":  "pu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "PE",
+        "character":  "ぺ",
+        "unicode":  "\u0026‌#12410;",
+        "hexEncoding":  "\u0026‌#x307A",
+        "englishTranslation":  "pe",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "PO",
+        "character":  "ぽ",
+        "unicode":  "\u0026‌#12413;",
+        "hexEncoding":  "\u0026‌#x307D",
+        "englishTranslation":  "po",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "characterName":  "DOT",
+        "character":  "・",
+        "unicode":  "\u0026‌#12539;",
+        "hexEncoding":  "\u0026‌#x30FB;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "ITERATION MARK",
+        "character":  "ゞ",
+        "unicode":  "\u0026‌#12446;",
+        "hexEncoding":  "\u0026‌#x309E;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "NA VOICED SOUND MARK",
+        "character":  "゛",
+        "unicode":  "\u0026‌#12443;",
+        "hexEncoding":  "\u0026‌#x309B;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "kh"
+    },
+    {
+        "characterName":  "NA SEMI-VOICED SOUND MARK",
+        "character":  "゜",
+        "unicode":  "\u0026‌#12444;",
+        "hexEncoding":  "\u0026‌#x309C;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "kh"
+    },
+    {
+        "characterName":  "NA PROLONGED SOUND MARK",
+        "character":  "ー",
+        "unicode":  "\u0026‌#12540;",
+        "hexEncoding":  "\u0026‌#x30FC;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "kh"
+    },
+    {
+        "characterName":  "ANA-HIRAGANA PROLONGED SOUND MARK",
+        "character":  "ｰ",
+        "unicode":  "\u0026‌#65392;",
+        "hexEncoding":  "\u0026‌#xFF70;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "kh"
+    },
+    {
+        "characterName":  "NA VOICED SOUND MARK",
+        "character":  "゛",
+        "unicode":  "\u0026‌#12443;",
+        "hexEncoding":  "\u0026‌#x309B;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "kh"
+    },
+    {
+        "characterName":  "NA SEMI-VOICED SOUND MARK",
+        "character":  "゜",
+        "unicode":  "\u0026‌#12444;",
+        "hexEncoding":  "\u0026‌#x309C;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "kh"
+    },
+    {
+        "characterName":  "NA PROLONGED SOUND MARK",
+        "character":  "ー",
+        "unicode":  "\u0026‌#12540;",
+        "hexEncoding":  "\u0026‌#x30FC;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "kh"
+    },
+    {
+        "characterName":  "ION MARK",
+        "character":  "ヽ",
+        "unicode":  "\u0026‌#12541;",
+        "hexEncoding":  "\u0026‌#x30FD;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "ITERATION MARK",
+        "character":  "ヾ",
+        "unicode":  "\u0026‌#12542;",
+        "hexEncoding":  "\u0026‌#x30FE;",
+        "englishTranslation":  "",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "0",
+        "alphabet":  "kat"
+    }
+]

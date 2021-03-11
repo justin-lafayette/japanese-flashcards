@@ -1,0 +1,362 @@
+[
+    {
+        "characterName":  "KYA",
+        "character":  "きゃ",
+        "unicode":  "\u0026‌#12365;\u0026‌#12419;",
+        "hexEncoding":  "\u0026‌#x304D;\u0026‌#x3083;",
+        "englishTranslation":  "kya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "KYU",
+        "character":  "きゅ",
+        "unicode":  "\u0026‌#12365;\u0026‌#12421;",
+        "hexEncoding":  "\u0026‌#x304D;\u0026‌#x3085;",
+        "englishTranslation":  "kyu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "KYO",
+        "character":  "きょ",
+        "unicode":  "\u0026‌#12365;\u0026‌#12423;",
+        "hexEncoding":  "\u0026‌#x304D;\u0026‌#x3087;",
+        "englishTranslation":  "kyo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "SHA",
+        "character":  "しゃ",
+        "unicode":  "\u0026‌#12375;\u0026‌#12419;",
+        "hexEncoding":  "\u0026‌#x3057;\u0026‌#x3083",
+        "englishTranslation":  "sha",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "SHU",
+        "character":  "しゅ",
+        "unicode":  "\u0026‌#12375;\u0026‌#12421;",
+        "hexEncoding":  "\u0026‌#x3057;\u0026‌#x3085;",
+        "englishTranslation":  "shu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "SHO",
+        "character":  "しょ",
+        "unicode":  "\u0026‌#12375;\u0026‌#12423;",
+        "hexEncoding":  "\u0026‌#x3057;\u0026‌#x3087;",
+        "englishTranslation":  "sho",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "CHA",
+        "character":  "ちゃ",
+        "unicode":  "\u0026‌#12385;\u0026‌#12419;",
+        "hexEncoding":  "\u0026‌#x3061;\u0026‌#x3083",
+        "englishTranslation":  "cha",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "CHU",
+        "character":  "ちゅ",
+        "unicode":  "\u0026‌#12385;\u0026‌#12421;",
+        "hexEncoding":  "\u0026‌#x3061;\u0026‌#x3085;",
+        "englishTranslation":  "chu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "CHO",
+        "character":  "ちょ",
+        "unicode":  "\u0026‌#12385;\u0026‌#12423;",
+        "hexEncoding":  "\u0026‌#x3061;\u0026‌#x3087;",
+        "englishTranslation":  "cho",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "NYA",
+        "character":  "にゃ",
+        "unicode":  "\u0026‌#12395;\u0026‌#12419;",
+        "hexEncoding":  "\u0026‌#x306B;\u0026‌#x3083",
+        "englishTranslation":  "nya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "NYU",
+        "character":  "にゅ",
+        "unicode":  "\u0026‌#12395;\u0026‌#12421;",
+        "hexEncoding":  "\u0026‌#x306B;\u0026‌#x3085;",
+        "englishTranslation":  "nyu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "NYO",
+        "character":  "にょ",
+        "unicode":  "\u0026‌#12395;\u0026‌#12423;",
+        "hexEncoding":  "\u0026‌#x306B;\u0026‌#x3087;",
+        "englishTranslation":  "nyo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HYA",
+        "character":  "ひゃ",
+        "unicode":  "\u0026‌#12402;\u0026‌#12419;",
+        "hexEncoding":  "\u0026‌#x3072;\u0026‌#x3083",
+        "englishTranslation":  "hya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HYU",
+        "character":  "ひゅ",
+        "unicode":  "\u0026‌#12402;\u0026‌#12421;",
+        "hexEncoding":  "\u0026‌#x3072;\u0026‌#x3085;",
+        "englishTranslation":  "hyu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "HYO",
+        "character":  "ひょ",
+        "unicode":  "\u0026‌#12402;\u0026‌#12423;",
+        "hexEncoding":  "\u0026‌#x3072;\u0026‌#x3087;",
+        "englishTranslation":  "hyo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "MYA",
+        "character":  "みゃ",
+        "unicode":  "\u0026‌#12415;\u0026‌#12419;",
+        "hexEncoding":  "\u0026‌#x307F;\u0026‌#x3083",
+        "englishTranslation":  "mya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "MYU",
+        "character":  "みゅ",
+        "unicode":  "\u0026‌#12415;\u0026‌#12421;",
+        "hexEncoding":  "\u0026‌#x307F;\u0026‌#x3085;",
+        "englishTranslation":  "myu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "MYO",
+        "character":  "みょ",
+        "unicode":  "\u0026‌#12415;\u0026‌#12423;",
+        "hexEncoding":  "\u0026‌#x307F;\u0026‌#x3087;",
+        "englishTranslation":  "myo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "RYA",
+        "character":  "りゃ",
+        "unicode":  "\u0026‌#12426;\u0026‌#12419;",
+        "hexEncoding":  "\u0026‌#x308A;\u0026‌#x3083",
+        "englishTranslation":  "rya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "RYU",
+        "character":  "りゅ",
+        "unicode":  "\u0026‌#12426;\u0026‌#12421;",
+        "hexEncoding":  "\u0026‌#x308A;\u0026‌#x3085;",
+        "englishTranslation":  "ryu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "RYO",
+        "character":  "りょ",
+        "unicode":  "\u0026‌#12426;\u0026‌#12423;",
+        "hexEncoding":  "\u0026‌#x308A;\u0026‌#x3087;",
+        "englishTranslation":  "ryo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "GYA",
+        "character":  "ぎゃ",
+        "unicode":  "\u0026‌#12366;\u0026‌#12419;",
+        "hexEncoding":  "\u0026‌#x304E;\u0026‌#x3083",
+        "englishTranslation":  "gya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "GYU",
+        "character":  "ぎゅ",
+        "unicode":  "\u0026‌#12366;\u0026‌#12421;",
+        "hexEncoding":  "\u0026‌#x304E;\u0026‌#x3085;",
+        "englishTranslation":  "gyu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "GYO",
+        "character":  "ぎょ",
+        "unicode":  "\u0026‌#12366;\u0026‌#12423;",
+        "hexEncoding":  "\u0026‌#x304E;\u0026‌#x3087;",
+        "englishTranslation":  "gyo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "JYA",
+        "character":  "じゃ",
+        "unicode":  "\u0026‌#12376;\u0026‌#12419;",
+        "hexEncoding":  "\u0026‌#x3058;\u0026‌#x3083",
+        "englishTranslation":  "jya",
+        "alternateEnglishTranslation":  "ja",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "JYU",
+        "character":  "じゅ",
+        "unicode":  "\u0026‌#12376;\u0026‌#12421;",
+        "hexEncoding":  "\u0026‌#x3058;\u0026‌#x3085;",
+        "englishTranslation":  "jyu",
+        "alternateEnglishTranslation":  "ju",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "JYO",
+        "character":  "じょ",
+        "unicode":  "\u0026‌#12376;\u0026‌#12423;",
+        "hexEncoding":  "\u0026‌#x3058;\u0026‌#x3087;",
+        "englishTranslation":  "jyo",
+        "alternateEnglishTranslation":  "jo",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "DYA",
+        "character":  "ぢゃ",
+        "unicode":  "\u0026‌#12386;\u0026‌#12419;",
+        "hexEncoding":  "\u0026‌#x3062;\u0026‌#x3083",
+        "englishTranslation":  "dya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "DYU",
+        "character":  "ぢゅ",
+        "unicode":  "\u0026‌#12386;\u0026‌#12421;",
+        "hexEncoding":  "\u0026‌#x3062;\u0026‌#x3085;",
+        "englishTranslation":  "dyu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "DYO",
+        "character":  "ぢょ",
+        "unicode":  "\u0026‌#12386;\u0026‌#12423;",
+        "hexEncoding":  "\u0026‌#x3062;\u0026‌#x3087;",
+        "englishTranslation":  "dyo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "BYA",
+        "character":  "びゃ",
+        "unicode":  "\u0026‌#12403;\u0026‌#12419;",
+        "hexEncoding":  "\u0026‌#x3073;\u0026‌#x3083",
+        "englishTranslation":  "bya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "BYU",
+        "character":  "びゅ",
+        "unicode":  "\u0026‌#12403;\u0026‌#12421;",
+        "hexEncoding":  "\u0026‌#x3073;\u0026‌#x3085;",
+        "englishTranslation":  "byu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "BYO",
+        "character":  "びょ",
+        "unicode":  "\u0026‌#12403;\u0026‌#12423;",
+        "hexEncoding":  "\u0026‌#x3073;\u0026‌#x3087;",
+        "englishTranslation":  "byo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "PYA",
+        "character":  "ぴゃ",
+        "unicode":  "\u0026‌#12404;\u0026‌#12419;",
+        "hexEncoding":  "\u0026‌#x3074;\u0026‌#x3083",
+        "englishTranslation":  "pya",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "PYU",
+        "character":  "ぴゅ",
+        "unicode":  "\u0026‌#12404;\u0026‌#12421;",
+        "hexEncoding":  "\u0026‌#x3074;\u0026‌#x3085;",
+        "englishTranslation":  "pyu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    },
+    {
+        "characterName":  "PYO",
+        "character":  "ぴょ",
+        "unicode":  "\u0026‌#12404;\u0026‌#12423;",
+        "hexEncoding":  "\u0026‌#x3074;\u0026‌#x3087;",
+        "englishTranslation":  "pyo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "hir"
+    }
+]

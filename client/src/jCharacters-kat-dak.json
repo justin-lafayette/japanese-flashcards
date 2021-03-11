@@ -1,0 +1,252 @@
+[
+    {
+        "characterName":  "GA",
+        "character":  "ガ",
+        "unicode":  "\u0026‌#12460;",
+        "hexEncoding":  "\u0026‌#x30AC;",
+        "englishTranslation":  "ga",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "GI",
+        "character":  "ギ",
+        "unicode":  "\u0026‌#12462;",
+        "hexEncoding":  "\u0026‌#x30AE;",
+        "englishTranslation":  "gi",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "GU",
+        "character":  "グ",
+        "unicode":  "\u0026‌#12464;",
+        "hexEncoding":  "\u0026‌#x30B0;",
+        "englishTranslation":  "gu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "GE",
+        "character":  "ゲ",
+        "unicode":  "\u0026‌#12466;",
+        "hexEncoding":  "\u0026‌#x30B2;",
+        "englishTranslation":  "ge",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "GO",
+        "character":  "ゴ",
+        "unicode":  "\u0026‌#12468;",
+        "hexEncoding":  "\u0026‌#x30B4;",
+        "englishTranslation":  "go",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "ZA",
+        "character":  "ザ",
+        "unicode":  "\u0026‌#12470;",
+        "hexEncoding":  "\u0026‌#x30B6;",
+        "englishTranslation":  "za",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "ZI",
+        "character":  "ジ",
+        "unicode":  "\u0026‌#12472;",
+        "hexEncoding":  "\u0026‌#x30B8;",
+        "englishTranslation":  "ji",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "ZU",
+        "character":  "ズ",
+        "unicode":  "\u0026‌#12474;",
+        "hexEncoding":  "\u0026‌#x30BA;",
+        "englishTranslation":  "zu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "ZE",
+        "character":  "ゼ",
+        "unicode":  "\u0026‌#12476;",
+        "hexEncoding":  "\u0026‌#x30BC;",
+        "englishTranslation":  "ze",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "ZO",
+        "character":  "ゾ",
+        "unicode":  "\u0026‌#12478;",
+        "hexEncoding":  "\u0026‌#x30BE;",
+        "englishTranslation":  "zo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "DA",
+        "character":  "ダ",
+        "unicode":  "\u0026‌#12480;",
+        "hexEncoding":  "\u0026‌#x30C0;",
+        "englishTranslation":  "da",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "DI",
+        "character":  "ヂ",
+        "unicode":  "\u0026‌#12482;",
+        "hexEncoding":  "\u0026‌#x30C2;",
+        "englishTranslation":  "di",
+        "alternateEnglishTranslation":  "zi",
+        "isLetter":  "1",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "DU",
+        "character":  "ヅ",
+        "unicode":  "\u0026‌#12485;",
+        "hexEncoding":  "\u0026‌#x30C5;",
+        "englishTranslation":  "du",
+        "alternateEnglishTranslation":  "zu",
+        "isLetter":  "1",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "DE",
+        "character":  "デ",
+        "unicode":  "\u0026‌#12487;",
+        "hexEncoding":  "\u0026‌#x30C7;",
+        "englishTranslation":  "de",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "DO",
+        "character":  "ド",
+        "unicode":  "\u0026‌#12489;",
+        "hexEncoding":  "\u0026‌#x30C9;",
+        "englishTranslation":  "do",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "BA",
+        "character":  "バ",
+        "unicode":  "\u0026‌#12496;",
+        "hexEncoding":  "\u0026‌#x30D0;",
+        "englishTranslation":  "ba",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "BI",
+        "character":  "ビ",
+        "unicode":  "\u0026‌#12499;",
+        "hexEncoding":  "\u0026‌#x30D3;",
+        "englishTranslation":  "bi",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "BU",
+        "character":  "ブ",
+        "unicode":  "\u0026‌#12502;",
+        "hexEncoding":  "\u0026‌#x30D6;",
+        "englishTranslation":  "bu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "BE",
+        "character":  "ベ",
+        "unicode":  "\u0026‌#12505;",
+        "hexEncoding":  "\u0026‌#x30D9;",
+        "englishTranslation":  "be",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "BO",
+        "character":  "ボ",
+        "unicode":  "\u0026‌#12508;",
+        "hexEncoding":  "\u0026‌#x30DC;",
+        "englishTranslation":  "bo",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "PA",
+        "character":  "パ",
+        "unicode":  "\u0026‌#12497;",
+        "hexEncoding":  "\u0026‌#x30D1;",
+        "englishTranslation":  "pa",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "PI",
+        "character":  "ピ",
+        "unicode":  "\u0026‌#12500;",
+        "hexEncoding":  "\u0026‌#x30D4;",
+        "englishTranslation":  "pi",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "PU",
+        "character":  "プ",
+        "unicode":  "\u0026‌#12503;",
+        "hexEncoding":  "\u0026‌#x30D7;",
+        "englishTranslation":  "pu",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "PE",
+        "character":  "ペ",
+        "unicode":  "\u0026‌#12506;",
+        "hexEncoding":  "\u0026‌#x30DA;",
+        "englishTranslation":  "pe",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "kat"
+    },
+    {
+        "characterName":  "PO",
+        "character":  "ポ",
+        "unicode":  "\u0026‌#12509;",
+        "hexEncoding":  "\u0026‌#x30DD;",
+        "englishTranslation":  "po",
+        "alternateEnglishTranslation":  "",
+        "isLetter":  "1",
+        "alphabet":  "kat"
+    }
+]

@@ -108,3 +108,7 @@ dist
 
 # old files
 .old
+
+# Note files
+notes.js
+notes.ps1
