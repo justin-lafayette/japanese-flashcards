@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import Container from '../components/Container';
 import Card from '../components/Card';
 
-import jCharacters from '../jCharacters.json';
 import jCharactersHir from '../jCharacters-hir.json';
 import jCharactersHirDak from '../jCharacters-hir-dak.json';
 import jCharactersHirCombo from '../jCharacters-hir-combo.json';
@@ -32,53 +31,54 @@ class Review extends Component {
         wrongFlash: [],
         flashCardIndex: 0,
         flashCardSelections: [""],
-        flashCardsOn: true
+        flashCardsOn: true,
+        guessInput: [],
+        answerOutcome: null
     };
 
-    // importStates = ()=> {
-    //     this.setState({
-    //         hiragana: [jCharactersHir, jCharactersHirDak, jCharactersHirCombo],
-    //         katakana: [jCharactersKat, jCharactersKatDak, jCharactersKatCombo],
-    //         accents: [jCharactersSmallLetters, jCharactersSymbols]
-    //     }, ()=> this.shuffleArray());
-    // };
+    handleInputChange = (name, value) => {
+        this.setState({
+            [name]: value
+        });
+    };
 
     importAndShuffleArray = ()=> {
         // Solution found here using the Fisher-Yates shuffle. Has been adapted to use ES6 and custom variables: https://javascript.info/task/shuffle 
 
         // import to variables done here to prevent multiple page re-rendering before displaying
-        let hir = [jCharactersHir, jCharactersHirDak, jCharactersHirCombo];
-        let kat = [jCharactersKat, jCharactersKatDak, jCharactersKatCombo];
-        let acc = [jCharactersSmallLetters, jCharactersSymbols];
+        const hir = [jCharactersHir, jCharactersHirDak, jCharactersHirCombo];
+        const kat = [jCharactersKat, jCharactersKatDak, jCharactersKatCombo];
+        const acc = [jCharactersSmallLetters, jCharactersSymbols];
 
-        let rHir = hir;
-        let rKat = kat;
-        let rAcc = acc;
+        const rHir = hir;
+        const rKat = kat;
+        const rAcc = acc;
 
-        rHir.map((value, index) => {
+        // TODO: DRY code necessary for index map in following 3 functions.
+        rHir.forEach((value, index) => {
             let currentIndex = rHir[index];
 
-            currentIndex.map( (val, ind) => {
+            currentIndex.forEach( (val, ind) => {
 
                 let random = Math.floor(Math.random() * (ind + 1));
                 [currentIndex[ind], currentIndex[random]] = [currentIndex[random], currentIndex[ind]];
             });
         });
 
-        rKat.map((value, index) => {
+        rKat.forEach((value, index) => {
             let currentIndex = rKat[index];
 
-            currentIndex.map( (val, ind) => {
+            currentIndex.forEach( (val, ind) => {
 
                 let random = Math.floor(Math.random() * (ind + 1));
                 [currentIndex[ind], currentIndex[random]] = [currentIndex[random], currentIndex[ind]];
             });
         });
 
-        rAcc.map((value, index) => {
+        rAcc.forEach((value, index) => {
             let currentIndex = rAcc[index];
 
-            currentIndex.map( (val, ind) => {
+            currentIndex.forEach( (val, ind) => {
 
                 let random = Math.floor(Math.random() * (ind + 1));
                 [currentIndex[ind], currentIndex[random]] = [currentIndex[random], currentIndex[ind]];
@@ -96,8 +96,47 @@ class Review extends Component {
         }, ()=> console.log("Random Hir: ", this.state.flashCardSelections));
     };
 
-    entryValidation = ()=> {
+    entryValidation = (e)=> {
+        let gInput = this.state.guessInput;
+        gInput += e.key;
 
+        let cardSelections = this.state.flashCardSelections;
+        let cardIndex = this.state.flashCardIndex;
+
+        let nextCard = ()=> {
+            // DRY function to increment cardIndex and reset state.
+            setTimeout(()=> {
+                cardIndex++
+                this.setState({
+                    answerOutcome: null,
+                    flashCardIndex: cardIndex,
+                    guessInput: []
+                });
+            }, 1000);
+        };
+
+        if( gInput.length === cardSelections[cardIndex].englishTranslation.length ) {
+
+            if( gInput === cardSelections[cardIndex].englishTranslation || gInput === cardSelections[cardIndex].alternateEnglishTranslation ) {
+                
+                // set background to green. increment card index. clear guessInput. assign to correctFlash
+                let addCorrect = this.state.correctFlash;
+                addCorrect.push(cardSelections[cardIndex]);
+                this.setState({
+                    answerOutcome: true,
+                    correctFlash: addCorrect
+                }, nextCard());
+
+            } else {
+                // set background to red. Increment card index. Clear guessInput. Assign to wrongFlash
+                let addWrong = this.state.wrongFlash;
+                addWrong.push(cardSelections[cardIndex]);
+                this.setState({
+                    answerOutcome: false,
+                    wrongFlash: addWrong
+                }, nextCard());
+            };
+        };
     };
 
     nextCard = (e)=> {
@@ -108,16 +147,18 @@ class Review extends Component {
 
         this.setState({
             flashCardIndex: count
-        })
+        });
     };
 
+    // https://stackoverflow.com/questions/40691062/add-and-remove-html-elements-on-button-click-in-react
     inputReviewSelection = ()=> {
 
     };
 
     componentDidMount() {
         this.importAndShuffleArray();
-    }
+        document.addEventListener("keydown", this.entryValidation);
+    };
 
     render() {
         let fCS= this.state.flashCardSelections;
@@ -133,17 +174,16 @@ class Review extends Component {
                         <div className="row">Flashcards</div>
 
                         <div className="row">
-                            {/* Write selected items to single array in flashCardSelections
-                                User flashCardIndex to loop through array until complete
-                                Set wrong and right answers while looping
-                                evaluate after complete & offer review of wrong
-                            */}
-                            
+
                             <Card 
+                                handleChange={this.handleInputChange.bind(this)}
+                                guessInput={this.state.guessInput}
                                 character={fCS[fCI].character}
                                 translation={fCS[fCI].englishTranslation}
                                 on={this.state.flashCardsOn}
+                                outcome={this.state.answerOutcome}
                                 />
+
                         </div>
 
                         <button onClick={this.nextCard}>Next Card</button>

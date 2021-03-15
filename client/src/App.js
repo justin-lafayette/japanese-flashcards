@@ -28,17 +28,11 @@ class App extends Component {
 
                     <Review />
 
-                    <div className="tab-pane fade" id="quiz" role="tabpanel" aria-labelledby="quiz-tab">
+                    <Quiz />
 
-                    </div>
+                    <Dictionary />
 
-                    <div className="tab-pane fade" id="dictionary" role="tabpanel" aria-labelledby="dictionary-tab">
-
-                    </div>
-
-                    <div className="tab-pane fade" id="links" role="tabpanel" aria-labelledby="links-tab">
-
-                    </div>
+                    <Links />
 
                 </div>
             </>
