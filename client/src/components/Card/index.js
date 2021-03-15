@@ -19,7 +19,7 @@ function Card(props) {
                     <h5  className="card-title">{props.character}</h5>
                     {props.on ? (
                         <>
-                        <input type="text" id="cardInput"></input>
+                        <input type="text" id="cardInput" value={props.value} />
                         </>
                     ) : (
                         

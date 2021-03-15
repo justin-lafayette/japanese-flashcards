@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import Container from '../components/Container';
 import Card from '../components/Card';
 
-import jCharacters from '../jCharacters.json';
 import jCharactersHir from '../jCharacters-hir.json';
 import jCharactersHirDak from '../jCharacters-hir-dak.json';
 import jCharactersHirCombo from '../jCharacters-hir-combo.json';
@@ -50,30 +49,30 @@ class Review extends Component {
         const rAcc = acc;
 
         // TODO: DRY code necessary for index map in following 3 functions.
-        rHir.map((value, index) => {
+        rHir.forEach((value, index) => {
             let currentIndex = rHir[index];
 
-            currentIndex.map( (val, ind) => {
+            currentIndex.forEach( (val, ind) => {
 
                 let random = Math.floor(Math.random() * (ind + 1));
                 [currentIndex[ind], currentIndex[random]] = [currentIndex[random], currentIndex[ind]];
             });
         });
 
-        rKat.map((value, index) => {
+        rKat.forEach((value, index) => {
             let currentIndex = rKat[index];
 
-            currentIndex.map( (val, ind) => {
+            currentIndex.forEach( (val, ind) => {
 
                 let random = Math.floor(Math.random() * (ind + 1));
                 [currentIndex[ind], currentIndex[random]] = [currentIndex[random], currentIndex[ind]];
             });
         });
 
-        rAcc.map((value, index) => {
+        rAcc.forEach((value, index) => {
             let currentIndex = rAcc[index];
 
-            currentIndex.map( (val, ind) => {
+            currentIndex.forEach( (val, ind) => {
 
                 let random = Math.floor(Math.random() * (ind + 1));
                 [currentIndex[ind], currentIndex[random]] = [currentIndex[random], currentIndex[ind]];
@@ -150,6 +149,7 @@ class Review extends Component {
     //     })
     // };
 
+    // https://stackoverflow.com/questions/40691062/add-and-remove-html-elements-on-button-click-in-react
     inputReviewSelection = ()=> {
 
     };

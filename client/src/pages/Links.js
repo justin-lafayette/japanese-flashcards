@@ -1,23 +1,20 @@
-import React, {Component} from 'react';
+import React from 'react';
+import Container from '../components/Container';
 
-function App() {
+function Links() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div className="tab-pane fade " id="links" role="tabpanel" aria-labelledby="links-tab">
+        <Container
+            className={"fluid"}
         >
-          Learn React
-        </a>
-      </header>
+            <Container>
+
+            </Container>
+
+        </Container>
+
     </div>
   );
 }
 
-export default App;
+export default Links;
