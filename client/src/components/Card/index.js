@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
 class Card extends Component {
-    // console.log(props)
-    // TODO: get onChange working here instead of Review...
+    // Following resources used to resolve issue with onChange. First link will be used to remove the .bind function later as a cleaner way to pass functions.
     // https://www.freecodecamp.org/news/why-arrow-functions-and-bind-in-reacts-render-are-problematic-f1c08b060e36/
+    // https://stackoverflow.com/questions/35800491/how-to-get-values-from-child-components-in-react
 
     handleOnChange = e=> {
         this.props.handleChange(e.target.name, e.target.value);

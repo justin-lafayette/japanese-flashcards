@@ -37,13 +37,6 @@ class Review extends Component {
     };
 
     handleInputChange = (name, value) => {
-        // const tmp = {};
-        // tmp[name] = value;
-        // this.setState(tmp)
-
-
-        // console.log(name, value);
-
         this.setState({
             [name]: value
         });
@@ -106,7 +99,6 @@ class Review extends Component {
     entryValidation = (e)=> {
         let gInput = this.state.guessInput;
         gInput += e.key;
-        // compare to state info for current flash card shown. Validate once input has reached the length of the english translation. Add second validator to see if alternate translation is valid. Set state for correct/incorrect so card shows different color. Add card to correct pile for later review. Update flashCardIndex.
 
         let cardSelections = this.state.flashCardSelections;
         let cardIndex = this.state.flashCardIndex;
@@ -143,10 +135,8 @@ class Review extends Component {
                     answerOutcome: false,
                     wrongFlash: addWrong
                 }, nextCard());
-            }
-        }
-
-        // this.setState({guessInput: [gInput]}, ()=> console.log(this.state.guessInput));
+            };
+        };
     };
 
     nextCard = (e)=> {
@@ -157,7 +147,7 @@ class Review extends Component {
 
         this.setState({
             flashCardIndex: count
-        })
+        });
     };
 
     // https://stackoverflow.com/questions/40691062/add-and-remove-html-elements-on-button-click-in-react
@@ -165,16 +155,10 @@ class Review extends Component {
 
     };
 
-    // renderCard = value => {
-    //     let fCS= this.state.flashCardSelections;
-    //     let fCI= this.state.flashCardIndex;
-    //     return <Card onChange={this.entryValidation} value={this.state.guessInput} character={fCS[fCI].character} translation={fCS[fCI].englishTranslation} on={this.state.flashCardsOn} outcome={this.state.answerOutcome} />
-    // }
-
     componentDidMount() {
         this.importAndShuffleArray();
         document.addEventListener("keydown", this.entryValidation);
-    }
+    };
 
     render() {
         let fCS= this.state.flashCardSelections;
@@ -191,15 +175,6 @@ class Review extends Component {
 
                         <div className="row">
 
-                            {/* {this.renderCard} */}
-                            {/* <Card
-                                onChange={this.entryValidation}
-                                value={this.state.guessInput}
-                                character={fCS[fCI].character}
-                                translation={fCS[fCI].englishTranslation}
-                                on={this.state.flashCardsOn}
-                                outcome={this.state.answerOutcome}
-                                /> */}
                             <Card 
                                 handleChange={this.handleInputChange.bind(this)}
                                 guessInput={this.state.guessInput}
@@ -208,6 +183,7 @@ class Review extends Component {
                                 on={this.state.flashCardsOn}
                                 outcome={this.state.answerOutcome}
                                 />
+
                         </div>
 
                         <button onClick={this.nextCard}>Next Card</button>
