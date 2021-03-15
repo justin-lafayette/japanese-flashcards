@@ -36,6 +36,19 @@ class Review extends Component {
         answerOutcome: null
     };
 
+    handleInputChange = (name, value) => {
+        // const tmp = {};
+        // tmp[name] = value;
+        // this.setState(tmp)
+
+
+        // console.log(name, value);
+
+        this.setState({
+            [name]: value
+        });
+    };
+
     importAndShuffleArray = ()=> {
         // Solution found here using the Fisher-Yates shuffle. Has been adapted to use ES6 and custom variables: https://javascript.info/task/shuffle 
 
@@ -110,8 +123,6 @@ class Review extends Component {
             }, 1000);
         };
 
-        // TODO: Card currently doesn't register which translation is longer. This needs to be done as some alt translations are longer than the normal.
-
         if( gInput.length === cardSelections[cardIndex].englishTranslation.length ) {
 
             if( gInput === cardSelections[cardIndex].englishTranslation || gInput === cardSelections[cardIndex].alternateEnglishTranslation ) {
@@ -135,28 +146,34 @@ class Review extends Component {
             }
         }
 
-        this.setState({guessInput: [gInput]}, ()=> console.log(this.state.guessInput));
+        // this.setState({guessInput: [gInput]}, ()=> console.log(this.state.guessInput));
     };
 
-    // nextCard = (e)=> {
-    //     e.preventDefault();
+    nextCard = (e)=> {
+        e.preventDefault();
 
-    //     let count = this.state.flashCardIndex;
-    //     count++;
+        let count = this.state.flashCardIndex;
+        count++;
 
-    //     this.setState({
-    //         flashCardIndex: count
-    //     })
-    // };
+        this.setState({
+            flashCardIndex: count
+        })
+    };
 
     // https://stackoverflow.com/questions/40691062/add-and-remove-html-elements-on-button-click-in-react
     inputReviewSelection = ()=> {
 
     };
 
+    // renderCard = value => {
+    //     let fCS= this.state.flashCardSelections;
+    //     let fCI= this.state.flashCardIndex;
+    //     return <Card onChange={this.entryValidation} value={this.state.guessInput} character={fCS[fCI].character} translation={fCS[fCI].englishTranslation} on={this.state.flashCardsOn} outcome={this.state.answerOutcome} />
+    // }
+
     componentDidMount() {
         this.importAndShuffleArray();
-        document.addEventListener("keydown", this.entryValidation)
+        document.addEventListener("keydown", this.entryValidation);
     }
 
     render() {
@@ -173,15 +190,19 @@ class Review extends Component {
                         <div className="row">Flashcards</div>
 
                         <div className="row">
-                            {/* Write selected items to single array in flashCardSelections
-                                User flashCardIndex to loop through array until complete
-                                Set wrong and right answers while looping
-                                evaluate after complete & offer review of wrong
-                            */}
-                            
-                            <Card
+
+                            {/* {this.renderCard} */}
+                            {/* <Card
                                 onChange={this.entryValidation}
                                 value={this.state.guessInput}
+                                character={fCS[fCI].character}
+                                translation={fCS[fCI].englishTranslation}
+                                on={this.state.flashCardsOn}
+                                outcome={this.state.answerOutcome}
+                                /> */}
+                            <Card 
+                                handleChange={this.handleInputChange.bind(this)}
+                                guessInput={this.state.guessInput}
                                 character={fCS[fCI].character}
                                 translation={fCS[fCI].englishTranslation}
                                 on={this.state.flashCardsOn}

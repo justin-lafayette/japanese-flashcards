@@ -1,34 +1,41 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-function Card(props) {
+class Card extends Component {
     // console.log(props)
-    // {...props.outcome ? (className="card-title bg-success") : (className="card-title bg-danger")}
-    let bgColor = "card-body "
-    if( props.outcome === null ){
-        
-    } else if ( props.outcome ) {
-        bgColor+= "bg-success "
-    } else {
-        bgColor+= "bg-warning "
-    };
+    // TODO: get onChange working here instead of Review...
+    // https://www.freecodecamp.org/news/why-arrow-functions-and-bind-in-reacts-render-are-problematic-f1c08b060e36/
 
-    return (
-        <>
-            <div className="card text-center">
-                <div className={bgColor}>
-                    <h5  className="card-title">{props.character}</h5>
-                    {props.on ? (
-                        <>
-                        <input type="text" id="cardInput" value={props.value} />
-                        </>
-                    ) : (
-                        
-                        <p className="card-text">{props.translation}</p>
-                    )}
+    handleOnChange = e=> {
+        this.props.handleChange(e.target.name, e.target.value);
+    };
+    
+    render() {
+        let bgColor = "card-body "
+        if( this.props.outcome === null ){
+            
+        } else if ( this.props.outcome ) {
+            bgColor+= "bg-success "
+        } else {
+            bgColor+= "bg-warning "
+        };
+        return (
+            <>
+                <div className="card text-center">
+                    <div className={bgColor}>
+                        <h5  className="card-title">{this.props.character}</h5>
+                        {this.props.on ? (
+                            <>
+                            <input onChange={this.handleOnChange} name="guessInput" type="text" id="cardInput" value={this.props.guessInput} />
+                            </>
+                        ) : (
+                            
+                            <p className="card-text">{this.props.translation}</p>
+                        )}
+                    </div>
                 </div>
-            </div>
-        </>
-    );
+            </>
+        );
+    }
 };
 
 export default Card;
