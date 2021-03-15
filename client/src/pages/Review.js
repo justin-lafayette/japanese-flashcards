@@ -37,14 +37,6 @@ class Review extends Component {
         answerOutcome: null
     };
 
-    // importStates = ()=> {
-    //     this.setState({
-    //         hiragana: [jCharactersHir, jCharactersHirDak, jCharactersHirCombo],
-    //         katakana: [jCharactersKat, jCharactersKatDak, jCharactersKatCombo],
-    //         accents: [jCharactersSmallLetters, jCharactersSymbols]
-    //     }, ()=> this.shuffleArray());
-    // };
-
     importAndShuffleArray = ()=> {
         // Solution found here using the Fisher-Yates shuffle. Has been adapted to use ES6 and custom variables: https://javascript.info/task/shuffle 
 
@@ -57,6 +49,7 @@ class Review extends Component {
         const rKat = kat;
         const rAcc = acc;
 
+        // TODO: DRY code necessary for index map in following 3 functions.
         rHir.map((value, index) => {
             let currentIndex = rHir[index];
 
@@ -102,12 +95,25 @@ class Review extends Component {
         let gInput = this.state.guessInput;
         gInput += e.key;
         // compare to state info for current flash card shown. Validate once input has reached the length of the english translation. Add second validator to see if alternate translation is valid. Set state for correct/incorrect so card shows different color. Add card to correct pile for later review. Update flashCardIndex.
+
         let cardSelections = this.state.flashCardSelections;
         let cardIndex = this.state.flashCardIndex;
 
+        let nextCard = ()=> {
+            // DRY function to increment cardIndex and reset state.
+            setTimeout(()=> {
+                cardIndex++
+                this.setState({
+                    answerOutcome: null,
+                    flashCardIndex: cardIndex,
+                    guessInput: []
+                });
+            }, 1000);
+        }
+
         if( gInput.length === cardSelections[cardIndex].englishTranslation.length ) {
 
-            if( gInput === cardSelections[cardIndex].englishTranslation ) {
+            if( gInput === cardSelections[cardIndex].englishTranslation || gInput === cardSelections[cardIndex].alternateEnglishTranslation ) {
                 
                 // set background to green. increment card index. clear guessInput. assign to correctFlash
                 let addCorrect = this.state.correctFlash;
@@ -115,21 +121,17 @@ class Review extends Component {
                 this.setState({
                     answerOutcome: true,
                     correctFlash: addCorrect
-                }, ()=> {
-                    setTimeout(()=> {
-                        cardIndex++
-                        this.setState({
-                            answerOutcome: null,
-                            flashCardIndex: cardIndex,
-                            guessInput: []
-                        });
-                    }, 1000);
-                });
+                }, nextCard());
+
             } else {
-                
+                // set background to red. Increment card index. Clear guessInput. Assign to wrongFlash
+                let addWrong = this.state.wrongFlash;
+                addWrong.push(cardSelections[cardIndex]);
+                this.setState({
+                    answerOutcome: false,
+                    wrongFlash: addWrong
+                }, nextCard());
             }
-        } else {
-            
         }
 
         this.setState({guessInput: [gInput]}, ()=> console.log(this.state.guessInput));
@@ -175,7 +177,8 @@ class Review extends Component {
                                 evaluate after complete & offer review of wrong
                             */}
                             
-                            <Card 
+                            <Card
+                                value={this.state.guessInput}
                                 character={fCS[fCI].character}
                                 translation={fCS[fCI].englishTranslation}
                                 on={this.state.flashCardsOn}
