@@ -109,7 +109,9 @@ class Review extends Component {
                     guessInput: []
                 });
             }, 1000);
-        }
+        };
+
+        // TODO: Card currently doesn't register which translation is longer. This needs to be done as some alt translations are longer than the normal.
 
         if( gInput.length === cardSelections[cardIndex].englishTranslation.length ) {
 
@@ -137,16 +139,16 @@ class Review extends Component {
         this.setState({guessInput: [gInput]}, ()=> console.log(this.state.guessInput));
     };
 
-    nextCard = (e)=> {
-        e.preventDefault();
+    // nextCard = (e)=> {
+    //     e.preventDefault();
 
-        let count = this.state.flashCardIndex;
-        count++;
+    //     let count = this.state.flashCardIndex;
+    //     count++;
 
-        this.setState({
-            flashCardIndex: count
-        })
-    };
+    //     this.setState({
+    //         flashCardIndex: count
+    //     })
+    // };
 
     inputReviewSelection = ()=> {
 
@@ -178,10 +180,12 @@ class Review extends Component {
                             */}
                             
                             <Card
+                                onChange={this.entryValidation}
                                 value={this.state.guessInput}
                                 character={fCS[fCI].character}
                                 translation={fCS[fCI].englishTranslation}
                                 on={this.state.flashCardsOn}
+                                outcome={this.state.answerOutcome}
                                 />
                         </div>
 
