@@ -10,6 +10,8 @@ import jCharactersKatDak from '../jCharacters-kat-dak.json';
 import jCharactersKatCombo from '../jCharacters-kat-combo.json';
 import jCharactersSmallLetters from '../jCharacters-smallLetters.json';
 import jCharactersSymbols from '../jCharacters-symbols.json';
+import Tab from '../components/Tab';
+import LangOptions from '../components/LangOptions';
 
 // TODO:
 // render data
@@ -170,22 +172,36 @@ class Review extends Component {
             >
                 <Container>
 
-                    <div className="row">Flashcards</div>
+                    <Tab />
+                    <div className="tab-content" id="myTabContent">
+                        <div className="tab-pane fade" id="charts" role="tabpanel" aria-labelledby="charts-tab">
+                            ...
+                        </div>
 
-                    <div className="row">
+                        <div className="tab-pane fade show active" id="flashcards" role="tabpanel" aria-labelledby="flashcards-tab">
+                            <div className="row">Flashcards</div>
+                            <div className="row">
 
-                        <Card 
-                            handleChange={this.handleInputChange.bind(this)}
-                            guessInput={this.state.guessInput}
-                            character={fCS[fCI].character}
-                            translation={fCS[fCI].englishTranslation}
-                            on={this.state.flashCardsOn}
-                            outcome={this.state.answerOutcome}
-                            />
+                                <LangOptions />
 
+                                <Card 
+                                    handleChange={this.handleInputChange.bind(this)}
+                                    guessInput={this.state.guessInput}
+                                    character={fCS[fCI].character}
+                                    translation={fCS[fCI].englishTranslation}
+                                    on={this.state.flashCardsOn}
+                                    outcome={this.state.answerOutcome}
+                                    />
+
+                            </div>
+
+                            <button onClick={this.nextCard}>Next Card</button>
+                        </div>
+
+                        <div className="tab-pane fade" id="practiceQuiz" role="tabpanel" aria-labelledby="practiceQuiz-tab">
+                            <LangOptions />
+                        </div>
                     </div>
-
-                    <button onClick={this.nextCard}>Next Card</button>
 
                 </Container>
 
