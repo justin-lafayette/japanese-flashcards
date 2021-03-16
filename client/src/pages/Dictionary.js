@@ -3,17 +3,14 @@ import Container from '../components/Container';
 
 function Dictionary() {
   return (
-    <div className="tab-pane fade " id="dictionary" role="tabpanel" aria-labelledby="dictionary-tab">
-        <Container
-            className={"fluid"}
-        >
-            <Container>
-
-            </Container>
+    <Container
+        className={"fluid"}
+    >
+        <Container>
 
         </Container>
 
-    </div>
+    </Container>
   );
 }
 

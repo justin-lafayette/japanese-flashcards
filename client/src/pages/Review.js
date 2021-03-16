@@ -165,34 +165,31 @@ class Review extends Component {
         let fCI= this.state.flashCardIndex;
 
         return (
-            <div className="tab-pane fade show active" id="review" role="tabpanel" aria-labelledby="review-tab">
-                <Container
-                    className={"fluid"}
-                >
-                    <Container>
+            <Container
+                className={"fluid"}
+            >
+                <Container>
 
-                        <div className="row">Flashcards</div>
+                    <div className="row">Flashcards</div>
 
-                        <div className="row">
+                    <div className="row">
 
-                            <Card 
-                                handleChange={this.handleInputChange.bind(this)}
-                                guessInput={this.state.guessInput}
-                                character={fCS[fCI].character}
-                                translation={fCS[fCI].englishTranslation}
-                                on={this.state.flashCardsOn}
-                                outcome={this.state.answerOutcome}
-                                />
+                        <Card 
+                            handleChange={this.handleInputChange.bind(this)}
+                            guessInput={this.state.guessInput}
+                            character={fCS[fCI].character}
+                            translation={fCS[fCI].englishTranslation}
+                            on={this.state.flashCardsOn}
+                            outcome={this.state.answerOutcome}
+                            />
 
-                        </div>
+                    </div>
 
-                        <button onClick={this.nextCard}>Next Card</button>
-
-                    </Container>
+                    <button onClick={this.nextCard}>Next Card</button>
 
                 </Container>
 
-            </div>
+            </Container>
         );
     };
 };
