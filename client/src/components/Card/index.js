@@ -18,6 +18,7 @@ class Card extends Component {
         } else {
             bgColor+= "bg-warning "
         };
+        // console.log(this.props)
         return (
             <>
                 <div className="card text-center">
@@ -25,7 +26,8 @@ class Card extends Component {
                         <h5  className="card-title">{this.props.character}</h5>
                         {this.props.on ? (
                             <>
-                            <input onChange={this.handleOnChange} name="guessInput" type="text" id="cardInput" value={this.props.guessInput} />
+                            {/* TODO: adjust CSS for input to better match and adjust with the card size on different breakpoints */}
+                            <input onChange={this.handleOnChange} name="guessInput" type="text" value={this.props.guessInput} />
                             </>
                         ) : (
                             

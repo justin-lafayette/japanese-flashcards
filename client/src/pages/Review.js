@@ -10,6 +10,7 @@ import jCharactersKatDak from '../jCharacters-kat-dak.json';
 import jCharactersKatCombo from '../jCharacters-kat-combo.json';
 import jCharactersSmallLetters from '../jCharacters-smallLetters.json';
 import jCharactersSymbols from '../jCharacters-symbols.json';
+
 import Tab from '../components/Tab';
 import LangOptions from '../components/LangOptions';
 
@@ -174,15 +175,23 @@ class Review extends Component {
 
                     <Tab />
                     <div className="tab-content" id="myTabContent">
-                        <div className="tab-pane fade" id="charts" role="tabpanel" aria-labelledby="charts-tab">
-                            ...
+                        <div className="tab-pane fade  show active" id="charts" role="tabpanel" aria-labelledby="charts-tab">
+                            <h1>Charts go here</h1>
                         </div>
 
-                        <div className="tab-pane fade show active" id="flashcards" role="tabpanel" aria-labelledby="flashcards-tab">
+                        <div className="tab-pane fade" id="flashcards" role="tabpanel" aria-labelledby="flashcards-tab">
                             <div className="row">Flashcards</div>
                             <div className="row">
 
-                                <LangOptions />
+                                <LangOptions
+                                    handleChange={this.handleInputChange.bind(this)}
+                                    hir=""
+                                    hirDak=""
+                                    hirCombo=""
+                                    kat=""
+                                    katDak=""
+                                    katCombo=""
+                                    />
 
                                 <Card 
                                     handleChange={this.handleInputChange.bind(this)}
@@ -199,7 +208,15 @@ class Review extends Component {
                         </div>
 
                         <div className="tab-pane fade" id="practiceQuiz" role="tabpanel" aria-labelledby="practiceQuiz-tab">
-                            <LangOptions />
+                            <LangOptions
+                                handleChange={this.handleInputChange.bind(this)}
+                                hir=""
+                                hirDak=""
+                                hirCombo=""
+                                kat=""
+                                katDak=""
+                                katCombo=""
+                                />
                         </div>
                     </div>
 
