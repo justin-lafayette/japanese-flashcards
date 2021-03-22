@@ -20,10 +20,10 @@ class Card extends Component {
         };
         // TODO: Remove temporary values below
         console.log(this.props);
-        let data= this.props.data[0];
+        // let data= this.props.data[0];
         return (
             <>
-            {this.props.kanjiOn ? (
+            {/* {this.props.kanjiOn ? (
                 <>
                 <div className="card text-center">
                     <div>
@@ -40,7 +40,7 @@ class Card extends Component {
                     </div>
                 </div>
                 </>
-            ):(
+            ):( */}
                 <>
                 <div className="card text-center">
                     <div className={bgColor}>
@@ -57,7 +57,7 @@ class Card extends Component {
                     </div>
                 </div>
                 </>
-            )}
+            {/* )} */}
             </>
         );
     }
