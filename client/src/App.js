@@ -1,11 +1,21 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import './App.css';
+
 import Home from './pages/Home.js';
 import Review from './pages/Review.js';
 import Quiz from './pages/Quiz.js';
 import Dictionary from './pages/Dictionary.js';
 import Links from './pages/Links.js';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+
+import jCharactersHir from './jCharacters-hir.json';
+import jCharactersHirDak from './jCharacters-hir-dak.json';
+import jCharactersHirCombo from './jCharacters-hir-combo.json';
+import jCharactersKat from './jCharacters-kat.json';
+import jCharactersKatDak from './jCharacters-kat-dak.json';
+import jCharactersKatCombo from './jCharacters-kat-combo.json';
+import jCharactersSmallLetters from './jCharacters-smallLetters.json';
+import jCharactersSymbols from './jCharacters-symbols.json';
 
 // TODO
 // add background of moving Japanese characters. thought to slide across the background
@@ -14,8 +24,17 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 class App extends Component {
 
     state={
-
+        hiragana: [jCharactersHir, jCharactersHirDak, jCharactersHirCombo],
+        katakana: [jCharactersKat, jCharactersKatDak, jCharactersKatCombo],
+        accents: [jCharactersSmallLetters, jCharactersSymbols],
+        kanji: [],
+        rHiragana: [],
+        rKatakana: [],
+        rAccents: [],
+        rKanji: []
     };
+
+    
 
     render() {
         return (
@@ -57,10 +76,18 @@ class App extends Component {
                         <Dictionary />
                     </Route>
                     <Route path= "/quiz">
-                        <Quiz />
+                        <Quiz
+                            hir={this.state.hiragana}
+                            kat={this.state.katakana}
+                            acc={this.state.accents}
+                            />
                     </Route>
                     <Route path= "/review">
-                        <Review />
+                        <Review
+                            hir={this.state.hiragana}
+                            kat={this.state.katakana}
+                            acc={this.state.accents}
+                            />
                     </Route>
                     <Route path= "/">
                         <Home />

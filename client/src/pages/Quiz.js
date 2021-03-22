@@ -38,7 +38,7 @@ class Quiz extends Component {
         });
     };
 
-    // TODO: Function used in two places. Find way to pass function down but still be able to re-randomize when necessary.
+    /* Function will import the json files for the different languages and randomize them using the Fisher-Yates shuffle. Function should be accessible for use in multiple locations and should be allowed to re-randomize the given arrays base off input received from the pages. */
     importAndShuffleArray = ()=> {
         // Solution found here using the Fisher-Yates shuffle. Has been adapted to use ES6 and custom variables: https://javascript.info/task/shuffle 
 
@@ -47,38 +47,20 @@ class Quiz extends Component {
         const kat = [jCharactersKat, jCharactersKatDak, jCharactersKatCombo];
         const acc = [jCharactersSmallLetters, jCharactersSymbols];
 
-        const rHir = hir;
-        const rKat = kat;
-        const rAcc = acc;
+        /* Add each imported language to a parent array. */
+        const parent= [hir, kat, acc];
 
-        // TODO: DRY code necessary for index map in following 3 functions.
-        rHir.forEach((value, index) => {
-            let currentIndex = rHir[index];
+        /* Itterate through each of the parent's arrays, then through each of those children's arrays. In the parent and child, assign a shorthand variable to track the given parent and child indexes. In the grandchild, randomize the order of the grandchild inside the child using the shorthand and random number. Child arrays will now be shuffled randomly. */
+        parent.forEach( (value, index) => {
+            let parentIndex= parent[index]
+            value.forEach( (val, ind) => {
+                let childIndex = parentIndex[ind];
+                val.forEach( (v, i) => {
+                    /* Assign the random number to a varialbe to be called later. Variable creates a random number between 0 & 1 and adds 1 to it. */
+                    let random = Math.floor(Math.random() * (i +1));
 
-            currentIndex.forEach( (val, ind) => {
-
-                let random = Math.floor(Math.random() * (ind + 1));
-                [currentIndex[ind], currentIndex[random]] = [currentIndex[random], currentIndex[ind]];
-            });
-        });
-
-        rKat.forEach((value, index) => {
-            let currentIndex = rKat[index];
-
-            currentIndex.forEach( (val, ind) => {
-
-                let random = Math.floor(Math.random() * (ind + 1));
-                [currentIndex[ind], currentIndex[random]] = [currentIndex[random], currentIndex[ind]];
-            });
-        });
-
-        rAcc.forEach((value, index) => {
-            let currentIndex = rAcc[index];
-
-            currentIndex.forEach( (val, ind) => {
-
-                let random = Math.floor(Math.random() * (ind + 1));
-                [currentIndex[ind], currentIndex[random]] = [currentIndex[random], currentIndex[ind]];
+                    [childIndex[i], childIndex[random]] = [childIndex[random], childIndex[i]];
+                });
             });
         });
 
@@ -86,20 +68,20 @@ class Quiz extends Component {
             hiragana: hir,
             katakana: kat,
             accents: acc,
-            rHiragana: rHir,
-            rKatakana: rKat,
-            rAccents: rAcc,
-            flashCardSelections: rHir[0]
+            rHiragana: parent[0],
+            rKatakana: parent[1],
+            rAccents: parent[2],
+            flashCardSelections: parent[0][0]
         }, ()=> console.log("Random Hir: ", this.state.flashCardSelections));
     };
 
-    // TODO: entryValidation used in two places. Find way to pass function from parent and still function as intended.
+    /* Assign the current state of the letters guessed to a variable. Add the key pressed to gInput. Take card selections and the current card index and assign to variable. Create function to itterate to the next card and reset to basic states. */
     entryValidation = (e)=> {
         let gInput = this.state.guessInput;
         gInput += e.key;
 
-        let cardSelections = this.state.flashCardSelections;
-        let cardIndex = this.state.flashCardIndex;
+        const cardSelections = this.state.flashCardSelections;
+        const cardIndex = this.state.flashCardIndex;
 
         let nextCard = ()=> {
             // DRY function to increment cardIndex and reset state.
@@ -113,11 +95,12 @@ class Quiz extends Component {
             }, 1000);
         };
 
+        /* Validate if the current guess equals the length of the english translation. If so, run nested if to validate if the input matches the english translation strig or alternate translation exactly. If it does then change states to show correct and add that item to the correctly guessed flash cards. If not then show wrong and assign that item to the incorrectly guessed. After showing correct/incorrect, run the nextCard function. */
         if( gInput.length === cardSelections[cardIndex].englishTranslation.length ) {
 
             if( gInput === cardSelections[cardIndex].englishTranslation || gInput === cardSelections[cardIndex].alternateEnglishTranslation ) {
                 
-                // set background to green. increment card index. clear guessInput. assign to correctFlash
+                /* Set background to green. increment card index. clear guessInput. assign to correctFlash */
                 let addCorrect = this.state.correctFlash;
                 addCorrect.push(cardSelections[cardIndex]);
                 this.setState({
@@ -126,7 +109,7 @@ class Quiz extends Component {
                 }, nextCard());
 
             } else {
-                // set background to red. Increment card index. Clear guessInput. Assign to wrongFlash
+                /* Set background to red. Increment card index. Clear guessInput. Assign to wrongFlash */
                 let addWrong = this.state.wrongFlash;
                 addWrong.push(cardSelections[cardIndex]);
                 this.setState({

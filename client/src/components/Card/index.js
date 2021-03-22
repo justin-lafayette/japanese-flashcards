@@ -5,21 +5,27 @@ class Card extends Component {
     // https://www.freecodecamp.org/news/why-arrow-functions-and-bind-in-reacts-render-are-problematic-f1c08b060e36/
     // https://stackoverflow.com/questions/35800491/how-to-get-values-from-child-components-in-react
 
+    
+    /* Function to allow input change to be taken and passed into the parent for flashcard and quiz */
     handleOnChange = e=> {
         this.props.handleChange(e.target.name, e.target.value);
     };
     
     render() {
+        /* Variables that will allow the card background to change based off the props passed for the input received during flashcards and quiz. */
         let bgColor = "card-body "
         if( this.props.outcome === null ){
-            
+            /* Background color class will remain empty or return to neutral. */
         } else if ( this.props.outcome ) {
+            /* Background color for card when correct input is registered */
             bgColor+= "bg-success "
         } else {
+            /* Background color for card when incorrect input is registered */
             bgColor+= "bg-warning "
         };
+
         // TODO: Remove temporary values below
-        console.log(this.props);
+        // console.log(this.props);
         // let data= this.props.data[0];
         return (
             <>
