@@ -72,7 +72,7 @@ class Quiz extends Component {
             rKatakana: parent[1],
             rAccents: parent[2],
             flashCardSelections: parent[0][0]
-        }, ()=> console.log("Random Hir: ", this.state.flashCardSelections));
+        }, ()=> console.log("parent Quiz: ", parent));
     };
 
     /* Assign the current state of the letters guessed to a variable. Add the key pressed to gInput. Take card selections and the current card index and assign to variable. Create function to itterate to the next card and reset to basic states. */
