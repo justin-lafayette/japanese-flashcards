@@ -18,9 +18,30 @@ class Card extends Component {
         } else {
             bgColor+= "bg-warning "
         };
-        // console.log(this.props)
+        // TODO: Remove temporary values below
+        console.log(this.props);
+        let data= this.props.data[0];
         return (
             <>
+            {this.props.kanjiOn ? (
+                <>
+                <div className="card text-center">
+                    <div>
+                        <h3 className="card-title">{data.kanji}</h3>
+                        <h5 className="card-title">{data.heisig_en}</h5>
+                        <ul className="list-group list-group-flush">
+                            <li className="list-group-item">Grade: {data.grade}</li>
+                            <li className="list-group-item">Stroke Count: {data.stroke_count}</li>
+                            <li className="list-group-item">Kun Readings: {data.kun_readings}</li>
+                            <li className="list-group-item">On Readings: {data.on_readings}</li>
+                            <li className="list-group-item">Name Readings: {data.name_readings}</li>
+                            <li className="list-group-item">Meanings: {data.meanings}</li>
+                        </ul>
+                    </div>
+                </div>
+                </>
+            ):(
+                <>
                 <div className="card text-center">
                     <div className={bgColor}>
                         <h5  className="card-title">{this.props.character}</h5>
@@ -35,6 +56,8 @@ class Card extends Component {
                         )}
                     </div>
                 </div>
+                </>
+            )}
             </>
         );
     }

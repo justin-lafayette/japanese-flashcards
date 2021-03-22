@@ -15,10 +15,21 @@ import jCharactersSymbols from '../jCharacters-symbols.json';
 class Quiz extends Component {
 
     state={
-        guessInput: "",
-        answerOutcome: null,
+        hiragana: [],
+        katakana: [],
+        accents: [],
+        kanji: [],
+        rHiragana: [],
+        rKatakana: [],
+        rAccents: [],
+        rKanji: [],
+        correctFlash:[],
+        wrongFlash: [],
+        flashCardIndex: 0,
         flashCardSelections: [""],
-        flashCardsOn: true
+        flashCardsOn: true,
+        guessInput: [],
+        answerOutcome: null
     };
 
     handleInputChange = (name, value) => {
