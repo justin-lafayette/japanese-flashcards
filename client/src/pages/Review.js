@@ -5,6 +5,8 @@ import Container from '../components/Container';
 import LangOptions from '../components/LangOptions';
 import Tab from '../components/Tab';
 
+import "../App.css"
+
 class Review extends Component {
 
     state={
@@ -15,7 +17,20 @@ class Review extends Component {
         correctFlash:[],
         wrongFlash: [],
         flashCardIndex: 0,
-        flashCardSelections: [],
+        flashCardSelections: [
+            {"name": "flash-hir", "bool": false},
+            {"name": "flash-hirDak", "bool": false},
+            {"name": "flash-hirCombo", "bool": false},
+            {"name": "flash-kat", "bool": false},
+            {"name": "flash-katDak", "bool": false},
+            {"name": "flash-katCombo", "bool": false},
+            {"name": "pract-hir", "bool": false},
+            {"name": "pract-hirDak", "bool": false},
+            {"name": "pract-hirCombo", "bool": false},
+            {"name": "pract-kat", "bool": false},
+            {"name": "pract-katDak", "bool": false},
+            {"name": "pract-katCombo", "bool": false}
+        ],
         flashCardsOn: true,
         guessInput: [],
         answerOutcome: null
@@ -87,15 +102,26 @@ class Review extends Component {
 
     // https://stackoverflow.com/questions/40691062/add-and-remove-html-elements-on-button-click-in-react
     /* Function should be able to write to different states for review and quiz. Could possibly be passed down from App since Quiz will require function as well. */
-    buttonSelection = ()=> {
+    buttonSelection = (e)=> {
+        let currentSelections= this.state.flashCardSelections;
 
+        currentSelections.map( (value, index)=> {
+            if( e === value.name ) {
+                let valueName= value.name;
+                let valueBool= value.bool;
+                currentSelections[index]= {"name": valueName, "bool": !valueBool};
+                this.setState({
+                    flashCardSelections: currentSelections,
+                });
+            };
+        });
     };
 
     /* TODO: Create way to clear the selection for the flashcards and reset quiz. */
 
     componentDidMount() {
         this.props.shuffle();
-        document.addEventListener("keydown", this.entryValidation);
+        // document.addEventListener("keydown", this.entryValidation);
     };
 
     componentDidUpdate(prevProps) {
@@ -104,7 +130,7 @@ class Review extends Component {
                 rHiragana: this.props.hir,
                 rKatakana: this.props.kat,
                 rAccents: this.props.acc,
-                flashCardSelections: this.props.hir[0]
+                // flashCardSelections: this.props.hir[0]
             })
         }
     }
@@ -139,7 +165,7 @@ class Review extends Component {
                                 {/* TODO: Possibly replace the .bind function with extract child component. https://www.freecodecamp.org/news/react-pattern-extract-child-components-to-avoid-binding-e3ad8310725e/ */}
                                 {/* Pass unique names for the options to the child so they can be properly distinguished based off the page's state. */}
                                 <LangOptions
-                                    handleChange={this.handleInputChange.bind(this)}
+                                    handleChange={this.buttonSelection.bind(this)}
                                     hir="flash-hir"
                                     hirDak="flash-hirDak"
                                     hirCombo="flash-hirCombo"
