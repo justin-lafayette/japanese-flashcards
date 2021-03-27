@@ -37,7 +37,6 @@ class App extends Component {
     /* Function will take the imported json files for the different languages and randomize them using the Fisher-Yates shuffle. Function should be accessible for use in multiple locations and should be allowed to re-randomize the given arrays base off input received from the pages. */
     shuffleArrays = ()=> {
         // Solution found here using the Fisher-Yates shuffle. Has been adapted to use ES6 and custom variables: https://javascript.info/task/shuffle 
-
         // import to variables done here to prevent multiple page re-rendering before displaying
         const hir = this.state.hiragana;
         const kat = this.state.katakana;
@@ -63,14 +62,14 @@ class App extends Component {
             rHiragana: parent[0],
             rKatakana: parent[1],
             rAccents: parent[2],
-        });
+        }, ()=> console.log(this.state.rHiragana));
     };
 
     componentDidMount() {
-        this.shuffleArrays();
     };
 
     render() {
+        
         return (
             <>
             <Router>
@@ -114,6 +113,7 @@ class App extends Component {
                             hir={this.state.rHiragana}
                             kat={this.state.rKatakana}
                             acc={this.state.rAccents}
+                            
                             />
                     </Route>
                     <Route path= "/review">
@@ -121,6 +121,7 @@ class App extends Component {
                             hir={this.state.rHiragana}
                             kat={this.state.rKatakana}
                             acc={this.state.rAccents}
+                            shuffle={this.shuffleArrays}
                             />
                     </Route>
                     <Route path= "/">

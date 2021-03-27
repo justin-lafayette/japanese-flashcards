@@ -8,9 +8,9 @@ import Tab from '../components/Tab';
 class Review extends Component {
 
     state={
-        rHiragana: [this.props.hir],
-        rKatakana: [this.props.kat],
-        rAccents: [this.props.acc],
+        rHiragana: [],
+        rKatakana: [],
+        rAccents: [],
         rKanji: [],
         correctFlash:[],
         wrongFlash: [],
@@ -94,19 +94,28 @@ class Review extends Component {
     // }
 
     componentDidMount() {
-        console.log(this.props);
-
-        this.setState({flashCardSelections: this.props.hir[0]});
+        // this.shuffleArrays();
+        this.props.shuffle();
         document.addEventListener("keydown", this.entryValidation);
     };
+
+    componentDidUpdate(prevProps) {
+        if( this.props !== prevProps ){
+            this.setState({
+                rHiragana: this.props.hir,
+                rKatakana: this.props.kat,
+                rAccents: this.props.acc,
+                flashCardSelections: this.props.hir[0][0]
+            })
+        }
+    }
 
     render() {
         /* Shorthand variables. */
         let fCS= this.state.flashCardSelections;
         let fCI= this.state.flashCardIndex;
-        console.log(this.props);
-        console.log(fCS);
-        console.log(fCI);
+        
+        console.log(this.state.rHiragana.length);
         return (
             <Container
                 className={"fluid"}
@@ -135,17 +144,17 @@ class Review extends Component {
                                     katCombo="flash-katCombo"
                                     />
 
-                                {this.props.length ? (
-                                <>
-                                <Card 
-                                    handleChange={this.handleInputChange.bind(this)}
-                                    guessInput={this.state.guessInput}
-                                    character={fCS[fCI].character}
-                                    translation={fCS[fCI].englishTranslation}
-                                    on={this.state.flashCardsOn}
-                                    outcome={this.state.answerOutcome}
-                                    />
-                                </>
+                                {fCS.length ? (
+                                    <>
+                                    <Card 
+                                        handleChange={this.handleInputChange.bind(this)}
+                                        guessInput={this.state.guessInput}
+                                        character={fCS[fCI].character}
+                                        translation={fCS[fCI].englishTranslation}
+                                        on={this.state.flashCardsOn}
+                                        outcome={this.state.answerOutcome}
+                                        />
+                                    </>
                                 ):(<></>)}
 
                             </div>
