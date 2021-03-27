@@ -113,6 +113,12 @@ class Review extends Component {
         /* Shorthand variables. */
         let fCS= this.state.flashCardSelections;
         let fCI= this.state.flashCardIndex;
+
+        /* TODO:
+            Display only the language selection buttons on page render.
+            Have onClick function passed from LangOptions to parent for the selected options to be written to a state.
+            On selection finalization, write cards for only the selected options.
+        */
         
         return (
             <Container
