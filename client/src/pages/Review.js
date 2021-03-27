@@ -5,6 +5,24 @@ import Container from '../components/Container';
 import LangOptions from '../components/LangOptions';
 import Tab from '../components/Tab';
 
+const initialFlashCardState = [
+    {"name": "flash-hir", "bool": false, "fullName": "Hiragana"},
+    {"name": "flash-hirDak", "bool": false, "fullName": "Hiragana Dakuten"},
+    {"name": "flash-hirCombo", "bool": false, "fullName": "Combination Hiragana"},
+    {"name": "flash-kat", "bool": false, "fullName": "Katakana"},
+    {"name": "flash-katDak", "bool": false, "fullName": "Katakana Dakuten"},
+    {"name": "flash-katCombo", "bool": false, "fullName": "Combination Katakana"},
+];
+
+const intialPracticeState = [
+    {"name": "pract-hir", "bool": false, "fullName": "Hiragana"},
+    {"name": "pract-hirDak", "bool": false, "fullName": "Hiragana Dakuten"},
+    {"name": "pract-hirCombo", "bool": false, "fullName": "Combination Hiragana"},
+    {"name": "pract-kat", "bool": false, "fullName": "Katakana"},
+    {"name": "pract-katDak", "bool": false, "fullName": "Katakana Dakuten"},
+    {"name": "pract-katCombo", "bool": false, "fullName": "Combination Katakana"}
+];
+
 class Review extends Component {
 
     state={
@@ -15,26 +33,15 @@ class Review extends Component {
         correctFlash:[],
         wrongFlash: [],
         flashCardIndex: 0,
-        flashCardSelections: [
-            {"name": "flash-hir", "bool": false, "fullName": "Hiragana"},
-            {"name": "flash-hirDak", "bool": false, "fullName": "Hiragana Dakuten"},
-            {"name": "flash-hirCombo", "bool": false, "fullName": "Combination Hiragana"},
-            {"name": "flash-kat", "bool": false, "fullName": "Katakana"},
-            {"name": "flash-katDak", "bool": false, "fullName": "Katakana Dakuten"},
-            {"name": "flash-katCombo", "bool": false, "fullName": "Combination Katakana"},
-        ],
-        practiceSelections: [
-            {"name": "pract-hir", "bool": false, "fullName": "Hiragana"},
-            {"name": "pract-hirDak", "bool": false, "fullName": "Hiragana Dakuten"},
-            {"name": "pract-hirCombo", "bool": false, "fullName": "Combination Hiragana"},
-            {"name": "pract-kat", "bool": false, "fullName": "Katakana"},
-            {"name": "pract-katDak", "bool": false, "fullName": "Katakana Dakuten"},
-            {"name": "pract-katCombo", "bool": false, "fullName": "Combination Katakana"}
-        ],
-        flashCardsOn: true,
+        flashCardSelections: initialFlashCardState,
+        practiceSelections: intialPracticeState,
+        flashCardStart: false,
+        practiceStart: false,
         guessInput: [],
         answerOutcome: null
     };
+
+    /* EVENT HANDLERS */
 
     /* Function to take input from the child and assign it to the state for the given item. */
     handleInputChange = (name, value) => {
@@ -43,6 +50,57 @@ class Review extends Component {
         });
     };
 
+    /* Event handling function that will take the button selections and change the bool value for the object with the same name. */
+    handleSelection = (name, value)=> {
+        let currentSelections= this.state.flashCardSelections;
+        currentSelections.map( (val, ind)=> {
+            if( name === val.name ) {
+                let valueName= val.name;
+                let valueBool= val.bool;
+                /* Take the current index of the current selection and overwrite the values. */
+                currentSelections[ind]= {"name": valueName, "bool": !valueBool, "fullName": currentSelections[ind].fullName};
+                this.setState({
+                    flashCardSelections: currentSelections,
+                });
+            };
+        });
+    };
+
+    /* Handles the reset of cards/quiz and re-randomizes the cards. Initial state needs to be reset to false, the other states emptied, and function for shuffle called. */
+    handleReset = ()=> {
+        initialFlashCardState.map( (value, index)=> {
+            initialFlashCardState[index].bool = false;
+        });
+        intialPracticeState.map( (value, index)=> {
+            intialPracticeState[index].bool = false;
+        });
+        this.setState({
+            correctFlash:[],
+            wrongFlash: [],
+            flashCardIndex: 0,
+            flashCardSelections: initialFlashCardState,
+            practiceSelections: intialPracticeState,
+            flashCardStart: false,
+            practiceStart: false,
+            guessInput: [],
+            answerOutcome: null
+        }, this.props.shuffle())
+    };
+
+    /* Simple function that will start the cards or quiz. */
+    handleSubmit = (name, value)=> {
+        if( name === "flash" ){
+            this.setState({
+                flashCardStart: true
+            });
+        };
+        if( name === "practice" ){
+            this.setState({
+                practiceStart: true
+            })
+        }
+    };
+    
     /* TODO: Determin if below function can be refactored to meet DRY standards. Function is used in Review.js and Quiz.js for the same purpose */
     /* Assign the current state of the letters guessed to a variable. Add the key pressed to gInput. Take card selections and the current card index and assign to variable. Create function to itterate to the next card and reset to basic states. */
     entryValidation = (e)=> {
@@ -100,21 +158,7 @@ class Review extends Component {
         });
     };
 
-    /* Event handling function that will take the button selections and change the bool value for the object with the same name. */
-    buttonSelection = (e)=> {
-        let currentSelections= this.state.flashCardSelections;
-        currentSelections.map( (value, index)=> {
-            if( e === value.name ) {
-                let valueName= value.name;
-                let valueBool= value.bool;
-                /* Take the current index of the current selection and overwrite the values. */
-                currentSelections[index]= {"name": valueName, "bool": !valueBool, "fullName": currentSelections[index].fullName};
-                this.setState({
-                    flashCardSelections: currentSelections,
-                });
-            };
-        });
-    };
+    
 
     /* TODO: Create way to clear the selection for the flashcards and reset quiz. */
 
@@ -144,7 +188,7 @@ class Review extends Component {
             Have onClick function passed from LangOptions to parent for the selected options to be written to a state.
             On selection finalization, write cards for only the selected options.
         */
-        
+        console.log(this.state.rHiragana)
         return (
             <Container
                 className={"fluid"}
@@ -164,18 +208,22 @@ class Review extends Component {
                                 {/* TODO: Possibly replace the .bind function with extract child component. https://www.freecodecamp.org/news/react-pattern-extract-child-components-to-avoid-binding-e3ad8310725e/ */}
                                 {/* Pass unique names for the options to the child so they can be properly distinguished based off the page's state. */}
                                 <LangOptions
-                                    handleChange={this.buttonSelection.bind(this)}
+                                    handleSelection={this.handleSelection.bind(this)}
+                                    handleSubmit={this.handleSubmit.bind(this)}
+                                    handleReset={this.handleReset.bind(this)}
                                     selected={fCS}
+                                    name="flash"
+                                    start={this.state.flashCardStart}
                                     />
 
-                                {fCS.length ? (
+                                {this.state.flashCardStart ? (
                                     <>
                                     <Card 
                                         handleChange={this.handleInputChange.bind(this)}
                                         guessInput={this.state.guessInput}
                                         character={fCS[fCI].character}
                                         translation={fCS[fCI].englishTranslation}
-                                        on={this.state.flashCardsOn}
+                                        start={this.state.flashCardStart}
                                         outcome={this.state.answerOutcome}
                                         />
                                     </>
@@ -189,7 +237,11 @@ class Review extends Component {
                         <div className="tab-pane fade" id="practiceQuiz" role="tabpanel" aria-labelledby="practiceQuiz-tab">
                             <LangOptions
                                 handleChange={this.handleInputChange.bind(this)}
+                                handleSubmit={this.handleSubmit.bind(this)}
+                                handleReset={this.handleReset.bind(this)}
                                 selected={this.state.practiceSelections}
+                                name="practice"
+                                start={this.state.practiceStart}
                                 />
                         </div>
                     </div>
