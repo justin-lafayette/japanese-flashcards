@@ -5,8 +5,6 @@ import Container from '../components/Container';
 import LangOptions from '../components/LangOptions';
 import Tab from '../components/Tab';
 
-import "../App.css"
-
 class Review extends Component {
 
     state={
@@ -18,18 +16,20 @@ class Review extends Component {
         wrongFlash: [],
         flashCardIndex: 0,
         flashCardSelections: [
-            {"name": "flash-hir", "bool": false},
-            {"name": "flash-hirDak", "bool": false},
-            {"name": "flash-hirCombo", "bool": false},
-            {"name": "flash-kat", "bool": false},
-            {"name": "flash-katDak", "bool": false},
-            {"name": "flash-katCombo", "bool": false},
-            {"name": "pract-hir", "bool": false},
-            {"name": "pract-hirDak", "bool": false},
-            {"name": "pract-hirCombo", "bool": false},
-            {"name": "pract-kat", "bool": false},
-            {"name": "pract-katDak", "bool": false},
-            {"name": "pract-katCombo", "bool": false}
+            {"name": "flash-hir", "bool": false, "fullName": "Hiragana"},
+            {"name": "flash-hirDak", "bool": false, "fullName": "Hiragana Dakuten"},
+            {"name": "flash-hirCombo", "bool": false, "fullName": "Combination Hiragana"},
+            {"name": "flash-kat", "bool": false, "fullName": "Katakana"},
+            {"name": "flash-katDak", "bool": false, "fullName": "Katakana Dakuten"},
+            {"name": "flash-katCombo", "bool": false, "fullName": "Combination Katakana"},
+        ],
+        practiceSelections: [
+            {"name": "pract-hir", "bool": false, "fullName": "Hiragana"},
+            {"name": "pract-hirDak", "bool": false, "fullName": "Hiragana Dakuten"},
+            {"name": "pract-hirCombo", "bool": false, "fullName": "Combination Hiragana"},
+            {"name": "pract-kat", "bool": false, "fullName": "Katakana"},
+            {"name": "pract-katDak", "bool": false, "fullName": "Katakana Dakuten"},
+            {"name": "pract-katCombo", "bool": false, "fullName": "Combination Katakana"}
         ],
         flashCardsOn: true,
         guessInput: [],
@@ -100,16 +100,15 @@ class Review extends Component {
         });
     };
 
-    // https://stackoverflow.com/questions/40691062/add-and-remove-html-elements-on-button-click-in-react
-    /* Function should be able to write to different states for review and quiz. Could possibly be passed down from App since Quiz will require function as well. */
+    /* Event handling function that will take the button selections and change the bool value for the object with the same name. */
     buttonSelection = (e)=> {
         let currentSelections= this.state.flashCardSelections;
-
         currentSelections.map( (value, index)=> {
             if( e === value.name ) {
                 let valueName= value.name;
                 let valueBool= value.bool;
-                currentSelections[index]= {"name": valueName, "bool": !valueBool};
+                /* Take the current index of the current selection and overwrite the values. */
+                currentSelections[index]= {"name": valueName, "bool": !valueBool, "fullName": currentSelections[index].fullName};
                 this.setState({
                     flashCardSelections: currentSelections,
                 });
@@ -166,12 +165,7 @@ class Review extends Component {
                                 {/* Pass unique names for the options to the child so they can be properly distinguished based off the page's state. */}
                                 <LangOptions
                                     handleChange={this.buttonSelection.bind(this)}
-                                    hir="flash-hir"
-                                    hirDak="flash-hirDak"
-                                    hirCombo="flash-hirCombo"
-                                    kat="flash-kat"
-                                    katDak="flash-katDak"
-                                    katCombo="flash-katCombo"
+                                    selected={fCS}
                                     />
 
                                 {fCS.length ? (
@@ -195,12 +189,7 @@ class Review extends Component {
                         <div className="tab-pane fade" id="practiceQuiz" role="tabpanel" aria-labelledby="practiceQuiz-tab">
                             <LangOptions
                                 handleChange={this.handleInputChange.bind(this)}
-                                hir="pract-hir"
-                                hirDak="pract-hirDak"
-                                hirCombo="pract-hirCombo"
-                                kat="pract-kat"
-                                katDak="pract-katDak"
-                                katCombo="pract-katCombo"
+                                selected={this.state.practiceSelections}
                                 />
                         </div>
                     </div>
