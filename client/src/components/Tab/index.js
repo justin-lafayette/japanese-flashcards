@@ -3,41 +3,18 @@ import React from 'react';
 function Tab(props) {
     return (
         <>
-        {/* // For use if moving to independent page system */}
-            {/* // <ul className="nav nav-tabs">
-            //     <li className="nav-item">
-            //         <a className="nav-link active" aria-current="page" href="#">Home</a>
-            //     </li>
-            //     <li className="nav-item">
-            //         <a className="nav-link" href="#">Review</a>
-            //     </li>
-            //     <li className="nav-item">
-            //         <a className="nav-link" href="#">Quiz</a>
-            //     </li>
-            //     <li className="nav-item">
-            //         <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            //     </li>
-            // </ul> */}
-
-        {/* For use in single page view */}
-            <ul className="nav nav-tabs" id="tabsNav" role="tablist">
-                <li className="nav-item" role="presentation">
-                    <button className="nav-link " id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
-                </li>
-                <li className="nav-item" role="presentation">
-                    <button className="nav-link active" id="review-tab" data-bs-toggle="tab" data-bs-target="#review" type="button" role="tab" aria-controls="review" aria-selected="false">Review</button>
-                </li>
-                <li className="nav-item" role="presentation">
-                    <button className="nav-link" id="quiz-tab" data-bs-toggle="tab" data-bs-target="#quiz" type="button" role="tab" aria-controls="quiz" aria-selected="false">Quiz</button>
-                </li>
-                <li className="nav-item" role="presentation">
-                    <button className="nav-link" id="dictionary-tab" data-bs-toggle="tab" data-bs-target="#dictionary" type="button" role="tab" aria-controls="dictionary" aria-selected="false">Dictionary</button>
-                </li>
-                <li className="nav-item" role="presentation">
-                    <button className="nav-link" id="links-tab" data-bs-toggle="tab" data-bs-target="#links" type="button" role="tab" aria-controls="links" aria-selected="false">Links</button>
-                </li>
-            </ul>
-
+        {/* Tabs for use in Review.js. Will tab between Charts, Review, and Quiz. */}
+        <ul className="nav nav-tabs" id="tabsNav" role="tablist">
+            <li className="nav-item" role="presentation">
+                <button className="nav-link " id="charts-tab" data-bs-toggle="tab" data-bs-target="#charts" type="button" role="tab" aria-controls="charts" aria-selected="true">Charts</button>
+            </li>
+            <li className="nav-item" role="presentation">
+                <button className="nav-link active" id="flashcards-tab" data-bs-toggle="tab" data-bs-target="#flashcards" type="button" role="tab" aria-controls="flashcards" aria-selected="false">Review</button>
+            </li>
+            <li className="nav-item" role="presentation">
+                <button className="nav-link" id="practiceQuiz-tab" data-bs-toggle="tab" data-bs-target="#practiceQuiz" type="button" role="tab" aria-controls="practiceQuiz" aria-selected="false">Quiz</button>
+            </li>
+        </ul>
         </>
     );
 };

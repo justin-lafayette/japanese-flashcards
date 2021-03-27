@@ -1,28 +1,13 @@
 import React, {Component} from 'react';
-import Container from '../components/Container';
+
 import Card from '../components/Card';
-
-import jCharactersHir from '../jCharacters-hir.json';
-import jCharactersHirDak from '../jCharacters-hir-dak.json';
-import jCharactersHirCombo from '../jCharacters-hir-combo.json';
-import jCharactersKat from '../jCharacters-kat.json';
-import jCharactersKatDak from '../jCharacters-kat-dak.json';
-import jCharactersKatCombo from '../jCharacters-kat-combo.json';
-import jCharactersSmallLetters from '../jCharacters-smallLetters.json';
-import jCharactersSymbols from '../jCharacters-symbols.json';
-
-// TODO:
-// render data
-// options for seeing chart, flash cards, and guessing game
-// store different tabs in state. Bootstrap tabs do not appear to work
+import Container from '../components/Container';
+import LangOptions from '../components/LangOptions';
+import Tab from '../components/Tab';
 
 class Review extends Component {
 
     state={
-        hiragana: [],
-        katakana: [],
-        accents: [],
-        kanji: [],
         rHiragana: [],
         rKatakana: [],
         rAccents: [],
@@ -30,72 +15,21 @@ class Review extends Component {
         correctFlash:[],
         wrongFlash: [],
         flashCardIndex: 0,
-        flashCardSelections: [""],
+        flashCardSelections: [],
         flashCardsOn: true,
         guessInput: [],
         answerOutcome: null
     };
 
+    /* Function to take input from the child and assign it to the state for the given item. */
     handleInputChange = (name, value) => {
         this.setState({
             [name]: value
         });
     };
 
-    importAndShuffleArray = ()=> {
-        // Solution found here using the Fisher-Yates shuffle. Has been adapted to use ES6 and custom variables: https://javascript.info/task/shuffle 
-
-        // import to variables done here to prevent multiple page re-rendering before displaying
-        const hir = [jCharactersHir, jCharactersHirDak, jCharactersHirCombo];
-        const kat = [jCharactersKat, jCharactersKatDak, jCharactersKatCombo];
-        const acc = [jCharactersSmallLetters, jCharactersSymbols];
-
-        const rHir = hir;
-        const rKat = kat;
-        const rAcc = acc;
-
-        // TODO: DRY code necessary for index map in following 3 functions.
-        rHir.forEach((value, index) => {
-            let currentIndex = rHir[index];
-
-            currentIndex.forEach( (val, ind) => {
-
-                let random = Math.floor(Math.random() * (ind + 1));
-                [currentIndex[ind], currentIndex[random]] = [currentIndex[random], currentIndex[ind]];
-            });
-        });
-
-        rKat.forEach((value, index) => {
-            let currentIndex = rKat[index];
-
-            currentIndex.forEach( (val, ind) => {
-
-                let random = Math.floor(Math.random() * (ind + 1));
-                [currentIndex[ind], currentIndex[random]] = [currentIndex[random], currentIndex[ind]];
-            });
-        });
-
-        rAcc.forEach((value, index) => {
-            let currentIndex = rAcc[index];
-
-            currentIndex.forEach( (val, ind) => {
-
-                let random = Math.floor(Math.random() * (ind + 1));
-                [currentIndex[ind], currentIndex[random]] = [currentIndex[random], currentIndex[ind]];
-            });
-        });
-
-        this.setState({
-            hiragana: hir,
-            katakana: kat,
-            accents: acc,
-            rHiragana: rHir,
-            rKatakana: rKat,
-            rAccents: rAcc,
-            flashCardSelections: rHir[0]
-        }, ()=> console.log("Random Hir: ", this.state.flashCardSelections));
-    };
-
+    /* TODO: Determin if below function can be refactored to meet DRY standards. Function is used in Review.js and Quiz.js for the same purpose */
+    /* Assign the current state of the letters guessed to a variable. Add the key pressed to gInput. Take card selections and the current card index and assign to variable. Create function to itterate to the next card and reset to basic states. */
     entryValidation = (e)=> {
         let gInput = this.state.guessInput;
         gInput += e.key;
@@ -115,11 +49,12 @@ class Review extends Component {
             }, 1000);
         };
 
+        /* Validate if the current guess equals the length of the english translation. If so, run nested if to validate if the input matches the english translation strig or alternate translation exactly. If it does then change states to show correct and add that item to the correctly guessed flash cards. If not then show wrong and assign that item to the incorrectly guessed. After showing correct/incorrect, run the nextCard function. */
         if( gInput.length === cardSelections[cardIndex].englishTranslation.length ) {
 
             if( gInput === cardSelections[cardIndex].englishTranslation || gInput === cardSelections[cardIndex].alternateEnglishTranslation ) {
                 
-                // set background to green. increment card index. clear guessInput. assign to correctFlash
+                /* Set background to green. increment card index. clear guessInput. assign to correctFlash */
                 let addCorrect = this.state.correctFlash;
                 addCorrect.push(cardSelections[cardIndex]);
                 this.setState({
@@ -128,7 +63,7 @@ class Review extends Component {
                 }, nextCard());
 
             } else {
-                // set background to red. Increment card index. Clear guessInput. Assign to wrongFlash
+                /* Set background to red. Increment card index. Clear guessInput. Assign to wrongFlash */
                 let addWrong = this.state.wrongFlash;
                 addWrong.push(cardSelections[cardIndex]);
                 this.setState({
@@ -151,48 +86,96 @@ class Review extends Component {
     };
 
     // https://stackoverflow.com/questions/40691062/add-and-remove-html-elements-on-button-click-in-react
-    inputReviewSelection = ()=> {
+    /* Function should be able to write to different states for review and quiz. Could possibly be passed down from App since Quiz will require function as well. */
+    buttonSelection = ()=> {
 
     };
 
+    /* TODO: Create way to clear the selection for the flashcards and reset quiz. */
+
     componentDidMount() {
-        this.importAndShuffleArray();
+        this.props.shuffle();
         document.addEventListener("keydown", this.entryValidation);
     };
 
+    componentDidUpdate(prevProps) {
+        if( this.props !== prevProps ){
+            this.setState({
+                rHiragana: this.props.hir,
+                rKatakana: this.props.kat,
+                rAccents: this.props.acc,
+                flashCardSelections: this.props.hir[0]
+            })
+        }
+    }
+
     render() {
+        /* Shorthand variables. */
         let fCS= this.state.flashCardSelections;
         let fCI= this.state.flashCardIndex;
-
+        
         return (
-            <div className="tab-pane fade show active" id="review" role="tabpanel" aria-labelledby="review-tab">
-                <Container
-                    className={"fluid"}
-                >
-                    <Container>
+            <Container
+                className={"fluid"}
+            >
+                <Container>
 
-                        <div className="row">Flashcards</div>
-
-                        <div className="row">
-
-                            <Card 
-                                handleChange={this.handleInputChange.bind(this)}
-                                guessInput={this.state.guessInput}
-                                character={fCS[fCI].character}
-                                translation={fCS[fCI].englishTranslation}
-                                on={this.state.flashCardsOn}
-                                outcome={this.state.answerOutcome}
-                                />
-
+                    <Tab />
+                    <div className="tab-content" id="myTabContent">
+                        <div className="tab-pane fade " id="charts" role="tabpanel" aria-labelledby="charts-tab">
+                            <h1>Charts go here</h1>
                         </div>
 
-                        <button onClick={this.nextCard}>Next Card</button>
+                        <div className="tab-pane fade show active" id="flashcards" role="tabpanel" aria-labelledby="flashcards-tab">
+                            <div className="row">Flashcards</div>
+                            <div className="row">
 
-                    </Container>
+                                {/* TODO: Possibly replace the .bind function with extract child component. https://www.freecodecamp.org/news/react-pattern-extract-child-components-to-avoid-binding-e3ad8310725e/ */}
+                                {/* Pass unique names for the options to the child so they can be properly distinguished based off the page's state. */}
+                                <LangOptions
+                                    handleChange={this.handleInputChange.bind(this)}
+                                    hir="flash-hir"
+                                    hirDak="flash-hirDak"
+                                    hirCombo="flash-hirCombo"
+                                    kat="flash-kat"
+                                    katDak="flash-katDak"
+                                    katCombo="flash-katCombo"
+                                    />
+
+                                {fCS.length ? (
+                                    <>
+                                    <Card 
+                                        handleChange={this.handleInputChange.bind(this)}
+                                        guessInput={this.state.guessInput}
+                                        character={fCS[fCI].character}
+                                        translation={fCS[fCI].englishTranslation}
+                                        on={this.state.flashCardsOn}
+                                        outcome={this.state.answerOutcome}
+                                        />
+                                    </>
+                                ):(<></>)}
+
+                            </div>
+
+                            <button onClick={this.nextCard}>Next Card</button>
+                        </div>
+
+                        <div className="tab-pane fade" id="practiceQuiz" role="tabpanel" aria-labelledby="practiceQuiz-tab">
+                            <LangOptions
+                                handleChange={this.handleInputChange.bind(this)}
+                                hir="pract-hir"
+                                hirDak="pract-hirDak"
+                                hirCombo="pract-hirCombo"
+                                kat="pract-kat"
+                                katDak="pract-katDak"
+                                katCombo="pract-katCombo"
+                                />
+                        </div>
+                    </div>
 
                 </Container>
 
-            </div>
+            </Container>
         );
     };
 };
