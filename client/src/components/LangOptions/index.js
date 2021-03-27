@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 class LangOptions extends Component {
 
+    /* Function will essentially pass the target name and value to the parent through props.handleChange. */
     handleOnChange = e=> {
         this.props.handleChange(e.target.name, e.target.value);
     };
@@ -9,9 +10,10 @@ class LangOptions extends Component {
     render() {
         return (
             <>
-            {/* Need a way to differintiate between selection for flashcards and practce quiz without redoing work. */}
-            {/* Need to bind the inputs to onChange handles. */}
+            {/* TODO: Need to bind the inputs to onChange handles. */}
+            {/* TODO: Create a button that will reset the selection after the selections have been finalized to allow resetting the game without having to complete. Envision one button with "Reset Selection at the top of the page after finalizing selections." */}
             
+            {/* Button group to show the different language options to choose from. Selections will be passed back to the parent and cards rendered based off the selection. */}
             <div className="container">
                 <div className="row row-cols-2">
                     <div className="col">

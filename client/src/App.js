@@ -113,7 +113,7 @@ class App extends Component {
                             hir={this.state.rHiragana}
                             kat={this.state.rKatakana}
                             acc={this.state.rAccents}
-                            
+                            shuffle={this.shuffleArrays}
                             />
                     </Route>
                     <Route path= "/review">

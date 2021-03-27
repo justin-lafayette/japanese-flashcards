@@ -6,7 +6,7 @@ class Card extends Component {
     // https://stackoverflow.com/questions/35800491/how-to-get-values-from-child-components-in-react
 
     
-    /* Function to allow input change to be taken and passed into the parent for flashcard and quiz */
+    /* Function will essentially pass the target name and value to the parent through props.handleChange. */
     handleOnChange = e=> {
         this.props.handleChange(e.target.name, e.target.value);
     };
@@ -48,16 +48,17 @@ class Card extends Component {
                 </>
             ):( */}
                 <>
+                {/* Card for rendering single flashcards and multiple quiz cards. */}
                 <div className="card text-center">
                     <div className={bgColor}>
                         <h5  className="card-title">{this.props.character}</h5>
+                        {/* Validate if the card should be quizing or if the translation should be shown. If on=True show input field. If on=False show translation. */}
                         {this.props.on ? (
                             <>
                             {/* TODO: adjust CSS for input to better match and adjust with the card size on different breakpoints */}
                             <input onChange={this.handleOnChange} name="guessInput" type="text" value={this.props.guessInput} />
                             </>
                         ) : (
-                            
                             <p className="card-text">{this.props.translation}</p>
                         )}
                     </div>

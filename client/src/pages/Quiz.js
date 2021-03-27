@@ -3,22 +3,9 @@ import Container from '../components/Container';
 import LangOptions from '../components/LangOptions';
 import Card from '../components/Card';
 
-import jCharactersHir from '../jCharacters-hir.json';
-import jCharactersHirDak from '../jCharacters-hir-dak.json';
-import jCharactersHirCombo from '../jCharacters-hir-combo.json';
-import jCharactersKat from '../jCharacters-kat.json';
-import jCharactersKatDak from '../jCharacters-kat-dak.json';
-import jCharactersKatCombo from '../jCharacters-kat-combo.json';
-import jCharactersSmallLetters from '../jCharacters-smallLetters.json';
-import jCharactersSymbols from '../jCharacters-symbols.json';
-
 class Quiz extends Component {
 
     state={
-        hiragana: [],
-        katakana: [],
-        accents: [],
-        kanji: [],
         rHiragana: [],
         rKatakana: [],
         rAccents: [],
@@ -32,56 +19,21 @@ class Quiz extends Component {
         answerOutcome: null
     };
 
+    /* DRY */
     handleInputChange = (name, value) => {
         this.setState({
             [name]: value
         });
     };
 
-    /* Function will import the json files for the different languages and randomize them using the Fisher-Yates shuffle. Function should be accessible for use in multiple locations and should be allowed to re-randomize the given arrays base off input received from the pages. */
-    importAndShuffleArray = ()=> {
-        // Solution found here using the Fisher-Yates shuffle. Has been adapted to use ES6 and custom variables: https://javascript.info/task/shuffle 
-
-        // import to variables done here to prevent multiple page re-rendering before displaying
-        const hir = [jCharactersHir, jCharactersHirDak, jCharactersHirCombo];
-        const kat = [jCharactersKat, jCharactersKatDak, jCharactersKatCombo];
-        const acc = [jCharactersSmallLetters, jCharactersSymbols];
-
-        /* Add each imported language to a parent array. */
-        const parent= [hir, kat, acc];
-
-        /* Itterate through each of the parent's arrays, then through each of those children's arrays. In the parent and child, assign a shorthand variable to track the given parent and child indexes. In the grandchild, randomize the order of the grandchild inside the child using the shorthand and random number. Child arrays will now be shuffled randomly. */
-        parent.forEach( (value, index) => {
-            let parentIndex= parent[index]
-            value.forEach( (val, ind) => {
-                let childIndex = parentIndex[ind];
-                val.forEach( (v, i) => {
-                    /* Assign the random number to a varialbe to be called later. Variable creates a random number between 0 & 1 and adds 1 to it. */
-                    let random = Math.floor(Math.random() * (i +1));
-
-                    [childIndex[i], childIndex[random]] = [childIndex[random], childIndex[i]];
-                });
-            });
-        });
-
-        this.setState({
-            hiragana: hir,
-            katakana: kat,
-            accents: acc,
-            rHiragana: parent[0],
-            rKatakana: parent[1],
-            rAccents: parent[2],
-            flashCardSelections: parent[0][0]
-        }, ()=> console.log("parent Quiz: ", parent));
-    };
-
+    /* TODO: Determin if below function can be refactored to meet DRY standards. Function is used in Review.js and Quiz.js for the same purpose */
     /* Assign the current state of the letters guessed to a variable. Add the key pressed to gInput. Take card selections and the current card index and assign to variable. Create function to itterate to the next card and reset to basic states. */
     entryValidation = (e)=> {
         let gInput = this.state.guessInput;
         gInput += e.key;
 
-        const cardSelections = this.state.flashCardSelections;
-        const cardIndex = this.state.flashCardIndex;
+        let cardSelections = this.state.flashCardSelections;
+        let cardIndex = this.state.flashCardIndex;
 
         let nextCard = ()=> {
             // DRY function to increment cardIndex and reset state.
