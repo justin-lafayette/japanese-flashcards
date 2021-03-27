@@ -85,16 +85,14 @@ class Review extends Component {
     };
 
     // https://stackoverflow.com/questions/40691062/add-and-remove-html-elements-on-button-click-in-react
-    inputReviewSelection = ()=> {
+    /* Function should be able to write to different states for review and quiz. Could possibly be passed down from App since Quiz will require function as well. */
+    buttonSelection = ()=> {
 
     };
 
-    // initialState = ()=> {
-    //     this.setState({flashCardSelections:})
-    // }
+    /* TODO: Create way to clear the selection for the flashcards and reset quiz. */
 
     componentDidMount() {
-        // this.shuffleArrays();
         this.props.shuffle();
         document.addEventListener("keydown", this.entryValidation);
     };
@@ -105,7 +103,7 @@ class Review extends Component {
                 rHiragana: this.props.hir,
                 rKatakana: this.props.kat,
                 rAccents: this.props.acc,
-                flashCardSelections: this.props.hir[0][0]
+                flashCardSelections: this.props.hir[0]
             })
         }
     }
@@ -115,7 +113,6 @@ class Review extends Component {
         let fCS= this.state.flashCardSelections;
         let fCI= this.state.flashCardIndex;
         
-        console.log(this.state.rHiragana.length);
         return (
             <Container
                 className={"fluid"}
@@ -124,11 +121,11 @@ class Review extends Component {
 
                     <Tab />
                     <div className="tab-content" id="myTabContent">
-                        <div className="tab-pane fade  show active" id="charts" role="tabpanel" aria-labelledby="charts-tab">
+                        <div className="tab-pane fade " id="charts" role="tabpanel" aria-labelledby="charts-tab">
                             <h1>Charts go here</h1>
                         </div>
 
-                        <div className="tab-pane fade" id="flashcards" role="tabpanel" aria-labelledby="flashcards-tab">
+                        <div className="tab-pane fade show active" id="flashcards" role="tabpanel" aria-labelledby="flashcards-tab">
                             <div className="row">Flashcards</div>
                             <div className="row">
 
