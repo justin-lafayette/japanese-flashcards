@@ -53,7 +53,7 @@ class Card extends Component {
                     <div className={bgColor}>
                         <h5  className="card-title">{this.props.character}</h5>
                         {/* Validate if the card should be quizing or if the translation should be shown. If on=True show input field. If on=False show translation. */}
-                        {this.props.on ? (
+                        {this.props.start ? (
                             <>
                             {/* TODO: adjust CSS for input to better match and adjust with the card size on different breakpoints */}
                             <input onChange={this.handleOnChange} name="guessInput" type="text" value={this.props.guessInput} />

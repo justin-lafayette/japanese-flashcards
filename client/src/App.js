@@ -62,7 +62,7 @@ class App extends Component {
             rHiragana: parent[0],
             rKatakana: parent[1],
             rAccents: parent[2],
-        }, ()=> console.log(this.state.rHiragana));
+        });
     };
 
     componentDidMount() {

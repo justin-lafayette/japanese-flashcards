@@ -31,3 +31,8 @@
 div {
     border: 1px solid grey;
 }
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
