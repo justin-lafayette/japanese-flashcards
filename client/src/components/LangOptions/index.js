@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+let log= (t, s)=>console.log(t, s);
+
 class LangOptions extends Component {
 
     /* Function will essentially pass the target name and value to the parent through props.handleChange. */
@@ -17,6 +19,8 @@ class LangOptions extends Component {
     };
     
     render() {
+        // log("LangOptions Props:", this.props)
+        // log("LangOptions rendered");
         // let btnClass = this.props.selected[index].bool ? "btn btn-success" : "btn btn-secondary"
         return (
             <>
@@ -28,9 +32,9 @@ class LangOptions extends Component {
             ) : (
                 <div className="container">
                     <div className="row row-cols-2">
-                        {this.props.selected.map( (value, index)=> 
+                        {this.props.toSelect.map( (value, index)=> 
                             <div className="col" key={index}>
-                                <button name={value.name} type="button" className={value.bool ? "btn btn-success" : "btn btn-secondary"} id="hiragana-checkbox" onClick={this.handleButtonClick}>{value.fullName}</button>
+                                <button value={index} name={value.name} type="button" className={value.bool ? "btn btn-success" : "btn btn-secondary"} id="hiragana-checkbox" onClick={this.handleButtonClick}>{value.fullName}</button>
                             </div>
                         )}
                         <button name={this.props.name} className="btn btn-light btn-outline-dark" onClick={this.handleButtonSubmit}>Submit</button>

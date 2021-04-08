@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+let log= (t)=>console.log(t);
 
 class Card extends Component {
     // Following resources used to resolve issue with onChange. First link will be used to remove the .bind function later as a cleaner way to pass functions.
@@ -9,8 +10,9 @@ class Card extends Component {
     /* Function will essentially pass the target name and value to the parent through props.handleChange. */
     handleOnChange = e=> {
         this.props.handleChange(e.target.name, e.target.value);
+        // log("Card handleOnChange");
     };
-    
+
     render() {
         /* Variables that will allow the card background to change based off the props passed for the input received during flashcards and quiz. */
         let bgColor = "card-body "
@@ -25,46 +27,39 @@ class Card extends Component {
         };
 
         // TODO: Remove temporary values below
-        // console.log(this.props);
+        // log("Card has rendered");
+        // console.log("props: ", this.props);
+        // if(this.props.character) console.log("character: ", this.props.character);
         // let data= this.props.data[0];
         return (
             <>
-            {/* {this.props.kanjiOn ? (
+            {this.props ? (
                 <>
-                <div className="card text-center">
-                    <div>
-                        <h3 className="card-title">{data.kanji}</h3>
-                        <h5 className="card-title">{data.heisig_en}</h5>
-                        <ul className="list-group list-group-flush">
-                            <li className="list-group-item">Grade: {data.grade}</li>
-                            <li className="list-group-item">Stroke Count: {data.stroke_count}</li>
-                            <li className="list-group-item">Kun Readings: {data.kun_readings}</li>
-                            <li className="list-group-item">On Readings: {data.on_readings}</li>
-                            <li className="list-group-item">Name Readings: {data.name_readings}</li>
-                            <li className="list-group-item">Meanings: {data.meanings}</li>
-                        </ul>
-                    </div>
-                </div>
-                </>
-            ):( */}
-                <>
-                {/* Card for rendering single flashcards and multiple quiz cards. */}
-                <div className="card text-center">
-                    <div className={bgColor}>
-                        <h5  className="card-title">{this.props.character}</h5>
-                        {/* Validate if the card should be quizing or if the translation should be shown. If on=True show input field. If on=False show translation. */}
-                        {this.props.start ? (
-                            <>
-                            {/* TODO: adjust CSS for input to better match and adjust with the card size on different breakpoints */}
+                {this.props.data ? (
+                    <>
+                    <div className="card text-center">
+                        <div className={bgColor}>
+                            <h5 className="card-title">{this.props.data[this.props.cardIndex].character}</h5>
                             <input onChange={this.handleOnChange} name="guessInput" type="text" value={this.props.guessInput} />
-                            </>
-                        ) : (
-                            <p className="card-text">{this.props.translation}</p>
-                        )}
+                            {/* {this.props.show ? (
+                                <>
+                                </>
+                            ):(
+                                <>
+                                </>
+                            )} */}
+                        </div>
                     </div>
-                </div>
+                    </>
+                ):(
+                    <>
+                    </>
+                )}
                 </>
-            {/* )} */}
+            ):(
+                <>
+                </>
+            )}
             </>
         );
     }

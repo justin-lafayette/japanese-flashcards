@@ -21,6 +21,8 @@ import jCharactersSymbols from './jCharacters-symbols.json';
 // add background of moving Japanese characters. thought to slide across the background
 // Change class "active" back in tab.index. Change class "show active" back in pages as needed.
 
+let log= (t)=>console.log(t);
+
 class App extends Component {
 
     state={
@@ -31,11 +33,13 @@ class App extends Component {
         rHiragana: [],
         rKatakana: [],
         rAccents: [],
-        rKanji: []
+        rKanji: [],
+        rAll: [],
     };
 
     /* Function will take the imported json files for the different languages and randomize them using the Fisher-Yates shuffle. Function should be accessible for use in multiple locations and should be allowed to re-randomize the given arrays base off input received from the pages. */
     shuffleArrays = ()=> {
+        log("App shuffleArrays start");
         // Solution found here using the Fisher-Yates shuffle. Has been adapted to use ES6 and custom variables: https://javascript.info/task/shuffle 
         // import to variables done here to prevent multiple page re-rendering before displaying
         const hir = this.state.hiragana;
@@ -44,6 +48,7 @@ class App extends Component {
 
         /* Add each imported language to a parent array. */
         let parent= [hir, kat, acc];
+        let all= [];
 
         /* Itterate through each of the parent's arrays, then through each of those children's arrays. In the parent and child, assign a shorthand variable to track the given parent and child indexes. In the grandchild, randomize the order of the grandchild inside the child using the shorthand and random number. Child arrays will now be shuffled randomly. */
         parent.forEach( (value, index) => {
@@ -62,10 +67,8 @@ class App extends Component {
             rHiragana: parent[0],
             rKatakana: parent[1],
             rAccents: parent[2],
-        });
-    };
-
-    componentDidMount() {
+            rAll: all.concat(parent[0], parent[1], parent[2]),
+        }, log("App r states set"));
     };
 
     render() {
@@ -110,6 +113,7 @@ class App extends Component {
                     </Route>
                     <Route path= "/quiz">
                         <Quiz
+                            all={this.state.rAll}
                             hir={this.state.rHiragana}
                             kat={this.state.rKatakana}
                             acc={this.state.rAccents}
@@ -118,6 +122,7 @@ class App extends Component {
                     </Route>
                     <Route path= "/review">
                         <Review
+                            all={this.state.rAll}
                             hir={this.state.rHiragana}
                             kat={this.state.rKatakana}
                             acc={this.state.rAccents}
