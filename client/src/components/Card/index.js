@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-let log= (t)=>console.log(t);
+// let log= (t)=>console.log(t);
 
 class Card extends Component {
     // Following resources used to resolve issue with onChange. First link will be used to remove the .bind function later as a cleaner way to pass functions.
@@ -13,6 +13,7 @@ class Card extends Component {
         // log("Card handleOnChange");
     };
 
+
     render() {
         /* Variables that will allow the card background to change based off the props passed for the input received during flashcards and quiz. */
         let bgColor = "card-body "
@@ -25,6 +26,17 @@ class Card extends Component {
             /* Background color for card when incorrect input is registered */
             bgColor+= "bg-warning "
         };
+
+        // https://stackoverflow.com/questions/67012139/child-component-is-unable-to-read-props-after-re-render
+        // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator
+        // const { data } = this.props ?? {};
+        // const show  = data ?? {};
+        // const { cardIndex } = this.props ?? {};
+        // log("Card data:");
+        // log(this.props);
+        // log(data);
+        // log(show);
+        // log(cardIndex);
 
         // TODO: Remove temporary values below
         // log("Card has rendered");

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-let log= (t, s)=>console.log(t, s);
+// let log= (t, s)=>console.log(t, s);
 
 class LangOptions extends Component {
 

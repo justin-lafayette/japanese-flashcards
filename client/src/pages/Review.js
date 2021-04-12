@@ -24,7 +24,7 @@ let intialPracticeState = [
     {"name": "practKatCombo", "bool": false, "fullName": "Combination Katakana", "value": ""},
 ];
 
-let log = (t)=> console.log(t);
+let log = (t, s)=> console.log(t, s);
 
 class Review extends Component {
 
@@ -50,6 +50,7 @@ class Review extends Component {
 
     /* Function to take input from the child and assign it to the state for the given item. */
     handleInputChange = (name, value) => {
+        log(name, value)
         this.setState({
             [name]: value
         });
@@ -57,10 +58,10 @@ class Review extends Component {
 
     /* Event handling function that will take the button selections and change the bool value for the object with the same name. */
     handleSelection = (name, value)=> {
-        log("Review handleSelection");
+        // log("Review handleSelection");
 
         let currentSelections= this.state.flashCardLangs;
-        currentSelections.map( (val, ind)=> {
+        currentSelections.forEach( (val, ind)=> {
             if( name === val.name ) {
                 let valueBool= val.bool;
                 /* Take the current index of the current selection and overwrite the values. */
@@ -74,12 +75,12 @@ class Review extends Component {
 
     /* Handles the reset of cards/quiz and re-randomizes the cards. Initial state needs to be reset to false, the other states emptied, and function for shuffle called. */
     handleReset = ()=> {
-        log("Review handleReset");
+        // log("Review handleReset");
 
-        initialFlashCardState.map( (value, index)=> {
+        initialFlashCardState.forEach( (value, index)=> {
             initialFlashCardState[index].bool = false;
         });
-        intialPracticeState.map( (value, index)=> {
+        intialPracticeState.forEach( (value, index)=> {
             intialPracticeState[index].bool = false;
         });
         this.setState({
@@ -97,19 +98,18 @@ class Review extends Component {
 
     /* Simple function that will start the cards or quiz. */
     handleSubmit = (name, value)=> {
-        log("Review handleSubmit");
+        // log("Review handleSubmit");
 
         let selectedF= [];
         let selectedP= [];
-        let i= 0;
 
-        this.state.flashCardLangs.map( (val, ind)=> {
+        this.state.flashCardLangs.forEach( (val, ind)=> {
             if( val.bool ){
                 selectedF.push(...val.value);
             };
         });
 
-        this.state.practiceLangs.map( (val, ind)=> {
+        this.state.practiceLangs.forEach( (val, ind)=> {
             if( val.bool ){
                 selectedP.push(...val.value);
             };
@@ -119,21 +119,22 @@ class Review extends Component {
             this.setState({
                 flashCardStart: true,
                 selectedFlashItems: selectedF,
-            }, log("Selected Flash items set"));
+            }/* , log("Selected Flash items set") */);
         };
         if( name === "practice" ){
             this.setState({
                 practiceStart: true,
                 selectedPracticeItems: selectedP
-            }, log("Selected practice items set"))
+            }/* , log("Selected practice items set") */)
         }
     };
-    
+
     /* TODO: Determin if below function can be refactored to meet DRY standards. Function is used in Review.js and Quiz.js for the same purpose */
     /* Assign the current state of the letters guessed to a variable. Add the key pressed to gInput. Take card selections and the current card index and assign to variable. Create function to itterate to the next card and reset to basic states. */
     entryValidation = (e)=> {
         let gInput = this.state.guessInput;
         gInput += e.key;
+        log("Review entryValidation- gInput:", gInput.length)
 
         let cardSelections = this.state.flashCardLangs;
         let cardIndex = this.state.flashCardIndex;
@@ -186,19 +187,20 @@ class Review extends Component {
         });
     };
 
-    
-
     /* TODO: Create way to clear the selection for the flashcards and reset quiz. */
 
     componentDidMount() {
-        log("Review did mount");
+        // log("Review did mount");
+
         this.props.shuffle();
         // document.addEventListener("keydown", this.entryValidation);
     };
 
     componentDidUpdate(prevProps) {
-        log("Review componentDidUpdate");
+        // log("Review componentDidUpdate");
+
         if( this.props !== prevProps ){
+
             /* Loop through props.all 6 times and apply the values to the appropriate variables. */
             for( let i=0; i<6; i++ ) {
                 initialFlashCardState[i].value= this.props.all[i];
@@ -212,8 +214,15 @@ class Review extends Component {
                 rAccents: this.props.acc,
                 flashCardLangs: initialFlashCardState,
                 practiceLangs: intialPracticeState,
-            }, log("state set componentDidUpdate"));
+            }/* , log("state set componentDidUpdate") */);
         };
+    };
+
+    shouldComponentUpdate(nextProps, nextState) {
+        log(nextProps, nextState);
+        if( this.state !== nextState ){
+            return true
+        } else return false
     };
 
     render() {
@@ -225,7 +234,7 @@ class Review extends Component {
             Add progress bar.
         */
     //    console.log(this.state.selectedItems)
-        log("Review has rendered");
+        // log("Review has rendered");
         return (
             <Container
                 className={"fluid"}
