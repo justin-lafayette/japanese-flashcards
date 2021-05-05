@@ -47,7 +47,7 @@ class Card extends Component {
             <>
             {this.props ? (
                 <>
-                {this.props.data ? (
+                {this.props.data.length ? (
                     <>
                     <div className="card text-center">
                         <div className={bgColor}>
