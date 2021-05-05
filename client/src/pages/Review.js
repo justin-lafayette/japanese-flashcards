@@ -5,23 +5,26 @@ import Container from '../components/Container';
 import LangOptions from '../components/LangOptions';
 import Tab from '../components/Tab';
 
-const initialFlashCardState = [
-    {"name": "flash-hir", "bool": false, "fullName": "Hiragana"},
-    {"name": "flash-hirDak", "bool": false, "fullName": "Hiragana Dakuten"},
-    {"name": "flash-hirCombo", "bool": false, "fullName": "Combination Hiragana"},
-    {"name": "flash-kat", "bool": false, "fullName": "Katakana"},
-    {"name": "flash-katDak", "bool": false, "fullName": "Katakana Dakuten"},
-    {"name": "flash-katCombo", "bool": false, "fullName": "Combination Katakana"},
+/* Potentially add random words to below objects */
+let initialFlashCardState = [
+    {"name": "flashHir", "bool": false, "fullName": "Hiragana", "value": ""},
+    {"name": "flashHirDak", "bool": false, "fullName": "Hiragana Dakuten", "value": ""},
+    {"name": "flashHirCombo", "bool": false, "fullName": "Combination Hiragana", "value": ""},
+    {"name": "flashKat", "bool": false, "fullName": "Katakana", "value": ""},
+    {"name": "flashKatDak", "bool": false, "fullName": "Katakana Dakuten", "value": ""},
+    {"name": "flashKatCombo", "bool": false, "fullName": "Combination Katakana", "value": ""},
 ];
 
-const intialPracticeState = [
-    {"name": "pract-hir", "bool": false, "fullName": "Hiragana"},
-    {"name": "pract-hirDak", "bool": false, "fullName": "Hiragana Dakuten"},
-    {"name": "pract-hirCombo", "bool": false, "fullName": "Combination Hiragana"},
-    {"name": "pract-kat", "bool": false, "fullName": "Katakana"},
-    {"name": "pract-katDak", "bool": false, "fullName": "Katakana Dakuten"},
-    {"name": "pract-katCombo", "bool": false, "fullName": "Combination Katakana"}
+let intialPracticeState = [
+    {"name": "practHir", "bool": false, "fullName": "Hiragana", "value": ""},
+    {"name": "practHirDak", "bool": false, "fullName": "Hiragana Dakuten", "value": ""},
+    {"name": "practHirCombo", "bool": false, "fullName": "Combination Hiragana", "value": ""},
+    {"name": "practKat", "bool": false, "fullName": "Katakana", "value": ""},
+    {"name": "practKatDak", "bool": false, "fullName": "Katakana Dakuten", "value": ""},
+    {"name": "practKatCombo", "bool": false, "fullName": "Combination Katakana", "value": ""},
 ];
+
+let log = (t, s)=> console.log(t, s);
 
 class Review extends Component {
 
@@ -33,8 +36,10 @@ class Review extends Component {
         correctFlash:[],
         wrongFlash: [],
         flashCardIndex: 0,
-        flashCardSelections: initialFlashCardState,
-        practiceSelections: intialPracticeState,
+        flashCardLangs: initialFlashCardState,
+        practiceLangs: intialPracticeState,
+        selectedFlashItems: [],
+        selectedPracticeItems: [],
         flashCardStart: false,
         practiceStart: false,
         guessInput: [],
@@ -45,6 +50,7 @@ class Review extends Component {
 
     /* Function to take input from the child and assign it to the state for the given item. */
     handleInputChange = (name, value) => {
+        log(name, value)
         this.setState({
             [name]: value
         });
@@ -52,15 +58,16 @@ class Review extends Component {
 
     /* Event handling function that will take the button selections and change the bool value for the object with the same name. */
     handleSelection = (name, value)=> {
-        let currentSelections= this.state.flashCardSelections;
-        currentSelections.map( (val, ind)=> {
+        // log("Review handleSelection");
+
+        let currentSelections= this.state.flashCardLangs;
+        currentSelections.forEach( (val, ind)=> {
             if( name === val.name ) {
-                let valueName= val.name;
                 let valueBool= val.bool;
                 /* Take the current index of the current selection and overwrite the values. */
-                currentSelections[ind]= {"name": valueName, "bool": !valueBool, "fullName": currentSelections[ind].fullName};
+                currentSelections[ind].bool= !valueBool;
                 this.setState({
-                    flashCardSelections: currentSelections,
+                    flashCardLangs: currentSelections,
                 });
             };
         });
@@ -68,18 +75,20 @@ class Review extends Component {
 
     /* Handles the reset of cards/quiz and re-randomizes the cards. Initial state needs to be reset to false, the other states emptied, and function for shuffle called. */
     handleReset = ()=> {
-        initialFlashCardState.map( (value, index)=> {
+        // log("Review handleReset");
+
+        initialFlashCardState.forEach( (value, index)=> {
             initialFlashCardState[index].bool = false;
         });
-        intialPracticeState.map( (value, index)=> {
+        intialPracticeState.forEach( (value, index)=> {
             intialPracticeState[index].bool = false;
         });
         this.setState({
             correctFlash:[],
             wrongFlash: [],
             flashCardIndex: 0,
-            flashCardSelections: initialFlashCardState,
-            practiceSelections: intialPracticeState,
+            flashCardLangs: initialFlashCardState,
+            practiceLangs: intialPracticeState,
             flashCardStart: false,
             practiceStart: false,
             guessInput: [],
@@ -89,25 +98,45 @@ class Review extends Component {
 
     /* Simple function that will start the cards or quiz. */
     handleSubmit = (name, value)=> {
+        // log("Review handleSubmit");
+
+        let selectedF= [];
+        let selectedP= [];
+
+        this.state.flashCardLangs.forEach( (val, ind)=> {
+            if( val.bool ){
+                selectedF.push(...val.value);
+            };
+        });
+
+        this.state.practiceLangs.forEach( (val, ind)=> {
+            if( val.bool ){
+                selectedP.push(...val.value);
+            };
+        });
+
         if( name === "flash" ){
             this.setState({
-                flashCardStart: true
-            });
+                flashCardStart: true,
+                selectedFlashItems: selectedF,
+            }/* , log("Selected Flash items set") */);
         };
         if( name === "practice" ){
             this.setState({
-                practiceStart: true
-            })
+                practiceStart: true,
+                selectedPracticeItems: selectedP
+            }/* , log("Selected practice items set") */)
         }
     };
-    
+
     /* TODO: Determin if below function can be refactored to meet DRY standards. Function is used in Review.js and Quiz.js for the same purpose */
     /* Assign the current state of the letters guessed to a variable. Add the key pressed to gInput. Take card selections and the current card index and assign to variable. Create function to itterate to the next card and reset to basic states. */
     entryValidation = (e)=> {
         let gInput = this.state.guessInput;
         gInput += e.key;
+        log("Review entryValidation- gInput:", gInput.length)
 
-        let cardSelections = this.state.flashCardSelections;
+        let cardSelections = this.state.flashCardLangs;
         let cardIndex = this.state.flashCardIndex;
 
         let nextCard = ()=> {
@@ -158,37 +187,54 @@ class Review extends Component {
         });
     };
 
-    
-
     /* TODO: Create way to clear the selection for the flashcards and reset quiz. */
 
     componentDidMount() {
+        // log("Review did mount");
+
         this.props.shuffle();
         // document.addEventListener("keydown", this.entryValidation);
     };
 
     componentDidUpdate(prevProps) {
+        // log("Review componentDidUpdate");
+
         if( this.props !== prevProps ){
+
+            /* Loop through props.all 6 times and apply the values to the appropriate variables. */
+            for( let i=0; i<6; i++ ) {
+                initialFlashCardState[i].value= this.props.all[i];
+                intialPracticeState[i].value= this.props.all[i];
+            };
+
+            // console.log(initialFlashCardState);
             this.setState({
                 rHiragana: this.props.hir,
                 rKatakana: this.props.kat,
                 rAccents: this.props.acc,
-                // flashCardSelections: this.props.hir[0]
-            })
-        }
-    }
+                flashCardLangs: initialFlashCardState,
+                practiceLangs: intialPracticeState,
+            }/* , log("state set componentDidUpdate") */);
+        };
+    };
+
+    shouldComponentUpdate(nextProps, nextState) {
+        log(nextProps, nextState);
+        if( this.state !== nextState ){
+            return true
+        } else return false
+    };
 
     render() {
-        /* Shorthand variables. */
-        let fCS= this.state.flashCardSelections;
-        let fCI= this.state.flashCardIndex;
 
         /* TODO:
-            Display only the language selection buttons on page render.
-            Have onClick function passed from LangOptions to parent for the selected options to be written to a state.
-            On selection finalization, write cards for only the selected options.
+            Render card with correct information on screen.
+            Validate input still functions.
+            Give score and reset game after completion.
+            Add progress bar.
         */
-        console.log(this.state.rHiragana)
+    //    console.log(this.state.selectedItems)
+        // log("Review has rendered");
         return (
             <Container
                 className={"fluid"}
@@ -211,7 +257,7 @@ class Review extends Component {
                                     handleSelection={this.handleSelection.bind(this)}
                                     handleSubmit={this.handleSubmit.bind(this)}
                                     handleReset={this.handleReset.bind(this)}
-                                    selected={fCS}
+                                    toSelect={this.state.flashCardLangs}
                                     name="flash"
                                     start={this.state.flashCardStart}
                                     />
@@ -221,8 +267,9 @@ class Review extends Component {
                                     <Card 
                                         handleChange={this.handleInputChange.bind(this)}
                                         guessInput={this.state.guessInput}
-                                        character={fCS[fCI].character}
-                                        translation={fCS[fCI].englishTranslation}
+                                        data={this.state.selectedFlashItems}
+                                        cardIndex={this.state.flashCardIndex}
+                                        translation={this.state.selectedFlashItems}
                                         start={this.state.flashCardStart}
                                         outcome={this.state.answerOutcome}
                                         />
@@ -239,10 +286,23 @@ class Review extends Component {
                                 handleChange={this.handleInputChange.bind(this)}
                                 handleSubmit={this.handleSubmit.bind(this)}
                                 handleReset={this.handleReset.bind(this)}
-                                selected={this.state.practiceSelections}
+                                toSelect={this.state.practiceLangs}
                                 name="practice"
                                 start={this.state.practiceStart}
                                 />
+
+                            {this.state.flashCardStart ? (
+                                <>
+                                <Card 
+                                    handleChange={this.handleInputChange.bind(this)}
+                                    guessInput={this.state.guessInput}
+                                    // character={fCS[fCI].character}
+                                    // translation={fCS[fCI].englishTranslation}
+                                    start={this.state.flashCardStart}
+                                    outcome={this.state.answerOutcome}
+                                    />
+                                </>
+                            ):(<></>)}
                         </div>
                     </div>
 
