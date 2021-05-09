@@ -29,6 +29,10 @@ if (process.env.NODE_ENV === "production") {
 
 // Add routes, both API and view
 // app.use(apiRoutes);
+app.post("/api/sendData", (req, res)=> {
+    console.log(req.body);
+    // console.log(res);
+});
 
 // app.get("/getWord", (req, res) => {
 //     axios

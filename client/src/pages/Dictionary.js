@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Card from '../components/Card';
+// import Card from '../components/Card';
 import Container from '../components/Container';
 
 let testData= [
@@ -31,9 +31,8 @@ class Dictionary extends Component {
           <Container
               className={"fluid"}
           >
-              <Container>
+              {/* <Container>
 
-                {/* TODO: Possibly place all of the search into accordion/collapsible button. On search, accordion automatically collapses. */}
                 <div>
                     <form className="d-flex">
                         <input className="form-control me-2" type="search" placeholder="Search..." aria-label="Search" />
@@ -49,7 +48,6 @@ class Dictionary extends Component {
                             <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="kanjiSearchAccordionH1" data-bs-parent="#kanjiSearchAccordion">
                                 <div className="accordion-body">
                                     <form className="d-flex">
-                                        {/* TODO: Setup options to show for and take input of multiple selections to pass to the API pull. */}
                                         <ul>
                                             <li>Grade: </li>
                                             <li>Stroke Count: </li>
@@ -66,7 +64,7 @@ class Dictionary extends Component {
                     data={this.state.kanjiData}
                     />
       
-              </Container>
+              </Container> */}
       
           </Container>
         );
