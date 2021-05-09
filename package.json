@@ -14,15 +14,15 @@
   "author": "Justin Barfield",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.776.0",
+    "aws-sdk": "^2.900.0",
     "axios": "^0.20.0",
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.6.0",
     "express": "^4.17.1",
     "if-env": "^1.0.4"
   },
   "devDependencies": {
     "concurrently": "^5.3.0",
-    "nodemon": "^2.0.6"
+    "nodemon": "^2.0.7"
   },
   "repository": {
     "type": "git",

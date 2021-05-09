@@ -1,0 +1,318 @@
+{
+    "accents":{
+        "smallLetters": {
+            "hiragana": {
+                "tu": {
+                    "characterName":  "SMALL TU",
+                    "character":  "っ",
+                    "unicode":  "\u0026‌#12387;",
+                    "hexEncoding":  "\u0026‌#x3063;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "hir"
+                },
+                "a": {
+                    "characterName":  "SMALL A",
+                    "character":  "ぁ",
+                    "unicode":  "\u0026‌#12353;",
+                    "hexEncoding":  "\u0026‌#x3041;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "hir"
+                },
+                "i": {
+                    "characterName":  "SMALL I",
+                    "character":  "ぃ",
+                    "unicode":  "\u0026‌#12355;",
+                    "hexEncoding":  "\u0026‌#x3043;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "hir"
+                },
+                "u": {
+                    "characterName":  "SMALL U",
+                    "character":  "ぅ",
+                    "unicode":  "\u0026‌#12357;",
+                    "hexEncoding":  "\u0026‌#x3045;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "hir"
+                },
+                "e": {
+                    "characterName":  "SMALL E",
+                    "character":  "ぇ",
+                    "unicode":  "\u0026‌#12359;",
+                    "hexEncoding":  "\u0026‌#x3047;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "hir"
+                },
+                "o": {
+                    "characterName":  "SMALL O",
+                    "character":  "ぉ",
+                    "unicode":  "\u0026‌#12361;",
+                    "hexEncoding":  "\u0026‌#x3049;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "hir"
+                },
+                "ya": {
+                    "characterName":  "SMALL YA",
+                    "character":  "ゃ",
+                    "unicode":  "\u0026‌#12419;",
+                    "hexEncoding":  "\u0026‌#x3083;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "hir"
+                },
+                "yu": {
+                    "characterName":  "SMALL YU",
+                    "character":  "ゅ",
+                    "unicode":  "\u0026‌#12421;",
+                    "hexEncoding":  "\u0026‌#x3085;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "hir"
+                },
+                "yo": {
+                    "characterName":  "SMALL YO",
+                    "character":  "ょ",
+                    "unicode":  "\u0026‌#12423;",
+                    "hexEncoding":  "\u0026‌#x3087;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "hir"
+                },
+                "wa": {
+                    "characterName":  "SMALL WA",
+                    "character":  "ゎ",
+                    "unicode":  "\u0026‌#12430;",
+                    "hexEncoding":  "\u0026‌#x308E;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "hir"
+                }
+            },
+            "katakana": {
+                "tu": {
+                    "characterName":  "SMALL TU",
+                    "character":  "ッ",
+                    "unicode":  "\u0026‌#12483;",
+                    "hexEncoding":  "\u0026‌#x30C3;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "kat"
+                },
+                "a": {
+                    "characterName":  "SMALL A",
+                    "character":  "ァ",
+                    "unicode":  "\u0026‌#12449;",
+                    "hexEncoding":  "\u0026‌#x30A1;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "kat"
+                },
+                "i": {
+                    "characterName":  "SMALL I",
+                    "character":  "ィ",
+                    "unicode":  "\u0026‌#12451;",
+                    "hexEncoding":  "\u0026‌#x30A3;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "kat"
+                },
+                "u": {
+                    "characterName":  "SMALL U",
+                    "character":  "ゥ",
+                    "unicode":  "\u0026‌#12453;",
+                    "hexEncoding":  "\u0026‌#x30A5;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "kat"
+                },
+                "e": {
+                    "characterName":  "SMALL E",
+                    "character":  "ェ",
+                    "unicode":  "\u0026‌#12455;",
+                    "hexEncoding":  "\u0026‌#x30A7;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "kat"
+                },
+                "o": {
+                    "characterName":  "SMALL O",
+                    "character":  "ォ",
+                    "unicode":  "\u0026‌#12457;",
+                    "hexEncoding":  "\u0026‌#x30A9;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "kat"
+                },
+                "ya": {
+                    "characterName":  "SMALL YA",
+                    "character":  "ャ",
+                    "unicode":  "\u0026‌#12515;",
+                    "hexEncoding":  "\u0026‌#x30E3;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "kat"
+                },
+                "yu": {
+                    "characterName":  "SMALL YU",
+                    "character":  "ュ",
+                    "unicode":  "\u0026‌#12517;",
+                    "hexEncoding":  "\u0026‌#x30E5;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "kat"
+                },
+                "yo": {
+                    "characterName":  "SMALL YO",
+                    "character":  "ョ",
+                    "unicode":  "\u0026‌#12519;",
+                    "hexEncoding":  "\u0026‌#x30E7;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "kat"
+                },
+                "wa": {
+                    "characterName":  "SMALL WA",
+                    "character":  "ヮ",
+                    "unicode":  "\u0026‌#12526;",
+                    "hexEncoding":  "\u0026‌#x30EE;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "kat"
+                },
+                "ka": {
+                    "characterName":  "SMALL KA",
+                    "character":  "ヵ",
+                    "unicode":  "\u0026‌#12533;",
+                    "hexEncoding":  "\u0026‌#x30F5;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "kat"
+                },
+                "ke": {
+                    "characterName":  "SMALL KE",
+                    "character":  "ヶ",
+                    "unicode":  "\u0026‌#12534;",
+                    "hexEncoding":  "\u0026‌#x30F6;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "kat"
+                }
+            }
+        },
+        "symbols": {
+            "hiragana": {
+                "itMark": {
+                    "characterName":  "ITERATION MARK",
+                    "character":  "ゞ",
+                    "unicode":  "\u0026‌#12446;",
+                    "hexEncoding":  "\u0026‌#x309E;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "hir"
+                }
+            },
+            "katakana": {
+                "dot": {
+                    "characterName":  "DOT",
+                    "character":  "・",
+                    "unicode":  "\u0026‌#12539;",
+                    "hexEncoding":  "\u0026‌#x30FB;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "kat"
+                },
+                "ionMark": {
+                    "characterName":  "ION MARK",
+                    "character":  "ヽ",
+                    "unicode":  "\u0026‌#12541;",
+                    "hexEncoding":  "\u0026‌#x30FD;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "kat"
+                },
+                "itMark": {
+                    "characterName":  "ITERATION MARK",
+                    "character":  "ヾ",
+                    "unicode":  "\u0026‌#12542;",
+                    "hexEncoding":  "\u0026‌#x30FE;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "kat"
+                }
+            },
+            "both": {
+                "naVoiced": {
+                    "characterName":  "NA VOICED SOUND MARK",
+                    "character":  "゛",
+                    "unicode":  "\u0026‌#12443;",
+                    "hexEncoding":  "\u0026‌#x309B;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "kh"
+                },
+                "naSemi": {
+                    "characterName":  "NA SEMI-VOICED SOUND MARK",
+                    "character":  "゜",
+                    "unicode":  "\u0026‌#12444;",
+                    "hexEncoding":  "\u0026‌#x309C;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "kh"
+                },
+                "naPro": {
+                    "characterName":  "NA PROLONGED SOUND MARK",
+                    "character":  "ー",
+                    "unicode":  "\u0026‌#12540;",
+                    "hexEncoding":  "\u0026‌#x30FC;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "kh"
+                },
+                "anaPro": {
+                    "characterName":  "ANA-HIRAGANA PROLONGED SOUND MARK",
+                    "character":  "ｰ",
+                    "unicode":  "\u0026‌#65392;",
+                    "hexEncoding":  "\u0026‌#xFF70;",
+                    "englishTranslation":  "",
+                    "alternateEnglishTranslation":  "",
+                    "isLetter":  "0",
+                    "alphabet":  "kh"
+                }
+            }
+        }
+    }
+}

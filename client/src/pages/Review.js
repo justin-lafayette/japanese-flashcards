@@ -1,246 +1,231 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import Api from '../utils/Api';
 
-import Card from '../components/Card';
+/* Components */
+// import Card from '../components/Card';
 import Container from '../components/Container';
-import LangOptions from '../components/LangOptions';
+// import LangOptions from '../components/LangOptions';
 import Tab from '../components/Tab';
 
-/* Potentially add random words to below objects */
-let initialFlashCardState = [
-    {"name": "flashHir", "bool": false, "fullName": "Hiragana", "value": ""},
-    {"name": "flashHirDak", "bool": false, "fullName": "Hiragana Dakuten", "value": ""},
-    {"name": "flashHirCombo", "bool": false, "fullName": "Combination Hiragana", "value": ""},
-    {"name": "flashKat", "bool": false, "fullName": "Katakana", "value": ""},
-    {"name": "flashKatDak", "bool": false, "fullName": "Katakana Dakuten", "value": ""},
-    {"name": "flashKatCombo", "bool": false, "fullName": "Combination Katakana", "value": ""},
-];
+/* Character import */
+import jCharacters from '../jCharacters.json';
+// import jCharactersArr from '../jCharacters-arr.json';
 
-let intialPracticeState = [
-    {"name": "practHir", "bool": false, "fullName": "Hiragana", "value": ""},
-    {"name": "practHirDak", "bool": false, "fullName": "Hiragana Dakuten", "value": ""},
-    {"name": "practHirCombo", "bool": false, "fullName": "Combination Hiragana", "value": ""},
-    {"name": "practKat", "bool": false, "fullName": "Katakana", "value": ""},
-    {"name": "practKatDak", "bool": false, "fullName": "Katakana Dakuten", "value": ""},
-    {"name": "practKatCombo", "bool": false, "fullName": "Combination Katakana", "value": ""},
-];
-
-let log = (t, s)=> console.log(t, s);
+/* TODO:
+    Get app functioning by skipping combining everything into one area.
+    // - Get app to render basic information before getting it to shuffle.
+    // - Get app to allow selecting basic information
+    - Get app to recognize inputs
+        - Possibly add inputs to object in state
+        - or make validation dynamic to register the selected input
+    - Get app to validate inputs
+    - Randomize on submit instead of page load
+    - Fix regex letter validation for inputs
+    - Find some way to add sections for each category and how to highlight the buttons on click...
+*/
 
 class Review extends Component {
 
-    state={
-        rHiragana: [],
-        rKatakana: [],
-        rAccents: [],
-        rKanji: [],
-        correctFlash:[],
-        wrongFlash: [],
-        flashCardIndex: 0,
-        flashCardLangs: initialFlashCardState,
-        practiceLangs: intialPracticeState,
-        selectedFlashItems: [],
-        selectedPracticeItems: [],
-        flashCardStart: false,
-        practiceStart: false,
-        guessInput: [],
-        answerOutcome: null
+    state= {
+        selections: jCharacters,
+        language: "",
+        start: false,
+        defalutLang: "Hiragana",
+        username: "",
+        calculatedScore: 0,
+        breakdown: {},
+        selectButtons:{}
     };
 
-    /* EVENT HANDLERS */
+    handleChange(event) {
+        const { name, value } = event.target;
+        const dLang= event.target.dataset.lang;
+        const dCat= event.target.dataset.cat;
+        const dSect= event.target.dataset.sect;
+        let currentObj= this.state.selections;
+        let currentLetter= currentObj[dLang][dCat][dSect][name.toLowerCase()];
+        const regex = /^[A-Za-z]$/;
 
-    /* Function to take input from the child and assign it to the state for the given item. */
-    handleInputChange = (name, value) => {
-        log(name, value)
-        this.setState({
-            [name]: value
-        });
-    };
+        // console.log("Name: ", name);
+        // console.log("Value: ", value);
+        // console.log("dLang: ", dLang);
+        // console.log("dCat: ", dCat);
+        // console.log("dSect: ", dSect);
 
-    /* Event handling function that will take the button selections and change the bool value for the object with the same name. */
-    handleSelection = (name, value)=> {
-        // log("Review handleSelection");
+        currentLetter.answer = value;
 
-        let currentSelections= this.state.flashCardLangs;
-        currentSelections.forEach( (val, ind)=> {
-            if( name === val.name ) {
-                let valueBool= val.bool;
-                /* Take the current index of the current selection and overwrite the values. */
-                currentSelections[ind].bool= !valueBool;
-                this.setState({
-                    flashCardLangs: currentSelections,
-                });
-            };
-        });
-    };
-
-    /* Handles the reset of cards/quiz and re-randomizes the cards. Initial state needs to be reset to false, the other states emptied, and function for shuffle called. */
-    handleReset = ()=> {
-        // log("Review handleReset");
-
-        initialFlashCardState.forEach( (value, index)=> {
-            initialFlashCardState[index].bool = false;
-        });
-        intialPracticeState.forEach( (value, index)=> {
-            intialPracticeState[index].bool = false;
-        });
-        this.setState({
-            correctFlash:[],
-            wrongFlash: [],
-            flashCardIndex: 0,
-            flashCardLangs: initialFlashCardState,
-            practiceLangs: intialPracticeState,
-            flashCardStart: false,
-            practiceStart: false,
-            guessInput: [],
-            answerOutcome: null
-        }, this.props.shuffle())
-    };
-
-    /* Simple function that will start the cards or quiz. */
-    handleSubmit = (name, value)=> {
-        // log("Review handleSubmit");
-
-        let selectedF= [];
-        let selectedP= [];
-
-        this.state.flashCardLangs.forEach( (val, ind)=> {
-            if( val.bool ){
-                selectedF.push(...val.value);
-            };
-        });
-
-        this.state.practiceLangs.forEach( (val, ind)=> {
-            if( val.bool ){
-                selectedP.push(...val.value);
-            };
-        });
-
-        if( name === "flash" ){
-            this.setState({
-                flashCardStart: true,
-                selectedFlashItems: selectedF,
-            }/* , log("Selected Flash items set") */);
-        };
-        if( name === "practice" ){
-            this.setState({
-                practiceStart: true,
-                selectedPracticeItems: selectedP
-            }/* , log("Selected practice items set") */)
-        }
-    };
-
-    /* TODO: Determin if below function can be refactored to meet DRY standards. Function is used in Review.js and Quiz.js for the same purpose */
-    /* Assign the current state of the letters guessed to a variable. Add the key pressed to gInput. Take card selections and the current card index and assign to variable. Create function to itterate to the next card and reset to basic states. */
-    entryValidation = (e)=> {
-        let gInput = this.state.guessInput;
-        gInput += e.key;
-        log("Review entryValidation- gInput:", gInput.length)
-
-        let cardSelections = this.state.flashCardLangs;
-        let cardIndex = this.state.flashCardIndex;
-
-        let nextCard = ()=> {
-            // DRY function to increment cardIndex and reset state.
-            setTimeout(()=> {
-                cardIndex++
-                this.setState({
-                    answerOutcome: null,
-                    flashCardIndex: cardIndex,
-                    guessInput: []
-                });
-            }, 1000);
-        };
-
-        /* Validate if the current guess equals the length of the english translation. If so, run nested if to validate if the input matches the english translation strig or alternate translation exactly. If it does then change states to show correct and add that item to the correctly guessed flash cards. If not then show wrong and assign that item to the incorrectly guessed. After showing correct/incorrect, run the nextCard function. */
-        if( gInput.length === cardSelections[cardIndex].englishTranslation.length ) {
-
-            if( gInput === cardSelections[cardIndex].englishTranslation || gInput === cardSelections[cardIndex].alternateEnglishTranslation ) {
-                
-                /* Set background to green. increment card index. clear guessInput. assign to correctFlash */
-                let addCorrect = this.state.correctFlash;
-                addCorrect.push(cardSelections[cardIndex]);
-                this.setState({
-                    answerOutcome: true,
-                    correctFlash: addCorrect
-                }, nextCard());
-
+        // Validate value is a letter
+        // if (regex.test(value)) {
+            // console.log(regex.test(value));
+            // Check length of Value vs englishTranslation
+            if (value.length >= currentLetter.englishTranslation.length) {
+                // console.log("Length check: ", value.length)
+                // Check if strings match
+                if (value === currentLetter.englishTranslation || value === currentLetter.alternateEnglishTranslation) {
+                    // console.log("Value check: ", value)
+                    currentLetter.correct= true;
+                    currentLetter.incorrect= false
+                    currentLetter.unanswered= false;
+                } else {
+                    currentLetter.correct= false;
+                    currentLetter.incorrect= true;
+                    currentLetter.unanswered= false;
+                };
             } else {
-                /* Set background to red. Increment card index. Clear guessInput. Assign to wrongFlash */
-                let addWrong = this.state.wrongFlash;
-                addWrong.push(cardSelections[cardIndex]);
-                this.setState({
-                    answerOutcome: false,
-                    wrongFlash: addWrong
-                }, nextCard());
+                currentLetter.correct= false;
+                currentLetter.incorrect= false;
+                currentLetter.unanswered= true;
             };
-        };
+
+            this.setState({
+                selections: currentObj,
+            });
+        // };
     };
 
-    nextCard = (e)=> {
-        e.preventDefault();
+    handleLangSelection(event) {
+        const { name } = event.target;
+        const dLang= event.target.dataset.lang;
+        const category = event.target.dataset.category;
+        let currentObj= this.state.selections;
+        const l1= currentObj[dLang];
+        // console.log("Name: ", name);
+        // console.log("dLang: ", dLang);
+        console.log("Category: ", category);
 
-        let count = this.state.flashCardIndex;
-        count++;
+        if (dLang !== this.state.defalutLang) {
+            // Set all show properties to false
+            // console.log(dLang);
+            for (const lang in currentObj) {
+                // console.log(lang);
+                for (const cat in currentObj[lang]) {
+                    // console.log(cat);
+                    // console.log(currentObj[dLang][cat])
+                    for (const sect in currentObj[lang][cat]) {
+                        // console.log(sect);
+                        // console.log(currentObj[lang][cat][sect]);
+                        for (const letter in currentObj[lang][cat][sect]) {
+                            // console.log(letter);
+                            // console.log(lang, letter, currentObj[lang][cat][sect][letter].show)
+                            currentObj[lang][cat][sect][letter].show = false;
+                        };
+                    };
+                };
+            };
+        };
+
+        if (name === "category") {
+            for (const sect in l1[category]) {
+                for (const letter in l1[category][sect]) {
+                    currentObj[dLang][category][sect][letter].show = !currentObj[dLang][category][sect][letter].show;
+                    // console.log(currentObj[dLang][category][sect][letter].show);
+                };
+            };
+        };
 
         this.setState({
-            flashCardIndex: count
+            selections: currentObj,
+            defalutLang: dLang
         });
     };
 
-    /* TODO: Create way to clear the selection for the flashcards and reset quiz. */
+    handleStart(event) {
+        let currentState= this.state.start;
 
-    componentDidMount() {
-        // log("Review did mount");
-
-        this.props.shuffle();
-        // document.addEventListener("keydown", this.entryValidation);
+        this.setState({
+            start: !currentState
+        });
     };
 
-    componentDidUpdate(prevProps) {
-        // log("Review componentDidUpdate");
+    handleSubmit(event) {
+        const currentObj= this.state.selections;
+        const selectedLang= this.state.defalutLang;
+        let calculatedScore= 0;
+        let correct= 0;
+        let incorrect= 0;
+        let unanswered= 0;
+        let totalCount= 0;
 
-        if( this.props !== prevProps ){
-
-            /* Loop through props.all 6 times and apply the values to the appropriate variables. */
-            for( let i=0; i<6; i++ ) {
-                initialFlashCardState[i].value= this.props.all[i];
-                intialPracticeState[i].value= this.props.all[i];
+        for (const sect in currentObj[selectedLang]) {
+            // console.log("Sect: ", sect);
+            for (const sectLetters in currentObj[selectedLang][sect]) {
+                // console.log("sectLetters: ", sectLetters);
+                for (const l in currentObj[selectedLang][sect][sectLetters]) {
+                    let letter= currentObj[selectedLang][sect][sectLetters][l];
+                    // console.log("letter", letter.correct);
+                    if (letter.show) {
+                        if (letter.correct) {
+                            console.log("Correct");
+                            correct++;
+                            totalCount++;
+                        };
+                        if (letter.incorrect) {
+                            console.log("Incorrect");
+                            incorrect ++;
+                            totalCount++;
+                        };
+                        if (letter.unanswered) {
+                            console.log("Unanswered");
+                            unanswered ++;
+                            totalCount++;
+                        };
+                    };
+                };
             };
-
-            // console.log(initialFlashCardState);
-            this.setState({
-                rHiragana: this.props.hir,
-                rKatakana: this.props.kat,
-                rAccents: this.props.acc,
-                flashCardLangs: initialFlashCardState,
-                practiceLangs: intialPracticeState,
-            }/* , log("state set componentDidUpdate") */);
         };
+
+        /* https://stackoverflow.com/questions/11832914/how-to-round-to-at-most-2-decimal-places-if-necessary */
+        calculatedScore= (Math.round((correct) / (totalCount) * 10000) / 100);
+
+        this.setState({
+            calculatedScore: calculatedScore,
+            breakdown: {
+                "correct": correct,
+                "incorrect": incorrect,
+                "unanswered": unanswered
+            }
+        });
+
+        Api.sendScore({
+            score: calculatedScore,
+            userID: this.state.username,
+            totalCount: totalCount
+        });
     };
 
-    shouldComponentUpdate(nextProps, nextState) {
-        log(nextProps, nextState);
-        if( this.state !== nextState ){
-            return true
-        } else return false
+    handleUsername(event) {
+        const { name, value } = event.target;
+        const regex = /^[A-Za-z]$/;
+        let newVal = value
+        console.log(name, value);
+
+        // if (regex.test(value)) {
+            this.setState({
+                [name]: newVal
+            })
+        // };
     };
 
     render() {
-
-        /* TODO:
-            Render card with correct information on screen.
-            Validate input still functions.
-            Give score and reset game after completion.
-            Add progress bar.
+        console.log(this.state);
+        /* Solution for mapping cards:
+        https://stackoverflow.com/questions/67438590/jsx-conditional-rendering-for-nested-object-values
         */
-    //    console.log(this.state.selectedItems)
-        // log("Review has rendered");
+
+        // Have Hiragana and Katakana completely separate. Have the buttons selected in two different fields. https://kana-quiz.tofugu.com/
+
+        const getBgClass= (letter)=> {
+            if (letter.correct) return "card text-center bg-success";
+            if (letter.incorrect) return "card text-center bg-warning";
+            return "card text-center";
+        };
+
         return (
             <Container
                 className={"fluid"}
-            >
+                >
+                
                 <Container>
-
                     <Tab />
                     <div className="tab-content" id="myTabContent">
                         <div className="tab-pane fade " id="charts" role="tabpanel" aria-labelledby="charts-tab">
@@ -248,66 +233,83 @@ class Review extends Component {
                         </div>
 
                         <div className="tab-pane fade show active" id="flashcards" role="tabpanel" aria-labelledby="flashcards-tab">
-                            <div className="row">Flashcards</div>
                             <div className="row">
-
-                                {/* TODO: Possibly replace the .bind function with extract child component. https://www.freecodecamp.org/news/react-pattern-extract-child-components-to-avoid-binding-e3ad8310725e/ */}
-                                {/* Pass unique names for the options to the child so they can be properly distinguished based off the page's state. */}
-                                <LangOptions
-                                    handleSelection={this.handleSelection.bind(this)}
-                                    handleSubmit={this.handleSubmit.bind(this)}
-                                    handleReset={this.handleReset.bind(this)}
-                                    toSelect={this.state.flashCardLangs}
-                                    name="flash"
-                                    start={this.state.flashCardStart}
-                                    />
-
-                                {this.state.flashCardStart ? (
-                                    <>
-                                    <Card 
-                                        handleChange={this.handleInputChange.bind(this)}
-                                        guessInput={this.state.guessInput}
-                                        data={this.state.selectedFlashItems}
-                                        cardIndex={this.state.flashCardIndex}
-                                        translation={this.state.selectedFlashItems}
-                                        start={this.state.flashCardStart}
-                                        outcome={this.state.answerOutcome}
-                                        />
-                                    </>
-                                ):(<></>)}
-
+                                Flashcards
                             </div>
 
-                            <button onClick={this.nextCard}>Next Card</button>
+                                <div className="row">
+                                    <div className="col">
+
+                                        <div className="row">
+                                            {!this.state.start &&
+                                                <>
+                                                {Object.keys(this.state.selections).map( (lang, index) => (
+                                                    <div className="col" key={index}>
+                                                        <button data-lang={lang} name="language" className="btn" onClick={this.handleLangSelection.bind(this)}>{lang}</button>
+                                                    </div>
+
+                                                ))}
+                                                <div className="row">
+                                                    {Object.keys(this.state.selections[this.state.defalutLang]).map( (cat, index) => (
+
+                                                        <div className="col" key={index}>
+                                                            <button data-lang={this.state.defalutLang} data-category={cat} value={index} name="category" type="button" className="btn" onClick={this.handleLangSelection.bind(this)}>{cat}</button>
+                                                            <div className="row row-cols-2" >
+                                                        
+                                                                {/* {Object.keys(this.state.selections[this.state.defalutLang][cat]).map( (sect, index) => (
+                                                                    
+                                                                    <div className="col" key={index}>
+                                                                        <button value={index} name="category" data-lang={this.state.defalutLang} data-category={sect} className="btn" type="button" style={{width: "100%"}} onClick={this.handleLangSelection.bind(this)}>{sect}</button>
+                                                                    </div>
+                                                                ))} */}
+
+                                                            </div>
+                                                        </div>
+                                                    ))}
+                                                </div>
+                                                </>
+                                            }
+                                            <button value="submit" name="submit" stype={{width:"100%"}} onClick={this.handleStart.bind(this)}>{this.state.start ? "Quit" : "Begin"}</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            {this.state.start && 
+                                <div className="row">
+                                    {Object.values(this.state.selections).map( (cat) =>
+                                        Object.values(cat).map((sect, indexCat) =>
+                                            Object.values(sect).map((sectLetters, indexSect) =>
+                                                Object.values(sectLetters).map((letter, indexSectL) =>
+                                                    letter.show &&
+                                                    <div
+                                                        className={getBgClass(letter)}
+                                                        key={indexSectL}>
+                                                        <div>
+                                                            <h5 className="card-title" >{letter.character}</h5>
+                                                            <input data-lang={this.state.defalutLang} data-cat={Object.getOwnPropertyNames(cat)[indexCat]} data-sect={Object.getOwnPropertyNames(sect)[indexSect]} type="text" name={letter.characterName} value={letter.answer} onChange={this.handleChange.bind(this)} />
+                                                        </div>
+                                                    </div>
+                                                )
+                                            )
+                                        )
+                                    )}
+                                    <label htmlFor="submitButton"></label>
+                                    <input id="submitButton" value={this.state.username} name="username" type="text" maxLength="3" onChange={this.handleUsername.bind(this)}></input>
+                                    <button value="finish" name="finish" className="btn bg-light" stype={{width:"100%"}} onClick={this.handleSubmit.bind(this)}>{this.state.start && "Submit"}</button>
+                                </div>
+                            }
                         </div>
 
                         <div className="tab-pane fade" id="practiceQuiz" role="tabpanel" aria-labelledby="practiceQuiz-tab">
-                            <LangOptions
-                                handleChange={this.handleInputChange.bind(this)}
-                                handleSubmit={this.handleSubmit.bind(this)}
-                                handleReset={this.handleReset.bind(this)}
-                                toSelect={this.state.practiceLangs}
-                                name="practice"
-                                start={this.state.practiceStart}
-                                />
-
-                            {this.state.flashCardStart ? (
-                                <>
-                                <Card 
-                                    handleChange={this.handleInputChange.bind(this)}
-                                    guessInput={this.state.guessInput}
-                                    // character={fCS[fCI].character}
-                                    // translation={fCS[fCI].englishTranslation}
-                                    start={this.state.flashCardStart}
-                                    outcome={this.state.answerOutcome}
-                                    />
-                                </>
-                            ):(<></>)}
+                            <div className="row">Practice Quiz</div>
+                            <div className="row">
+                                content
+                            </div>
+                            
                         </div>
                     </div>
 
                 </Container>
-
+            
             </Container>
         );
     };

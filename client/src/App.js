@@ -21,7 +21,7 @@ import jCharactersSymbols from './jCharacters-symbols.json';
 // add background of moving Japanese characters. thought to slide across the background
 // Change class "active" back in tab.index. Change class "show active" back in pages as needed.
 
-let log= (t)=>console.log(t);
+// let log= (t)=>console.log(t);
 
 class App extends Component {
 
@@ -29,17 +29,15 @@ class App extends Component {
         hiragana: [jCharactersHir, jCharactersHirDak, jCharactersHirCombo],
         katakana: [jCharactersKat, jCharactersKatDak, jCharactersKatCombo],
         accents: [jCharactersSmallLetters, jCharactersSymbols],
-        kanji: [],
         rHiragana: [],
         rKatakana: [],
         rAccents: [],
-        rKanji: [],
         rAll: [],
     };
 
     /* Function will take the imported json files for the different languages and randomize them using the Fisher-Yates shuffle. Function should be accessible for use in multiple locations and should be allowed to re-randomize the given arrays base off input received from the pages. */
     shuffleArrays = ()=> {
-        log("App shuffleArrays start");
+        // log("App shuffleArrays start");
         // Solution found here using the Fisher-Yates shuffle. Has been adapted to use ES6 and custom variables: https://javascript.info/task/shuffle 
         // import to variables done here to prevent multiple page re-rendering before displaying
         const hir = this.state.hiragana;
@@ -68,7 +66,7 @@ class App extends Component {
             rKatakana: parent[1],
             rAccents: parent[2],
             rAll: all.concat(parent[0], parent[1], parent[2]),
-        }, log("App r states set"));
+        }/* , log("App r states set") */);
     };
 
     render() {
@@ -117,7 +115,7 @@ class App extends Component {
                             hir={this.state.rHiragana}
                             kat={this.state.rKatakana}
                             acc={this.state.rAccents}
-                            shuffle={this.shuffleArrays}
+                            // shuffle={this.shuffleArrays}
                             />
                     </Route>
                     <Route path= "/review">
@@ -126,7 +124,7 @@ class App extends Component {
                             hir={this.state.rHiragana}
                             kat={this.state.rKatakana}
                             acc={this.state.rAccents}
-                            shuffle={this.shuffleArrays}
+                            // shuffle={this.shuffleArrays}
                             />
                     </Route>
                     <Route path= "/">
