@@ -186,10 +186,10 @@ class Review extends Component {
             }
         });
 
-        Api.sendScore({
-            score: calculatedScore,
+        Api.postScore({
+            calcScore: calculatedScore,
             userID: this.state.username,
-            totalCount: totalCount
+            totalQuests: totalCount
         });
     };
 
